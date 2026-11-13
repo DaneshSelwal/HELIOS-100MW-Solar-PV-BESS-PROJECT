@@ -1,0 +1,15 @@
+# Confidential reference material from the real company — NEVER commit
+SK_inspire.md
+*_inspire.md
+# OS / editor
+.DS_Store
+~$*
+# Python
+__pycache__/
+*.pyc
+.venv/
+# Office lock files
+~$*.docx
+~$*.xlsx
+# Local scratch
+state/tmp/

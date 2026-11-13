@@ -1,0 +1,6 @@
+python-docx
+openpyxl
+pandas
+matplotlib
+reportlab
+pyyaml
