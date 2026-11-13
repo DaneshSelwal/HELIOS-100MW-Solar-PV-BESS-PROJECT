@@ -1,0 +1,27 @@
+# Scripted deliverables for the opening weeks (Day 0 = contract signature). The Simulation Director must
+# schedule these; agents write the content. folder = "<top>/<sub>" prefixes from numbering.yaml folder_tree.
+deliverables:
+  - {day: 0, owner: epc-contracts-manager,   kind: document, title: EPC Contract — Executive Summary and Key Terms, folder: 2/01, area: G000, disc: K, type: "&CON", notes: Parties, scope, price, time, LDs, payment terms, bonds, key FIDIC Silver amendments}
+  - {day: 0, owner: epc-project-director,    kind: letter,   to: client-project-manager, dept: PM, title: Confirmation of Contract Signature and Proposal for Kick-off Meeting}
+  - {day: 0, owner: epc-document-controller, kind: document, title: Document Control and Numbering Procedure, folder: 1/07, area: G000, disc: P, type: "&PRC"}
+  - {day: 1, owner: epc-project-director,    kind: document, title: Project Charter, folder: 1/01, area: G000, disc: P, type: "&PRC"}
+  - {day: 1, owner: epc-project-director,    kind: document, title: Project Organisation Chart and Responsibility Matrix, folder: 1/01, area: G000, disc: P, type: "&PRC"}
+  - {day: 1, owner: epc-contracts-manager,   kind: letter,   to: client-commercial-manager, dept: CM, title: Submission of Advance Payment Guarantee and Performance Security}
+  - {day: 2, owner: epc-project-director,    kind: mom,      title: Kick-off Meeting, mom_kind: KOM, attendees: [epc-project-director, epc-planning-manager, epc-engineering-lead, epc-scm-lead, epc-contracts-manager, epc-construction-manager, client-project-manager, client-owners-engineer, client-commercial-manager]}
+  - {day: 2, owner: epc-planning-manager,    kind: document, title: Stakeholder Register, folder: 1/02, area: G000, disc: P, type: "&REG"}
+  - {day: 3, owner: epc-planning-manager,    kind: document, title: Level 1 and Level 2 Milestone Schedule (Baseline), folder: 1/04, area: G000, disc: P, type: "&SCH", notes: Narrative + milestone table; the L3 xlsx is generated automatically}
+  - {day: 3, owner: epc-engineering-lead,    kind: document, title: Engineering Execution Plan and Deliverables List, folder: 3/02, area: G000, disc: E, type: "&PRC"}
+  - {day: 4, owner: epc-scm-lead,            kind: document, title: Procurement Plan and Package List, folder: 4/01, area: G000, disc: P, type: "&PRC", notes: Packages, strategy, long-lead items, RFQ dates, incoterms, logistics}
+  - {day: 4, owner: epc-contracts-manager,   kind: document, title: Subcontracting Strategy and Prequalification Criteria, folder: 14/01, area: G000, disc: K, type: "&PRC"}
+  - {day: 5, owner: epc-planning-manager,    kind: document, title: Risk Register (Initial), folder: 1/06, area: G000, disc: P, type: "&REG", notes: at least 15 risks with probability/impact/mitigation/owner; also append to risk register}
+  - {day: 5, owner: epc-hse-manager,         kind: document, title: Project HSE Management Plan, folder: 11/01, area: G000, disc: H, type: "&HSE"}
+  - {day: 6, owner: epc-qaqc-manager,        kind: document, title: Project Quality Management Plan, folder: 10/01, area: G000, disc: Q, type: "&AQA"}
+  - {day: 6, owner: epc-planning-manager,    kind: document, title: Project Execution Plan, folder: 1/03, area: G000, disc: P, type: "&PRC", notes: comprehensive; approved by Project Director}
+  - {day: 7, owner: epc-planning-manager,    kind: document, title: Progress Measurement and Reporting Procedure, folder: 1/07, area: G000, disc: P, type: "&PRC"}
+  - {day: 7, owner: epc-engineering-lead,    kind: letter,   to: local-authority, dept: EN, title: Request for Topographic and Geotechnical Survey Access and Land Allocation Confirmation}
+  - {day: 8, owner: epc-engineering-lead,    kind: letter,   to: grid-operator, dept: EN, title: Application for Grid Connection Technical Conditions — 100 MW PV + 50 MW BESS at 220 kV}
+  - {day: 8, owner: epc-scm-lead,            kind: document, title: Request for Quotation — PV Modules (Package P-01), folder: 4/02, area: G000, disc: E, type: "&EDC"}
+  - {day: 9, owner: client-project-manager,  kind: letter,   to: epc-project-director, dept: PM, title: Employer's Comments on Kick-off Minutes and Reporting Requirements for Lenders}
+  - {day: 10, owner: epc-planning-manager,   kind: document, title: Weekly Progress Report No. 1, folder: 1/08, area: G000, disc: P, type: "&RPT"}
+  - {day: 12, owner: epc-engineering-lead,   kind: document, title: Design Basis Report (Rev A), folder: 3/02, area: G000, disc: E, type: "&RPT"}
+  - {day: 14, owner: client-project-manager, kind: letter,   to: epc-project-director, dept: PM, title: Notice to Proceed}
