@@ -13,3 +13,5 @@ __pycache__/
 ~$*.xlsx
 # Local scratch
 state/tmp/
+state/usage.jsonl
+state/quota_cooldown.json
