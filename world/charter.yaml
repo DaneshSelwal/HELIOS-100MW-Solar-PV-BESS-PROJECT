@@ -1,0 +1,91 @@
+# HELIOS project charter — the single source of truth for project facts.
+# Everything here is fictional. Edit freely; the orchestrator reads this file every day.
+project:
+  code: HEL001
+  name: HELIOS 100 MW Solar PV + BESS Power Plant
+  short_name: HELIOS
+  country: Uzbekistan
+  region: Navoi Region
+  site:
+    name: Qizilqum Solar Site
+    description: >
+      Flat to gently undulating desert plateau ~45 km north-east of Navoi city, elevation 310-335 m,
+      sandy loam over gypsum-cemented layers, sparse vegetation, no settlements within 6 km.
+      Access via 12 km unpaved track from the A-380 highway. Nearest 220 kV substation 9 km south.
+    area_ha: 265
+    coordinates_note: fictional; approx 40.4 N, 65.6 E
+  capacity:
+    pv_ac_mw: 100
+    pv_dc_mwp: 128
+    bess_power_mw: 50
+    bess_energy_mwh: 100
+    grid_connection_kv: 220
+    pv_blocks: 4          # PV1..PV4, 25 MWac each
+    inverter_stations_per_block: 7
+    module_wp: 620
+    tracker: single-axis horizontal tracker
+    expected_p50_gwh_year: 236
+  contract:
+    type: EPC lump-sum turnkey (FIDIC Silver Book 2017 based, amended)
+    value_usd: 95_000_000
+    currency: USD
+    signed: 2026-12-01            # Day 0
+    ntp: 2026-12-15               # Notice to Proceed, Day 14
+    advance_payment_pct: 10
+    retention_pct: 5
+    delay_ld_pct_per_week: 0.5
+    delay_ld_cap_pct: 10
+    defects_notification_months: 24
+    time_for_completion_months: 18
+    pac_target: 2028-05-31
+  key_milestones:
+    - {code: M00, name: Contract Signature,              date: 2026-12-01}
+    - {code: M01, name: Notice to Proceed,               date: 2026-12-15}
+    - {code: M02, name: Kick-off Meeting,                date: 2026-12-03}
+    - {code: M03, name: Advance Payment received,        date: 2027-01-05}
+    - {code: M04, name: Basic Design approved,           date: 2027-03-15}
+    - {code: M05, name: Site Mobilisation,               date: 2027-03-01}
+    - {code: M06, name: Module Supply Contract signed,   date: 2027-02-15}
+    - {code: M07, name: Construction Permit obtained,    date: 2027-03-20}
+    - {code: M08, name: First piles driven,              date: 2027-04-12}
+    - {code: M09, name: First module delivery on site,   date: 2027-07-20}
+    - {code: M10, name: Plant substation energised,      date: 2028-01-20}
+    - {code: M11, name: Grid back-feed / first power,    date: 2028-02-15}
+    - {code: M12, name: BESS commissioning complete,     date: 2028-04-15}
+    - {code: M13, name: Performance test passed,         date: 2028-05-15}
+    - {code: M14, name: Provisional Acceptance (PAC),    date: 2028-05-31}
+parties:
+  epc:
+    code: HEP
+    name: Helios EPC LLC
+    description: Tashkent-registered EPC contractor, subsidiary of an international engineering group; manages design, procurement and subcontracted construction.
+    hq: Tashkent, Uzbekistan
+  client:
+    code: QSE
+    name: Qizilqum Solar Energy JSC
+    description: Independent power producer (IPP) SPV owned by a Gulf-based renewable investor and a local partner; holds a 25-year PPA.
+    hq: Tashkent, Uzbekistan
+  owners_engineer:
+    code: OWE
+    name: Meridian Energy Consultants
+    description: Owner's Engineer appointed by the client to review design, witness tests and certify progress.
+  lender:
+    code: LTA
+    name: Lenders' Technical Advisor (via client)
+    description: Appears only through the client; monthly lender reports.
+  grid_operator:
+    code: GRD
+    name: UzGridCo (National Electric Grid Operator, fictional)
+  authority:
+    code: GOV
+    name: Navoi Regional Administration & State Construction Inspectorate (fictional)
+calendar:
+  work_week: Mon-Sat
+  site_hours: "07:00-18:00"
+  public_holidays_2027: [2027-01-01, 2027-01-14, 2027-03-08, 2027-03-21, 2027-03-22, 2027-03-23, 2027-05-09, 2027-09-01, 2027-10-01, 2027-12-08]
+  public_holidays_2028: [2028-01-01, 2028-01-14, 2028-03-08, 2028-03-21, 2028-03-22, 2028-03-23, 2028-05-09]
+  religious_holidays_note: Eid dates set in event_deck.yaml
+simulation:
+  day0: 2026-12-01
+  language: en
+  seed: 20261201

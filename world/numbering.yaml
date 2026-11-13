@@ -1,0 +1,103 @@
+# Document numbering and folder scheme — anonymised, inspired by a real EPC document-control system.
+project_code: HEL001
+originators:
+  HEP: Helios EPC LLC
+  QSE: Qizilqum Solar Energy JSC (Client)
+  OWE: Meridian Energy Consultants (Owner's Engineer)
+  GRD: UzGridCo (grid operator)
+  GOV: Authorities
+  VEN: Vendors / suppliers (generic; specific vendor codes below)
+  SCV: Civil subcontractor
+  SMM: Mounting-structure / tracker installation subcontractor
+  SEL: Electrical subcontractor
+  SSG: Substation & grid subcontractor
+  VMD: Module supplier
+  VIN: Inverter supplier
+  VTR: Tracker supplier
+  VBS: BESS supplier
+areas:
+  G000: General / whole plant
+  PV1: PV Block 1
+  PV2: PV Block 2
+  PV3: PV Block 3
+  PV4: PV Block 4
+  BES: Battery Energy Storage System
+  PSS: Plant 33/220 kV substation
+  GSS: Grid substation interface
+  TL1: 220 kV overhead transmission line
+  SIT: Site infrastructure (roads, fence, camp, drainage)
+disciplines:
+  C: Civil & structural
+  M: Mechanical (MMS, trackers, module installation)
+  E: Electrical
+  I: Instrumentation, control & SCADA
+  P: Project management / planning
+  Q: Quality
+  H: HSE
+  K: Commercial / contracts
+  "_": Not discipline-specific
+doc_types:          # third group; "&" prefix kept from the reference scheme for technical docs
+  "&ACD": Civil drawing
+  "&ECD": Electrical drawing
+  "&MCD": Mechanical drawing
+  "&CTL": Calculation
+  "&EDC": Datasheet / technical specification
+  "&AQA": Quality plan / procedure
+  "&CQC": Civil QC record (ITP, checklist, inspection)
+  "&MQC": Mechanical QC record
+  "&EQC": Electrical QC record
+  "&HSE": HSE document
+  "&RPT": Report / study
+  "&SCH": Schedule / programme
+  "&REG": Register
+  "&MOM": Minutes of meeting
+  "&PRC": Procedure / plan
+  "&CON": Contract / agreement / PO
+  "&FIN": Financial document (invoice, IPC, payment certificate)
+patterns:
+  technical:  "{project}-{area}-{disc}-{type}-{seq:05d}-{rev}"      # HEL001-PV1-C-&ACD-00012-A
+  letter:     "{project}-L-{dept}-{from}-{to}-{seq:04d}"           # HEL001-L-CM-HEP-QSE-0012
+  site_form:  "{project}-{area}-{disc}-{form}-{seq:04d}"           # HEL001-PV2-C-RFI-0031
+  mgmt_plan:  "HEL-M-{dept}-{from}-{to}-{seq:02d}-{rev2}"          # HEL-M-PM-HEP-QSE-03-01
+  transmittal: "{project}-T-{from}-{to}-{seq:04d}"                 # HEL001-T-HEP-QSE-0007
+  mom:        "{project}-MOM-{kind}-{seq:03d}"                      # HEL001-MOM-WPM-012
+departments:   # used in letters and management plans
+  PM: Project management
+  PL: Planning
+  EN: Engineering
+  PR: Procurement
+  CM: Contracts & commercial
+  CO: Construction
+  QA: Quality
+  ES: HSE / environment & social
+  FI: Finance
+site_forms: [RFI, MIR, NCR, SOR, WIR, ITP, MS, TQ, DCR]
+# RFI = Request for Inspection (site), TQ = Technical Query, MIR = Material Inspection Request,
+# NCR = Non-Conformance Report, SOR = Site Observation Report, WIR = Work Inspection Request,
+# MS = Method Statement, DCR = Design Change Request
+revisions:
+  pre_approval: [A, B, C, D]
+  approved: ["00", "01", "02", "03"]
+review_codes:
+  A: Approved / No comments
+  B: Approved with comments — proceed incorporating comments
+  C: Revise and resubmit — do not proceed
+  D: For information only
+  R: Rejected
+folder_tree:   # project/ document control system; "<Rev X>" subfolders created per revision
+  1_Project_Mgmt: [01_Project_Charter, 02_Stakeholder_Register, 03_Project_Execution_Plan, 04_Schedule, 05_Budget, 06_Risk_Management, 07_Communications, 08_Project_Status_Reports, 09_Meeting_Minutes, 10_Change_Requests, 11_Lessons_Learned, 12_Closeout_Documents]
+  2_Contracts_and_Legal: [01_EPC_Contract, 02_Legal_Agreements, 03_Compliance, 04_Insurance, 05_Bank_Guarantees_and_Bonds, 06_Permits_and_Licences, 07_Land_and_Cadastral, 08_NDA]
+  3_Design_and_Engineering: [01_Site_Surveys, 02_Design_Basis, 03_Design_Drawings, 04_Technical_Specifications, 05_Engineering_Calculations, 06_Design_Review_and_Comments, 07_Vendor_Documents, 08_Grid_Studies, 09_Value_Engineering, 10_As_Built]
+  4_Procurement: [01_Procurement_Plan, 02_RFQ_and_RFP, 03_Bid_Evaluation, 04_Purchase_Orders, 05_Delivery_Schedules, 06_Factory_Inspections_FAT, 07_Logistics_and_Shipping, 08_Customs_Clearance, 09_Procurement_Register, 10_Localisation]
+  5_Construction_Mgmt: [01_Construction_Plans_and_Method_Statements, 02_Site_Diary, 03_Progress_Reports, 04_Look_Ahead_Schedules, 05_Site_Instructions, 06_Technical_Queries, 07_Site_Photos, 08_Material_Tracking]
+  6_Testing_and_Commissioning: [01_Commissioning_Plan, 02_Pre_Commissioning_Records, 03_Energisation, 04_Performance_Tests, 05_Punch_Lists, 06_Completion_Certificates]
+  7_Operation_and_Maintenance: [01_O_and_M_Manuals, 02_Training, 03_Spare_Parts, 04_Handover]
+  8_Financial_Mgmt: [01_Payment_Milestones, 02_Interim_Payment_Certificates, 03_Invoices, 04_Cash_Flow, 05_Subcontractor_Payments, 06_Variations_and_Claims]
+  10_Quality_Assurance_and_Control: [01_Quality_Management_Plan, 02_Quality_Audit_Reports, 03_Non_Conformance_Reports, 04_Corrective_Actions, 05_RFI_and_MIR, 06_ITP_and_Checklists, 07_Laboratory_and_Calibration, 08_FAT]
+  11_HSSE: [01_HSE_Plan, 02_Hazard_Assessments, 03_Safety_Reports, 04_Incident_Reports, 05_Environmental_and_Social, 06_Forms_and_Templates, 07_Toolbox_Talks, 08_Grievances]
+  12_Training_and_Capacity_Building: [01_Training_Materials, 02_Training_Reports, 03_Certificates, 04_Induction_Records]
+  13_Project_Specifics: [01_Solar_PV_Plant, 02_BESS, 03_Plant_Substation, 04_Grid_Substation, 05_220kV_OHTL, 06_Site_Infrastructure]
+  14_Subcontractor_Management: [01_Subcontracting_Strategy, 02_Prequalification, 03_Proposed_List, 04_Client_Approvals, 05_Subcontracts_and_Work_Orders, 06_Subcontractor_Reports, 07_Subcontractor_Audits]
+  15_Miscellaneous: [01_Reference_Documents, 02_Codes_and_Standards, 03_Templates]
+  17_Admin: [01_Site_Camp, 02_Visas_and_Mobilisation, 03_Vehicles_and_Logistics]
+  18_Correspondence: [01_Letters_Out, 02_Letters_In, 03_Transmittals, 04_Emails]

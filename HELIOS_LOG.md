@@ -36,3 +36,10 @@ workflow and AI agents by simulating a whole EPC company with named AI agents ru
 
 **Build log.**
 - M0: created folder skeleton, `.gitignore`, `README.md`, this log, `requirements.txt`.
+- M1: world bible written — `world/charter.yaml` (facts, milestones, parties, calendar), `world/numbering.yaml`
+  (anonymised numbering grammar + 18-department folder tree → 107 folders created under `project/`),
+  `world/org_epc.yaml` (12 roles), `world/org_client.yaml` (4), `world/externals.yaml` (10 POCs + Simulation
+  Director), `world/baseline_schedule.yaml` (6 phases, 18 WBS, 88 L3 activities, links validated),
+  `world/truth.yaml` (hidden ground truth: geotech, supplier reliability, weather, 10 scripted surprises —
+  never shown to agents), `world/event_deck.yaml` (recurring meetings/reports + random events).
+  `helios/personas.py` generates 26 persona files in `.claude/agents/` from the org YAML.

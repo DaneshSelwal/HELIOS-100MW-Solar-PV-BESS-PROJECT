@@ -1,0 +1,44 @@
+# HIDDEN GROUND TRUTH — read only by the orchestrator's event engine. NEVER passed to any agent.
+# Agents discover these facts only through survey reports, deliveries, inspections and weather logs.
+geotechnical:
+  PV1: {soil: sandy loam over dense sand, pile_refusal_risk: low,    corrosive: false, note: straightforward}
+  PV2: {soil: sandy loam with gypsum crust 0.6-1.2 m, pile_refusal_risk: medium, corrosive: true,  note: pre-drilling needed on ~35% of piles; discovered during pile load tests / early piling}
+  PV3: {soil: loose sand, pile_refusal_risk: low,    corrosive: false, note: low lateral capacity → longer piles (+0.4 m) found in load tests}
+  PV4: {soil: sandy loam, pile_refusal_risk: low,    corrosive: false, note: shallow seasonal wadi crosses NE corner; flood risk in spring if drainage late}
+  PSS: {soil: dense sand, bearing: good, note: fine}
+supplier_reliability:          # probability of slipping a promised date and typical slip
+  vendor-modules:   {slip_prob: 0.35, slip_days: [10, 25], quality_issue_prob: 0.08, note: batch 3 has microcracks found at FAT}
+  vendor-trackers:  {slip_prob: 0.25, slip_days: [7, 20],  quality_issue_prob: 0.05}
+  vendor-inverters: {slip_prob: 0.40, slip_days: [15, 45], quality_issue_prob: 0.05, note: MV transformer sub-supplier bottleneck}
+  vendor-bess:      {slip_prob: 0.30, slip_days: [15, 40], quality_issue_prob: 0.06, note: insists on certified fire-suppression test before shipping}
+  sub-civil:        {productivity_factor: 0.9, claim_appetite: high}
+  sub-mms:          {productivity_factor: 1.05, claim_appetite: medium}
+  sub-electrical:   {productivity_factor: 0.85, claim_appetite: low, paperwork_lag_days: 5}
+  sub-substation:   {productivity_factor: 0.95, claim_appetite: low}
+authorities:
+  grid-operator:    {response_days: [15, 40], extra_requirement_prob: 0.3, note: will request an additional reactive power study before energisation}
+  local-authority:  {response_days: [10, 30], construction_permit_delay_days: 12}
+weather_navoi_monthly:   # typical desert climate; lost_days = expected non-workable days per month
+  "01": {tmin: -4,  tmax: 6,  rain_mm: 25, wind_days: 3,  lost_days: 4}
+  "02": {tmin: -2,  tmax: 10, rain_mm: 22, wind_days: 4,  lost_days: 4}
+  "03": {tmin: 4,   tmax: 17, rain_mm: 30, wind_days: 5,  lost_days: 4}
+  "04": {tmin: 10,  tmax: 25, rain_mm: 20, wind_days: 5,  lost_days: 3}
+  "05": {tmin: 15,  tmax: 31, rain_mm: 10, wind_days: 4,  lost_days: 2}
+  "06": {tmin: 20,  tmax: 36, rain_mm: 2,  wind_days: 3,  lost_days: 2}
+  "07": {tmin: 22,  tmax: 39, rain_mm: 1,  wind_days: 3,  lost_days: 3}   # heat stoppages 13:00-16:00
+  "08": {tmin: 20,  tmax: 37, rain_mm: 1,  wind_days: 3,  lost_days: 3}
+  "09": {tmin: 14,  tmax: 31, rain_mm: 3,  wind_days: 3,  lost_days: 1}
+  "10": {tmin: 8,   tmax: 22, rain_mm: 10, wind_days: 4,  lost_days: 2}
+  "11": {tmin: 2,   tmax: 13, rain_mm: 20, wind_days: 4,  lost_days: 3}
+  "12": {tmin: -2,  tmax: 7,  rain_mm: 25, wind_days: 3,  lost_days: 4}
+scripted_surprises:   # the orchestrator reveals these on/after the trigger; agents must react
+  - {day: 45,  id: S01, text: Geotechnical report shows gypsum crust in PV2 — pre-drilling required for part of piles}
+  - {day: 95,  id: S02, text: Local authority requests revised drainage drawings before construction permit (12-day delay)}
+  - {day: 160, id: S03, text: Module FAT batch 3 — microcracks found in 2.1% of EL images; batch rejected, replacement +18 days}
+  - {day: 205, id: S04, text: Inverter supplier notifies 4-week slip on MV transformers}
+  - {day: 230, id: S05, text: Spring storm floods NE corner of PV4; drainage not yet complete — 6 lost days and rework}
+  - {day: 290, id: S06, text: Grid operator requests additional reactive power capability study before energisation approval}
+  - {day: 330, id: S07, text: Customs holds BESS batch 2 for 11 days over HS-code classification of PCS units}
+  - {day: 365, id: S08, text: Civil subcontractor submits claim for differing ground conditions in PV2 (USD 420k, 21 days)}
+  - {day: 420, id: S09, text: BESS fire-suppression certificate found expired; re-certification 9 days before commissioning}
+  - {day: 470, id: S10, text: Performance test interrupted by 3 days of dust storms; test window extended}

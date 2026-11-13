@@ -1,0 +1,135 @@
+# Baseline schedule. Dates are calendar dates; durations in calendar days. Day 0 = 2026-12-01.
+# L1 = phases, L2 = WBS packages, L3 = activities (id, name, wbs, start, finish, predecessors, weight = % of total EV).
+level1:
+  - {id: P1, name: Contract & Mobilisation,     start: 2026-12-01, finish: 2027-03-01}
+  - {id: P2, name: Engineering,                 start: 2026-12-15, finish: 2027-09-30}
+  - {id: P3, name: Procurement & Logistics,     start: 2027-01-05, finish: 2027-12-15}
+  - {id: P4, name: Construction,                start: 2027-03-01, finish: 2028-02-28}
+  - {id: P5, name: Testing & Commissioning,     start: 2028-01-10, finish: 2028-05-20}
+  - {id: P6, name: Completion & Handover,       start: 2028-05-01, finish: 2028-05-31}
+level2:
+  - {id: W01, name: Project management & planning, l1: P1}
+  - {id: W02, name: Permits & authority approvals, l1: P1}
+  - {id: W03, name: Site surveys & investigations, l1: P2}
+  - {id: W04, name: Basic design,                l1: P2}
+  - {id: W05, name: Detailed design — PV & civil, l1: P2}
+  - {id: W06, name: Detailed design — electrical, substation, BESS, l1: P2}
+  - {id: W07, name: Main equipment procurement,  l1: P3}
+  - {id: W08, name: Subcontracting,              l1: P3}
+  - {id: W09, name: Logistics & customs,         l1: P3}
+  - {id: W10, name: Site infrastructure & civil, l1: P4}
+  - {id: W11, name: Piling & mounting structure, l1: P4}
+  - {id: W12, name: Module installation,         l1: P4}
+  - {id: W13, name: DC/AC electrical works,      l1: P4}
+  - {id: W14, name: Plant substation & OHTL,     l1: P4}
+  - {id: W15, name: BESS installation,           l1: P4}
+  - {id: W16, name: Pre-commissioning & energisation, l1: P5}
+  - {id: W17, name: Commissioning & performance tests, l1: P5}
+  - {id: W18, name: Completion & handover,       l1: P6}
+level3:
+  # ---- W01 Project management
+  - {id: A010, wbs: W01, name: Contract signature,                          start: 2026-12-01, finish: 2026-12-01, pred: [],     weight: 0.0, milestone: true}
+  - {id: A020, wbs: W01, name: Kick-off meeting & team mobilisation,        start: 2026-12-02, finish: 2026-12-10, pred: [A010], weight: 0.3}
+  - {id: A030, wbs: W01, name: Project Execution Plan & procedures,         start: 2026-12-03, finish: 2027-01-15, pred: [A010], weight: 0.5}
+  - {id: A040, wbs: W01, name: Baseline schedule L1-L3 & approval,          start: 2026-12-03, finish: 2027-01-10, pred: [A010], weight: 0.4}
+  - {id: A050, wbs: W01, name: Advance payment guarantee & advance payment, start: 2026-12-05, finish: 2027-01-05, pred: [A010], weight: 0.2}
+  - {id: A060, wbs: W01, name: Notice to Proceed,                           start: 2026-12-15, finish: 2026-12-15, pred: [A010], weight: 0.0, milestone: true}
+  - {id: A070, wbs: W01, name: HSE plan, QA plan, document control procedure, start: 2026-12-10, finish: 2027-01-31, pred: [A020], weight: 0.4}
+  # ---- W02 Permits
+  - {id: A110, wbs: W02, name: Land allocation confirmation & cadastral passport, start: 2026-12-15, finish: 2027-02-15, pred: [A060], weight: 0.2}
+  - {id: A120, wbs: W02, name: Environmental & social approvals (ESIA conditions), start: 2026-12-15, finish: 2027-03-10, pred: [A060], weight: 0.3}
+  - {id: A130, wbs: W02, name: Construction permit application & approval,  start: 2027-02-01, finish: 2027-03-20, pred: [A110, A220], weight: 0.3}
+  - {id: A140, wbs: W02, name: Grid connection agreement & technical conditions, start: 2027-01-10, finish: 2027-04-30, pred: [A060], weight: 0.3}
+  # ---- W03 Surveys
+  - {id: A210, wbs: W03, name: Topographic survey,                           start: 2026-12-20, finish: 2027-01-25, pred: [A060], weight: 0.3}
+  - {id: A220, wbs: W03, name: Geotechnical investigation & report,          start: 2026-12-20, finish: 2027-02-20, pred: [A060], weight: 0.5}
+  - {id: A230, wbs: W03, name: Pile load tests (pull-out & lateral),         start: 2027-02-25, finish: 2027-03-25, pred: [A220], weight: 0.3}
+  - {id: A240, wbs: W03, name: Hydrology & flood study,                      start: 2027-01-05, finish: 2027-02-15, pred: [A210], weight: 0.2}
+  # ---- W04 Basic design
+  - {id: A310, wbs: W04, name: Design basis report,                          start: 2026-12-15, finish: 2027-01-20, pred: [A060], weight: 0.6}
+  - {id: A320, wbs: W04, name: Plant layout & energy yield optimisation,     start: 2027-01-05, finish: 2027-02-10, pred: [A310, A210], weight: 0.6}
+  - {id: A330, wbs: W04, name: Single line diagrams (DC, MV, HV),             start: 2027-01-10, finish: 2027-02-20, pred: [A310], weight: 0.6}
+  - {id: A340, wbs: W04, name: Grid studies (load flow, short circuit, protection), start: 2027-02-01, finish: 2027-04-30, pred: [A330], weight: 0.6}
+  - {id: A350, wbs: W04, name: Basic design review & approval by OWE,        start: 2027-02-20, finish: 2027-03-15, pred: [A320, A330], weight: 0.3}
+  # ---- W05 Detailed design PV & civil
+  - {id: A410, wbs: W05, name: Earthworks, grading & drainage design,        start: 2027-02-15, finish: 2027-03-31, pred: [A350, A240], weight: 0.7}
+  - {id: A420, wbs: W05, name: Pile & tracker foundation design,             start: 2027-03-01, finish: 2027-04-15, pred: [A230, A350], weight: 0.8}
+  - {id: A430, wbs: W05, name: Roads, fencing, inverter station & substation foundations, start: 2027-03-10, finish: 2027-05-15, pred: [A350], weight: 0.8}
+  - {id: A440, wbs: W05, name: Cable trench & duct bank design,              start: 2027-04-01, finish: 2027-05-31, pred: [A430], weight: 0.5}
+  - {id: A450, wbs: W05, name: Civil IFC drawings issued (all blocks),       start: 2027-05-15, finish: 2027-06-30, pred: [A410, A420, A430, A440], weight: 0.6}
+  # ---- W06 Detailed design electrical
+  - {id: A510, wbs: W06, name: String & DC design, combiner box schedules,   start: 2027-03-01, finish: 2027-04-30, pred: [A350], weight: 0.7}
+  - {id: A520, wbs: W06, name: MV network, inverter station & earthing design, start: 2027-03-15, finish: 2027-06-15, pred: [A350], weight: 0.9}
+  - {id: A530, wbs: W06, name: 33/220 kV substation detailed design,         start: 2027-04-01, finish: 2027-08-15, pred: [A340], weight: 1.2}
+  - {id: A540, wbs: W06, name: 220 kV OHTL design & route approval,          start: 2027-04-01, finish: 2027-07-31, pred: [A340, A140], weight: 0.8}
+  - {id: A550, wbs: W06, name: BESS integration, EMS & grid code compliance design, start: 2027-05-01, finish: 2027-08-31, pred: [A340], weight: 1.0}
+  - {id: A560, wbs: W06, name: SCADA, protection & communication design,     start: 2027-06-01, finish: 2027-09-30, pred: [A530], weight: 0.8}
+  # ---- W07 Main equipment procurement
+  - {id: A610, wbs: W07, name: PV modules — RFQ, evaluation, contract,       start: 2027-01-05, finish: 2027-02-15, pred: [A310], weight: 1.0}
+  - {id: A620, wbs: W07, name: PV modules — manufacturing & FAT,             start: 2027-03-01, finish: 2027-08-31, pred: [A610], weight: 9.0}
+  - {id: A630, wbs: W07, name: Trackers — RFQ, evaluation, contract,         start: 2027-01-10, finish: 2027-03-05, pred: [A320], weight: 0.8}
+  - {id: A640, wbs: W07, name: Trackers & piles — manufacturing & delivery,  start: 2027-03-15, finish: 2027-09-15, pred: [A630, A420], weight: 6.0}
+  - {id: A650, wbs: W07, name: Inverter stations — RFQ, evaluation, contract, start: 2027-01-15, finish: 2027-03-20, pred: [A330], weight: 0.8}
+  - {id: A660, wbs: W07, name: Inverter stations — manufacturing, FAT & delivery, start: 2027-04-01, finish: 2027-10-31, pred: [A650, A520], weight: 5.5}
+  - {id: A670, wbs: W07, name: BESS — RFQ, evaluation, contract,             start: 2027-02-01, finish: 2027-04-15, pred: [A330], weight: 1.0}
+  - {id: A680, wbs: W07, name: BESS — manufacturing, FAT & delivery,         start: 2027-05-01, finish: 2027-11-30, pred: [A670, A550], weight: 9.0}
+  - {id: A690, wbs: W07, name: HV equipment (220 kV transformer, GIS/AIS) — procure & deliver, start: 2027-04-15, finish: 2027-11-15, pred: [A530], weight: 4.0}
+  - {id: A695, wbs: W07, name: MV & DC cables, combiner boxes, SCADA — procure & deliver, start: 2027-05-01, finish: 2027-10-15, pred: [A510, A520], weight: 3.0}
+  # ---- W08 Subcontracting
+  - {id: A710, wbs: W08, name: Subcontracting strategy & prequalification,   start: 2026-12-10, finish: 2027-01-31, pred: [A020], weight: 0.3}
+  - {id: A720, wbs: W08, name: Civil works — tender, evaluation, client approval, award, start: 2027-01-15, finish: 2027-02-25, pred: [A710], weight: 0.5}
+  - {id: A730, wbs: W08, name: MMS/tracker installation — tender & award,    start: 2027-03-01, finish: 2027-04-30, pred: [A710, A630], weight: 0.4}
+  - {id: A740, wbs: W08, name: Electrical works — tender & award,            start: 2027-03-15, finish: 2027-05-31, pred: [A710], weight: 0.4}
+  - {id: A750, wbs: W08, name: Substation & OHTL works — tender & award,     start: 2027-02-15, finish: 2027-04-30, pred: [A710], weight: 0.5}
+  # ---- W09 Logistics
+  - {id: A810, wbs: W09, name: Logistics plan, route survey, customs broker, start: 2027-02-01, finish: 2027-04-15, pred: [A610], weight: 0.3}
+  - {id: A820, wbs: W09, name: Module shipments & customs clearance (batches 1-8), start: 2027-06-15, finish: 2027-10-31, pred: [A620, A810], weight: 1.5}
+  - {id: A830, wbs: W09, name: BESS shipments & customs clearance,           start: 2027-10-01, finish: 2027-12-15, pred: [A680], weight: 0.8}
+  # ---- W10 Site infrastructure & civil
+  - {id: A910, wbs: W10, name: Site mobilisation, camp, fencing, temporary facilities, start: 2027-03-01, finish: 2027-04-10, pred: [A720, A130], weight: 1.2}
+  - {id: A920, wbs: W10, name: Access road & internal roads,                 start: 2027-03-20, finish: 2027-06-30, pred: [A910, A410], weight: 1.5}
+  - {id: A930, wbs: W10, name: Site clearing, grading & drainage PV1-PV2,    start: 2027-03-25, finish: 2027-05-31, pred: [A910, A410], weight: 1.5}
+  - {id: A940, wbs: W10, name: Site clearing, grading & drainage PV3-PV4,    start: 2027-05-01, finish: 2027-07-15, pred: [A930], weight: 1.5}
+  - {id: A950, wbs: W10, name: Inverter station & BESS foundations,          start: 2027-06-01, finish: 2027-10-15, pred: [A430, A930], weight: 1.5}
+  - {id: A960, wbs: W10, name: Cable trenches & duct banks,                  start: 2027-06-15, finish: 2027-11-30, pred: [A440, A930], weight: 1.5}
+  # ---- W11 Piling & MMS
+  - {id: B010, wbs: W11, name: Piling PV1,                                   start: 2027-04-12, finish: 2027-06-05, pred: [A930, A420, A640], weight: 1.2}
+  - {id: B020, wbs: W11, name: Piling PV2,                                   start: 2027-05-10, finish: 2027-07-05, pred: [B010], weight: 1.2}
+  - {id: B030, wbs: W11, name: Piling PV3,                                   start: 2027-06-15, finish: 2027-08-10, pred: [B020, A940], weight: 1.2}
+  - {id: B040, wbs: W11, name: Piling PV4,                                   start: 2027-07-15, finish: 2027-09-05, pred: [B030], weight: 1.2}
+  - {id: B050, wbs: W11, name: Tracker & MMS installation PV1,               start: 2027-05-20, finish: 2027-07-20, pred: [B010, A730], weight: 1.5}
+  - {id: B060, wbs: W11, name: Tracker & MMS installation PV2,               start: 2027-06-25, finish: 2027-08-25, pred: [B020, B050], weight: 1.5}
+  - {id: B070, wbs: W11, name: Tracker & MMS installation PV3,               start: 2027-08-01, finish: 2027-09-30, pred: [B030, B060], weight: 1.5}
+  - {id: B080, wbs: W11, name: Tracker & MMS installation PV4,               start: 2027-09-01, finish: 2027-10-31, pred: [B040, B070], weight: 1.5}
+  # ---- W12 Modules
+  - {id: B110, wbs: W12, name: Module installation PV1,                      start: 2027-07-20, finish: 2027-09-10, pred: [B050, A820], weight: 2.0}
+  - {id: B120, wbs: W12, name: Module installation PV2,                      start: 2027-08-20, finish: 2027-10-10, pred: [B060, B110], weight: 2.0}
+  - {id: B130, wbs: W12, name: Module installation PV3,                      start: 2027-09-25, finish: 2027-11-15, pred: [B070, B120], weight: 2.0}
+  - {id: B140, wbs: W12, name: Module installation PV4,                      start: 2027-10-25, finish: 2027-12-15, pred: [B080, B130], weight: 2.0}
+  # ---- W13 Electrical
+  - {id: B210, wbs: W13, name: DC cabling & combiner boxes PV1-PV2,          start: 2027-08-10, finish: 2027-10-31, pred: [B110, A740, A695], weight: 2.0}
+  - {id: B220, wbs: W13, name: DC cabling & combiner boxes PV3-PV4,          start: 2027-10-10, finish: 2027-12-31, pred: [B130, B210], weight: 2.0}
+  - {id: B230, wbs: W13, name: Inverter station installation (28 units),     start: 2027-09-01, finish: 2028-01-15, pred: [A950, A660], weight: 2.5}
+  - {id: B240, wbs: W13, name: MV cabling, earthing & terminations,          start: 2027-09-15, finish: 2028-01-31, pred: [A960, B230], weight: 2.0}
+  - {id: B250, wbs: W13, name: SCADA & communication installation,           start: 2027-11-01, finish: 2028-02-15, pred: [B240, A560], weight: 1.0}
+  # ---- W14 Substation & OHTL
+  - {id: B310, wbs: W14, name: Substation civil works & buildings,           start: 2027-05-15, finish: 2027-09-30, pred: [A750, A430, A130], weight: 2.0}
+  - {id: B320, wbs: W14, name: Substation equipment erection (220 kV & 33 kV), start: 2027-10-01, finish: 2028-01-10, pred: [B310, A690], weight: 2.5}
+  - {id: B330, wbs: W14, name: 220 kV OHTL construction (9 km),              start: 2027-07-01, finish: 2027-12-20, pred: [A540, A750], weight: 2.0}
+  - {id: B340, wbs: W14, name: Protection, control & SCADA at substation,    start: 2027-12-01, finish: 2028-01-31, pred: [B320], weight: 1.0}
+  # ---- W15 BESS
+  - {id: B410, wbs: W15, name: BESS container & PCS installation,            start: 2027-12-01, finish: 2028-02-15, pred: [A950, A830], weight: 2.5}
+  - {id: B420, wbs: W15, name: BESS MV connection, EMS & fire system,        start: 2028-01-15, finish: 2028-03-10, pred: [B410, B240], weight: 1.5}
+  # ---- W16 Pre-commissioning
+  - {id: C010, wbs: W16, name: Pre-commissioning tests PV blocks (IV curves, insulation, polarity), start: 2028-01-10, finish: 2028-03-15, pred: [B220, B240], weight: 1.5}
+  - {id: C020, wbs: W16, name: Substation pre-commissioning & grid operator inspection, start: 2028-01-10, finish: 2028-02-10, pred: [B340, B330], weight: 1.0}
+  - {id: C030, wbs: W16, name: Substation & OHTL energisation (back-feed),   start: 2028-02-15, finish: 2028-02-15, pred: [C020], weight: 0.0, milestone: true}
+  - {id: C040, wbs: W16, name: Block-wise energisation & first power PV1-PV4, start: 2028-02-16, finish: 2028-03-31, pred: [C030, C010], weight: 1.5}
+  # ---- W17 Commissioning
+  - {id: C110, wbs: W17, name: BESS commissioning & grid code tests,         start: 2028-03-10, finish: 2028-04-15, pred: [B420, C030], weight: 1.5}
+  - {id: C120, wbs: W17, name: Plant SCADA/EMS integration & grid operator compliance tests, start: 2028-03-20, finish: 2028-04-30, pred: [C040, C110, B250], weight: 1.0}
+  - {id: C130, wbs: W17, name: Performance ratio test (15 days) & capacity test, start: 2028-04-25, finish: 2028-05-15, pred: [C120], weight: 1.0}
+  # ---- W18 Completion
+  - {id: C210, wbs: W18, name: Punch list close-out,                         start: 2028-04-15, finish: 2028-05-25, pred: [C040], weight: 0.5}
+  - {id: C220, wbs: W18, name: As-built documentation, O&M manuals, training, start: 2028-03-01, finish: 2028-05-20, pred: [C040], weight: 0.8}
+  - {id: C230, wbs: W18, name: Provisional Acceptance Certificate,           start: 2028-05-31, finish: 2028-05-31, pred: [C130, C210, C220], weight: 0.0, milestone: true}

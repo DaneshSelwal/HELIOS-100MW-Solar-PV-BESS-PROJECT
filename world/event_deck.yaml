@@ -1,0 +1,30 @@
+# Event deck — what can happen on a given day. The orchestrator draws from here (seeded RNG),
+# filtered by phase, then the Simulation Director turns the draw into concrete happenings.
+recurring:
+  - {id: R01, name: Weekly progress meeting (EPC internal),         weekday: Mon, from_day: 7,   owner: epc-planning-manager, output: MOM}
+  - {id: R02, name: Weekly progress meeting with Client & OWE,      weekday: Wed, from_day: 9,   owner: epc-project-director, output: MOM}
+  - {id: R03, name: Weekly progress report to Client,               weekday: Thu, from_day: 10,  owner: epc-planning-manager, output: Weekly Progress Report}
+  - {id: R04, name: Monthly progress report & payment application,  day_of_month: 5, from_day: 35, owner: epc-planning-manager, output: Monthly Progress Report}
+  - {id: R05, name: Weekly HSE report,                              weekday: Sat, from_day: 90,  owner: epc-hse-manager, output: Weekly HSE Report}
+  - {id: R06, name: Daily site diary,                               daily: true, from_day: 90,   owner: epc-construction-manager, output: Site Diary}
+  - {id: R07, name: Weekly subcontractor coordination meeting,      weekday: Tue, from_day: 95,  owner: epc-construction-manager, output: MOM}
+  - {id: R08, name: Monthly HSE & quality audit,                    day_of_month: 20, from_day: 100, owner: epc-qaqc-manager, output: Audit Report}
+  - {id: R09, name: Bi-weekly engineering review with OWE,          weekday: Thu, every_n_weeks: 2, from_day: 30, to_day: 300, owner: epc-engineering-lead, output: MOM}
+random:   # probability per working day while the phase is active
+  - {id: X01, phase: [P2, P3, P4], p: 0.08, name: Client / OWE raises design comment sheet with code B or C, owner: client-owners-engineer}
+  - {id: X02, phase: [P4],         p: 0.10, name: Subcontractor raises RFI / Technical Query on drawings, owner: random_subcontractor}
+  - {id: X03, phase: [P4],         p: 0.06, name: QA inspection finds non-conformance (NCR), owner: epc-qaqc-manager}
+  - {id: X04, phase: [P4],         p: 0.04, name: HSE near-miss or minor incident, owner: epc-hse-manager}
+  - {id: X05, phase: [P3, P4],     p: 0.05, name: Supplier shipment update (early/late), owner: random_vendor}
+  - {id: X06, phase: [P4],         p: 0.05, name: Weather stoppage (wind > 12 m/s, rain, heat), owner: epc-construction-manager, uses_truth: weather}
+  - {id: X07, phase: [P2, P3],     p: 0.03, name: Client requests scope clarification / minor change, owner: client-project-manager}
+  - {id: X08, phase: [P1, P2, P3, P4], p: 0.03, name: Authority request for additional documents, owner: random_authority}
+  - {id: X09, phase: [P3, P4],     p: 0.04, name: Subcontractor payment certificate / invoice submitted, owner: random_subcontractor}
+  - {id: X10, phase: [P4],         p: 0.03, name: Material inspection request (MIR) for delivered goods, owner: epc-qaqc-manager}
+  - {id: X11, phase: [P4, P5],     p: 0.02, name: Client site representative issues Site Observation Report, owner: client-site-representative}
+  - {id: X12, phase: [P2],         p: 0.04, name: Vendor document submittal needs review, owner: epc-engineering-lead}
+holidays_extra:
+  - {date: 2027-03-10, name: Eid al-Fitr (approx.), days: 1}
+  - {date: 2027-05-17, name: Eid al-Adha (approx.), days: 1}
+  - {date: 2028-02-27, name: Eid al-Fitr (approx.), days: 1}
+  - {date: 2028-05-06, name: Eid al-Adha (approx.), days: 1}
