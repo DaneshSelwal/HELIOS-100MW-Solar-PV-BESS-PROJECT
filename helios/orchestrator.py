@@ -2,6 +2,7 @@
 from __future__ import annotations
 import datetime as dt, json, time, traceback
 from . import world, clock, events, prompts, registers, progress, actions, diary, git_ops
+from . import engine
 from .engine import agy
 
 ROOT = world.ROOT
@@ -49,7 +50,7 @@ def run_day(day: int, *, push: bool = True, max_roles: int = MAX_ROLES_PER_DAY, 
         due = _due_today(day)
         dprompt = prompts.director_prompt(today, _acts_summary(acts, d), due, registers.all_inboxes(), _yesterday_diary(day), _open_items())
         if today["working_day"] or today["happenings"] or due:
-            director, m = agy.run(dprompt, director_cfg["model"], prompts.DIRECTOR_SCHEMA, timeout_s=240)
+            director, m = engine.run(f"D{day:03d}_director", dprompt, director_cfg["model"], prompts.DIRECTOR_SCHEMA, timeout_s=240)
             models_used["simulation-director"] = m
         else:
             director = {"narrative": f"{today['weekday']}: non-working day. No site or office activity.", "events_interpretation": [], "day_plan": [], "site": {"manpower": 0, "productivity": 0}, "notes_for_log": ""}
@@ -81,6 +82,17 @@ def run_day(day: int, *, push: bool = True, max_roles: int = MAX_ROLES_PER_DAY, 
         # 4. role agents
         summaries: dict[str, str] = {}; produced: dict[str, dict] = {}; applied_log: list[str] = []
         roles = world.roles()
+        missing: list[str] = []
+        for rid in roles_today:
+            key = f"D{day:03d}_{rid}"
+            if not dry and not engine.answer_path(key).exists() and _agy_all_cooling():
+                prompt = prompts.agent_prompt(rid, today, plan_by_role[rid], registers.inbox(rid)[-12:], _acts_for_role(acts, d, rid), "")
+                (engine.MANUAL / f"{key}.prompt.md").write_text(prompt, encoding="utf-8")
+                (engine.MANUAL / f"{key}.schema.json").write_text(json.dumps(prompts.AGENT_SCHEMA, indent=1), encoding="utf-8")
+                (engine.MANUAL / f"{key}.model").write_text(roles[rid]["model"], encoding="utf-8")
+                missing.append(key)
+        if missing:
+            raise engine.ManualNeeded(missing)
         for rid in roles_today:
             r = roles[rid]; inbox = registers.inbox(rid)
             prompt = prompts.agent_prompt(rid, today, plan_by_role[rid], inbox[-12:], _acts_for_role(acts, d, rid), "")
@@ -89,7 +101,7 @@ def run_day(day: int, *, push: bool = True, max_roles: int = MAX_ROLES_PER_DAY, 
             if dry:
                 out, m = {"summary": "(dry run)", "documents": [], "letters": [], "emails": [], "meeting_minutes": [], "register_updates": [], "schedule_updates": [], "requests": []}, "dry"
             else:
-                out, m = agy.run(prompt, model, prompts.AGENT_SCHEMA, timeout_s=420)
+                out, m = engine.run(f"D{day:03d}_{rid}", prompt, model, prompts.AGENT_SCHEMA, timeout_s=420)
             models_used[rid] = m
             produced[rid] = actions.apply(rid, out, day, applied_log)
             summaries[rid] = out.get("summary", "")
@@ -105,6 +117,10 @@ def run_day(day: int, *, push: bool = True, max_roles: int = MAX_ROLES_PER_DAY, 
         # 6. commit
         sha = git_ops.commit_day(day, d.isoformat(), (director.get("narrative", "")[:70] or "quiet day"), push=push)
         return {"day": day, "date": d.isoformat(), "roles": roles_today, "produced": produced, "models": models_used, "commit": sha, "secs": round(time.time() - t0)}
+    except engine.ManualNeeded as e:
+        git_ops.rollback_to_head()
+        _append_log_line(f"- Day {day:03d} WAITING for manual/subagent answers: {', '.join(e.keys)} (agy quota exhausted).")
+        raise
     except agy.QuotaExhausted as e:
         git_ops.rollback_to_head()
         _append_log_line(f"- Day {day:03d} PAUSED — quota exhausted on {e.model}: {e.message}. State rolled back; re-run when quota resets.")
@@ -113,6 +129,11 @@ def run_day(day: int, *, push: bool = True, max_roles: int = MAX_ROLES_PER_DAY, 
         git_ops.rollback_to_head()
         _append_log_line(f"- Day {day:03d} FAILED and rolled back:\n```\n{traceback.format_exc()[-1500:]}\n```")
         raise
+
+
+def _agy_all_cooling() -> bool:
+    """True when every model in the default chains is in quota cooldown (so prompts go straight to manual)."""
+    return all(agy._in_cooldown(m) for m in ("gemini-3.8-flash-medium", "gemini-3.8-flash-low", "gemini-3.8-flash-high", "claude-sonnet-5-5-medium", "gemini-4-hydrogen-medium"))
 
 
 def _append_log_line(line: str) -> None:

@@ -2,6 +2,7 @@
 from __future__ import annotations
 import sys, json
 from . import clock, orchestrator, registers, progress
+from . import engine
 from .engine import agy
 
 
@@ -15,6 +16,10 @@ def main(argv: list[str]) -> int:
             print(f"=== {clock.label(day)} ===", flush=True)
             try:
                 res = orchestrator.run_day(day, push=push, dry=dry)
+            except engine.ManualNeeded as e:
+                print("WAITING for answers (agy quota exhausted). Pending prompts:")
+                for p in engine.pending(): print(f"  {p['key']}  model={p['model']}  prompt={p['prompt']}")
+                print("Answer each as state/manual/<key>.json then run `next` again."); return 3
             except agy.QuotaExhausted as e:
                 print(f"PAUSED: quota exhausted on {e.model} — {e.message}"); return 2
             print(f"roles: {res['roles']}\nproduced: {res['produced']}\nmodels: {res['models']}\ncommit: {res['commit']} ({res['secs']} s)", flush=True)
@@ -25,6 +30,9 @@ def main(argv: list[str]) -> int:
             acts = progress.load(); d = clock.date_of(c["day"])
             print(f"planned {progress.planned_pct(acts, d):.2f}% | earned {progress.earned_pct(acts):.2f}% | forecast PAC {progress.forecast_completion(acts)}")
             print(f"documents {len(registers.read('documents'))} | letters {len(registers.read('correspondence'))} | open actions {sum(a['status']=='Open' for a in registers.read('actions'))}")
+        return 0
+    if cmd == "pending":
+        for p in engine.pending(): print(f"{p['key']}  model={p['model']}  prompt={p['prompt']}")
         return 0
     if cmd == "usage":
         print(json.dumps(agy.usage_summary(argv[1] if len(argv) > 1 else None), indent=2)); return 0
