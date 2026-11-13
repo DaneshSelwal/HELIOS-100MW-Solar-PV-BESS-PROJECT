@@ -11,6 +11,7 @@ from ..world import ROOT
 
 STATE = ROOT / "state"
 USAGE_LOG = STATE / "usage.jsonl"
+QUOTA_FILE = STATE / "quota_cooldown.json"   # model -> ISO time until which the model is known to be exhausted
 
 FALLBACK_CHAIN = {
     "claude-opus-5-5-medium": ["claude-sonnet-5-5-medium", "gemini-4-hydrogen-medium", "gemini-3.8-flash-high"],
@@ -36,6 +37,27 @@ def _log(entry: dict) -> None:
     entry["ts"] = dt.datetime.now().isoformat(timespec="seconds")
     with open(USAGE_LOG, "a", encoding="utf-8") as f:
         f.write(json.dumps(entry, ensure_ascii=False) + "\n")
+
+
+def _cooldowns() -> dict:
+    return json.loads(QUOTA_FILE.read_text()) if QUOTA_FILE.exists() else {}
+
+
+def _set_cooldown(model: str, message: str) -> None:
+    import re
+    m = re.search(r"Resets in (?:(\d+)h)?(?:(\d+)m)?(?:(\d+)s)?", message)
+    secs = 3600
+    if m:
+        h, mi, se = (int(x) if x else 0 for x in m.groups()); secs = h * 3600 + mi * 60 + se or 3600
+    until = (dt.datetime.now() + dt.timedelta(seconds=secs + 60)).isoformat(timespec="seconds")
+    c = _cooldowns(); c[model] = until; STATE.mkdir(exist_ok=True); QUOTA_FILE.write_text(json.dumps(c, indent=2))
+
+
+def _in_cooldown(model: str) -> str | None:
+    until = _cooldowns().get(model)
+    if until and dt.datetime.fromisoformat(until) > dt.datetime.now():
+        return until
+    return None
 
 
 def _run_once(prompt: str, model: str, schema: dict | None, timeout_s: int, cwd: pathlib.Path) -> dict:
@@ -81,6 +103,10 @@ def run(prompt: str, model: str, schema: dict | None = None, *, timeout_s: int =
     chain = [model] + (FALLBACK_CHAIN.get(model, []) if allow_fallback else [])
     last: Exception | None = None
     for m in chain:
+        until = _in_cooldown(m)
+        if until:
+            last = QuotaExhausted(m, f"in cooldown until {until}")
+            continue
         try:
             out = _run_once(prompt, m, schema, timeout_s, cwd)
             text = out.get("response", "")
@@ -95,6 +121,7 @@ def run(prompt: str, model: str, schema: dict | None = None, *, timeout_s: int =
                 return data, m
             return {"text": text}, m
         except QuotaExhausted as e:
+            _set_cooldown(m, e.message)
             last = e
             continue
     assert last is not None
