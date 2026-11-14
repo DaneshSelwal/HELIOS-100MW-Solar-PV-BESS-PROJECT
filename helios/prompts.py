@@ -102,6 +102,13 @@ def recent_letters(limit: int = 30) -> str:
     return "\n".join(f"- {r['ref']} day {r['day']} {r['from_role']} → {r['to_role']}: {r['subject']} [{r['status']}]" for r in rows) or "- none yet"
 
 
+def recent_moms(n: int = 2, max_chars: int = 5000) -> str:
+    mm = world.ROOT / "state" / "moms"
+    files = sorted(mm.glob("*.md"))[-n:] if mm.exists() else []
+    txt = "\n\n".join(f.read_text(encoding="utf-8") for f in files)
+    return txt[-max_chars:] if txt else "(no meetings yet)"
+
+
 def director_prompt(today: dict, acts_summary: str, due: list[dict], inboxes: dict, yesterday_diary: str, open_items: str) -> str:
     return f"""You are the SIMULATION DIRECTOR of HELIOS, an EPC project simulation. You never appear in documents. Your job today is to
 decide what happens on the project and who works on what, so that the project team (AI agents) produce realistic documents.
@@ -131,6 +138,9 @@ YESTERDAY'S DIARY:
 
 OPEN ACTIONS, RFIs, NCRs:
 {open_items[:3000]}
+
+RECENT MEETING MINUTES:
+{recent_moms(1, 3000)}
 
 RULES
 - Pick 2 to {today.get('max_roles', 7)} roles to act today (fewer on quiet days; 0-1 on non-working days). Prefer roles with inbox items or scripted deliverables.
@@ -174,6 +184,9 @@ You MUST produce today: {json.dumps(plan_for_role.get('must_produce', []), ensur
 
 === RECENT CORRESPONDENCE ===
 {recent_letters()}
+
+=== RECENT MEETING MINUTES (decisions and actions you are expected to know) ===
+{recent_moms()}
 
 {extra_context}
 

@@ -94,6 +94,10 @@ def apply(role_id: str, out: dict, day: int, log: list[str]) -> dict:
                 registers.send(a["owner_role"], {"day": day, "from": role_id, "kind": "action", "ref": aid, "subject": a["action"], "summary": f"Action from {ref}, due {a.get('due_date','')}", "due_day": day + 7})
         rdocx.mom(path, ref=ref, title=m["title"], date=d, venue=m.get("venue") or "Site office / Tashtkent office", chaired_by=me["name"],
                   attendees=att, items=m.get("items") or [], actions=actions, org=_org_name(me))
+        mm = ROOT / "state" / "moms"; mm.mkdir(parents=True, exist_ok=True)
+        (mm / f"D{day:03d}_{ref}.md").write_text(f"# {ref} {m['title']} ({d.isoformat()})\nAttendees: {'; '.join(att)}\n\n" +
+            "\n".join(f"- {i.get('topic','')}: {i.get('discussion','')}" for i in (m.get('items') or [])) + "\n\nActions:\n" +
+            "\n".join(f"- {a['action']} (owner {a['owner']}, due {a['due']})" for a in actions) + "\n", encoding="utf-8")
         registers.append("documents", {"doc_no": ref, "title": m["title"], "type": "&MOM", "area": "G000", "discipline": "P", "rev": "00", "status": "Issued",
                                        "originator": _org_code(me), "owner_role": role_id, "issued_day": day, "issued_date": d.isoformat(), "path": str(path.relative_to(ROOT)), "review_code": "", "notes": ""})
         for a in m.get("attendee_roles", []):
