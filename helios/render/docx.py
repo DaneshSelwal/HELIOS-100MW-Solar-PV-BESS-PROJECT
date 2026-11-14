@@ -91,11 +91,13 @@ def letter(path: pathlib.Path, *, ref: str, date: dt.date, from_org: str, from_p
     doc.add_paragraph()
     p = doc.add_paragraph(); r = p.add_run(f"Subject: {subject}"); r.bold = True
     doc.add_paragraph()
-    doc.add_paragraph(f"Dear {to_person.split()[0] if to_person else 'Sir/Madam'},")
+    if not (body_paragraphs and body_paragraphs[0].strip().lower().startswith("dear")):
+        doc.add_paragraph(f"Dear {to_person.split()[0] if to_person else 'Sir/Madam'},")
     for para in body_paragraphs:
         doc.add_paragraph(para)
     doc.add_paragraph()
-    doc.add_paragraph("Yours sincerely,")
+    if not any(x in (body_paragraphs[-1].lower() if body_paragraphs else "") for x in ("yours sincerely", "yours faithfully", "kind regards", "best regards")):
+        doc.add_paragraph("Yours sincerely,")
     doc.add_paragraph()
     p = doc.add_paragraph(); r = p.add_run(from_person); r.bold = True
     doc.add_paragraph(f"{from_title}\n{from_org}")
