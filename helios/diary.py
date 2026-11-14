@@ -57,6 +57,7 @@ def export_registers(day: int) -> None:
     acts = progress.load()
     xlsx.schedule(numbering.folder("1", "04") / "HEL001-G000-P-&SCH-00001-00_Baseline_and_Update_L3.xlsx", title="HELIOS Schedule L3 — baseline vs update",
                   activities=[{**a, "start": a["forecast_start"], "finish": a["forecast_finish"]} for a in acts], data_date=d)
+    (ROOT / "dashboard").mkdir(exist_ok=True)
     progress.s_curve_png(ROOT / "dashboard" / "s_curve.png", acts, registers.read("progress"), d)
 
 
@@ -75,4 +76,5 @@ def write_status(day: int, today: dict, director: dict) -> None:
              f"**Documents issued:** {len(docs)} · **Letters:** {len(let)} · **Open actions:** {sum(a['status']=='Open' for a in registers.read('actions'))} · **Open RFIs:** {sum(r['status'].lower() not in ('closed','answered') for r in registers.read('rfi'))} · **NCRs open:** {sum(r['status'].lower()!='closed' for r in registers.read('ncr'))}", "",
              "## Active activities", "| ID | Activity | Forecast | % |", "|---|---|---|---|"] + [f"| {a['id']} | {a['name']} | {a['forecast_start']} → {a['forecast_finish']} | {a.get('pct_complete',0):.0f} |" for a in active[:25]] + \
             ["", "## Latest narrative", director.get("narrative", ""), "", "## Recent documents"] + [f"- `{r['doc_no']}` {r['title']} (Day {r['issued_day']})" for r in docs[-15:]]
+    (ROOT / "dashboard").mkdir(exist_ok=True)
     (ROOT / "dashboard" / "STATUS.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
