@@ -64,7 +64,7 @@ def apply(role_id: str, out: dict, day: int, log: list[str]) -> dict:
         if let.get("reply_to_ref"):
             registers.update_where("correspondence", "ref", let["reply_to_ref"], status="answered")
         registers.send(let["to_role"], {"day": day, "from": role_id, "kind": "letter", "ref": ref, "subject": let["subject"],
-                                        "summary": " ".join(let.get("body_paragraphs") or [])[:600], "due_day": let.get("requires_response_by_day") or day + 5})
+                                        "summary": "\n".join(let.get("body_paragraphs") or [])[:3000], "path": str(path.relative_to(ROOT)), "due_day": let.get("requires_response_by_day") or day + 5})
         for c in let.get("cc_roles") or []:
             if c in roles:
                 registers.send(c, {"day": day, "from": role_id, "kind": "cc", "ref": ref, "subject": let["subject"], "summary": "copied for information"})
@@ -77,7 +77,7 @@ def apply(role_id: str, out: dict, day: int, log: list[str]) -> dict:
         path.write_text(f"**From:** {me['name']} ({me['title']}, {_org_name(me)})  \n**To:** {tos}  \n**Date:** {d.isoformat()}  \n**Subject:** {em['subject']}\n\n{em['body']}\n", encoding="utf-8")
         for t in em.get("to_roles", []):
             if t in roles:
-                registers.send(t, {"day": day, "from": role_id, "kind": "email", "ref": path.stem, "subject": em["subject"], "summary": em["body"][:500]})
+                registers.send(t, {"day": day, "from": role_id, "kind": "email", "ref": path.stem, "subject": em["subject"], "summary": em["body"][:2000]})
         n["emails"] += 1
 
     for m in out.get("meeting_minutes", []) or []:
