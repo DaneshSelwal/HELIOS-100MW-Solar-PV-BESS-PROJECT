@@ -11,8 +11,14 @@ __pycache__/
 # Office lock files
 ~$*.docx
 ~$*.xlsx
-# Local scratch
+# Runtime simulation state (regenerated; registers CSVs under state/registers ARE tracked)
 state/tmp/
 state/usage.jsonl
 state/quota_cooldown.json
 state/manual/
+state/inbox/
+state/docs/
+state/moms/
+state/clock.json
+state/counters.json
+state/activities.json

@@ -33,4 +33,4 @@ def commit_day(day: int, date_iso: str, summary: str, push: bool = True) -> str 
 def rollback_to_head() -> None:
     """Discard all uncommitted changes (used when a day fails mid-way)."""
     _git("reset", "-q", "--hard", "HEAD")
-    _git("clean", "-fdq", "-e", "state/usage.jsonl", "-e", "state/quota_cooldown.json", "-e", "state/manual/", "--", "project", "correspondence", "diary", "brief", "dashboard", "state")
+    _git("clean", "-fdq", "-e", "state/usage.jsonl", "-e", "state/quota_cooldown.json", "-e", "state/manual/", "-e", "state/docs/", "-e", "state/moms/", "--", "project", "correspondence", "diary", "brief", "dashboard", "state")
