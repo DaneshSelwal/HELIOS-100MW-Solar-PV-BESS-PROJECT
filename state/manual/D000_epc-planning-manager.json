@@ -1,0 +1,188 @@
+{
+"summary": "I closed out A010 Contract signature at 100% and froze the tender programme as the data date 2026-12-01 starting point for the L1-L3 baseline (A040). I wrote the baseline schedule development plan, including the KOM schedule agenda section and the NTP precondition tracking list, and sent Rajan Iyer the Day 0 status email. I asked Mehmet Yildiz and Elena Petrova for WBS and procurement inputs by 2026-12-08.",
+"documents": [
+{
+"title": "Baseline Schedule Development Plan and NTP Precondition Tracker",
+"folder": "1/04",
+"area": "G000",
+"disc": "P",
+"type": "SCH",
+"rev": "A",
+"status": "Issued for Information",
+"sections": [
+{
+"heading": "1. Purpose and Scope",
+"paragraphs": [
+"This plan defines how the Planning Department of Helios EPC LLC will develop, review and submit the L1-L3 baseline programme for the HELIOS 100 MW Solar PV + BESS Power Plant (HEL001) under activity A040, and how the preconditions to Notice to Proceed (A060, 2026-12-15) will be tracked from the Contract signature date, 2026-12-01 (Day 0).",
+"The tender programme has been frozen as of today as the starting point. It will not be edited; all changes will be made in a separate baseline working copy so that the tender-to-baseline variance can always be demonstrated if a delay or EOT discussion arises under the Contract."
+]
+},
+{
+"heading": "2. Status at Day 0",
+"paragraphs": [
+"A010 Contract signature is complete (100%), actual finish 2026-12-01. All other activities are at 0%. Time for completion is 18 months and the contractual PAC target is 2028-05-31 (M14). The forecast critical path currently runs through engineering approval, module delivery (M09, 2027-07-20), substation energisation (M10, 2028-01-20), grid back-feed (M11, 2028-02-15), BESS commissioning (M12, 2028-04-15) and the performance test (M13, 2028-05-15). Float to PAC on the tender logic is thin and I regard the winter 2026-27 earthworks window and the grid connection approvals as the two largest duration risks."
+],
+"bullets": [
+"Data date: 2026-12-01. Calendar: 6-day working week (Mon-Sat) for site activities, 5-day for engineering and procurement.",
+"Weather on Day 0: heavy rain, earthworks stopped, -3 to 4 degrees C. Winter weather allowance will be modelled explicitly in civil activity durations rather than hidden in float.",
+"Tender programme frozen as Baseline-0 (read-only) in Primavera P6."
+]
+},
+{
+"heading": "3. Baseline Development Approach",
+"paragraphs": [
+"The baseline will be built top-down and verified bottom-up. L1 is the milestone summary (M00-M14). L2 is the area-level summary (PV1-PV4, BES, PSS, GSS, TL1, SIT) by phase: engineering, procurement, construction and testing. L3 is the activity-level programme, fully logic linked, with no open ends other than project start and finish, no hard constraints other than contractual milestones, and resource and cost loading of the control accounts to support the S-curve and earned value from the first monthly cycle. L4 (weekly look-ahead) will be derived from the baseline once Construction Manager Sanjay Mehta confirms subcontractor sequencing."
+],
+"bullets": [
+"WBS aligned to the document numbering areas (PV1-PV4, BES, PSS, GSS, TL1, SIT) and disciplines C, M, E, I.",
+"Progress measurement rules (weighted steps for piles, trackers, modules, cabling, inverter stations) agreed with Construction and QA/QC before baseline issue.",
+"Subcontractor durations to be confirmed in writing by Navoi Qurilish, SteelPro Montaj, UzElectroMontaj and GridWorks Central Asia before baseline lock.",
+"Vendor lead times (modules, inverters, trackers, BESS) to be taken from the signed or draft purchase orders, not from tender assumptions.",
+"Planning Engineers Priya Nair (construction and commissioning) and Dilnoza Rashidova (engineering and procurement interface) will build the respective sections; I will integrate and run the schedule quality check (DCMA-style 14-point)."
+]
+},
+{
+"heading": "4. Development Milestones",
+"table": {
+"columns": ["Step", "Description", "Owner", "Target date"],
+"rows": [
+["1", "Freeze tender programme (Baseline-0); A010 closed", "Aziz Karimov", "2026-12-01"],
+["2", "KOM schedule section presented", "Aziz Karimov", "2026-12-03"],
+["3", "WBS, engineering deliverable list and procurement packages received", "Elena Petrova / Mehmet Yildiz", "2026-12-08"],
+["4", "Draft L2 and critical path review with Project Director", "Aziz Karimov / Rajan Iyer", "2026-12-18"],
+["5", "Subcontractor and vendor duration confirmations", "Sanjay Mehta / Mehmet Yildiz", "2026-12-23"],
+["6", "Resource and cost loading, S-curve draft", "Priya Nair", "2027-01-05"],
+["7", "Internal schedule quality check and risk-adjusted view", "Aziz Karimov", "2027-01-07"],
+["8", "Submission of L1-L3 baseline for Owner's Engineer review", "Aziz Karimov", "2027-01-10"]
+]
+}
+},
+{
+"heading": "5. Kick-off Meeting (2026-12-03) - Schedule Agenda Section",
+"bullets": [
+"Contractual dates: Commencement, NTP 2026-12-15, time for completion 18 months, PAC 2028-05-31, delay LDs 0.5% per week capped at 10%.",
+"Milestone summary M00-M14 and the near-term look-ahead (next 30 days).",
+"Baseline submission programme: L1-L3 to Meridian Energy Consultants (Sophie Laurent) by 2027-01-10 and requested review turnaround.",
+"Reporting regime: weekly progress and look-ahead, monthly progress report with S-curve and EVM, data date convention.",
+"Client-side inputs on the critical path: land allocation confirmation and cadastral passport (A110), ESIA conditions (A120), grid connection approvals with UzGridCo, access track approvals.",
+"Delay notification protocol: contemporaneous records and notices, time impact analysis procedure."
+]
+},
+{
+"heading": "6. NTP Preconditions to Track",
+"table": {
+"columns": ["Ref", "Precondition", "Responsible", "Schedule link", "Required by", "Status"],
+"rows": [
+["N1", "Advance payment guarantee issued and accepted", "Thomas Becker / Omar Hassan", "A050", "2026-12-15", "Open"],
+["N2", "Advance payment (10%) received", "Thomas Becker", "A050 / M03", "2027-01-05", "Open"],
+["N3", "Land allocation confirmation and cadastral passport", "Khalid Al-Mansoori / Shavkat Bobojonov", "A110", "2026-12-15 start; 2027-02-15 finish", "Open"],
+["N4", "Project Execution Plan and procedures issued", "Rajan Iyer", "A030", "2027-01-15", "Open"],
+["N5", "HSE plan submitted", "Jamshid Tursunov", "A070", "2027-01-31", "Open"],
+["N6", "Insurances and performance security in place", "Thomas Becker", "Contract", "Before NTP", "Open"],
+["N7", "Site access and surveys permitted (topographic survey, geotechnical)", "Bekzod Nazarov / Sanjay Mehta", "A210, A220", "2026-12-20", "Open"],
+["N8", "Subcontracting strategy and prequalification", "Mehmet Yildiz", "A710", "2027-01-31", "Open"]
+]
+}
+},
+{
+"heading": "7. Assumptions, Risks and Planning Concerns",
+"paragraphs": [
+"I have deliberately kept my duration view conservative. Gypsum-cemented layers will affect pile driving productivity, and the geotechnical report (A220) is not due until 2027-02-20, which is after the first pile milestone preparations begin; M08 (first piles 2027-04-12) therefore has little float. The 12 km unpaved access track will be vulnerable to rain, as today's weather already shows. Any delay caused by late Client inputs will be recorded from the first day, with a notice raised in line with the Contract time bar."
+],
+"bullets": [
+"Risk 1: late land allocation or cadastral passport (A110) delays mobilisation (M05).",
+"Risk 2: grid connection approvals and protection coordination delay M10-M11.",
+"Risk 3: winter weather and frozen ground reduce civil productivity in Dec-Feb.",
+"Risk 4: long-lead inverter and transformer deliveries against M10."
+]
+},
+{
+"heading": "8. Distribution",
+"paragraphs": [
+"Rajan Iyer, Elena Petrova, Mehmet Yildiz, Sanjay Mehta, Thomas Becker, Priya Nair, Dilnoza Rashidova. Not for issue to the Client or Owner's Engineer until the baseline itself is submitted."
+]
+}
+]
+}
+],
+"letters": [],
+"emails": [
+{
+"to_roles": ["epc-project-director"],
+"subject": "Day 0 schedule status and baseline schedule development plan",
+"body": "Rajan,\n\nSchedule status at Day 0 (2026-12-01):\n\n1. A010 Contract signature is marked complete (actual finish 2026-12-01). The tender programme is frozen as Baseline-0 and is the starting point for the L1-L3 baseline (A040). Nothing else has started.\n\n2. The L1-L3 baseline will be submitted to Meridian (Sophie Laurent) for review by 2027-01-10. My development plan with the step dates is filed in 1_Project_Mgmt/04_Schedule.\n\n3. Key near-term dates: KOM on 2026-12-03 (I will present the schedule section), advance payment guarantee and advance payment under A050 (finish 2027-01-05), and NTP on 2026-12-15 (A060). I have set up a tracker of NTP preconditions: APG and advance payment, land allocation and cadastral passport (A110), insurances and security, survey and geotechnical access (A210, A220), PEP (A030), HSE plan (A070) and subcontracting strategy (A710).\n\n4. Concerns: float to the 2028-05-31 PAC is thin on the tender logic. Pile driving in gypsum-cemented ground and the geotechnical report not arriving until 2027-02-20 put M08 (2027-04-12) at risk, and the grid approvals sit on the path to M10-M11. Today's rain and sub-zero temperatures already show the winter allowance is needed in the civil durations. I will record any Client-side delays from the first day so that notices are not time-barred.\n\n5. Inputs needed: I have asked Mehmet Yildiz for procurement packages, vendor lead times and PO dates, and Elena Petrova for the WBS and engineering deliverable list with durations, both by 2026-12-08. Please support me if they cannot meet that date, as the baseline timetable has no slack.\n\nPlease also confirm the 2026-12-18 slot for the draft L2 and critical path review with you.\n\nRegards,\nAziz Karimov\nPlanning Manager, Helios EPC LLC"
+}
+],
+"meeting_minutes": [],
+"register_updates": [
+{
+"register": "actions",
+"op": "append",
+"row": {
+"action": "Provide WBS, engineering deliverable list and durations for baseline L1-L3 (A040)",
+"owner": "epc-engineering-lead",
+"due_date": "2026-12-08",
+"status": "Open"
+}
+},
+{
+"register": "actions",
+"op": "append",
+"row": {
+"action": "Provide procurement packages, vendor lead times and PO dates for baseline L1-L3 (A040)",
+"owner": "epc-scm-lead",
+"due_date": "2026-12-08",
+"status": "Open"
+}
+},
+{
+"register": "risk",
+"op": "append",
+"row": {
+"id": "R-PL-001",
+"category": "Schedule",
+"description": "Thin float to PAC 2028-05-31 on tender logic; geotechnical report (A220, 2027-02-20) after pile planning start puts M08 first piles 2027-04-12 at risk, with gypsum-cemented ground reducing piling productivity",
+"probability": "Medium",
+"impact": "High",
+"score": "12",
+"owner": "epc-planning-manager",
+"mitigation": "Early geotechnical phasing, explicit winter weather allowance in baseline, pile trials, monitor float weekly",
+"status": "Open"
+}
+},
+{
+"register": "risk",
+"op": "append",
+"row": {
+"id": "R-PL-002",
+"category": "Schedule",
+"description": "Late land allocation confirmation / cadastral passport (A110) or grid connection approvals delaying site mobilisation M05 and energisation M10-M11",
+"probability": "Medium",
+"impact": "High",
+"score": "12",
+"owner": "epc-planning-manager",
+"mitigation": "Track NTP preconditions weekly, escalate via Project Director, issue contemporaneous delay notices for Client-side inputs",
+"status": "Open"
+}
+}
+],
+"schedule_updates": [
+{
+"activity_id": "A010",
+"pct_complete": 100,
+"note": "Contract signed 2026-12-01. Tender programme frozen as Baseline-0 starting point for L1-L3 baseline (A040)."
+}
+],
+"requests": [
+{
+"to_role": "epc-scm-lead",
+"what": "Please send procurement package list with vendor lead times, planned RFQ/PO dates and delivery windows (modules, inverters, trackers, BESS, substation and OHTL equipment) for the L1-L3 baseline (A040), by 2026-12-08.",
+"due_day": 7
+},
+{
+"to_role": "epc-engineering-lead",
+"what": "Please send the WBS input, engineering deliverable list with planned issue and approval durations, and the design review cycle assumptions for the L1-L3 baseline (A040), by 2026-12-08.",
+"due_day": 7
+}
+]
+}

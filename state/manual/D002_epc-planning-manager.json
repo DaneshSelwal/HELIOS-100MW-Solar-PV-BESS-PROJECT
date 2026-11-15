@@ -1,0 +1,242 @@
+{
+ "summary": "I presented the outline Level 1-3 baseline schedule at the kick-off meeting and proposed the submission and approval route with Meridian under A040, targeting approval by 10 January. I issued the Stakeholder Register (Rev A) covering QSE, Meridian, UzGridCo, the Regional Administration, subcontractors and vendors. I also wrote to Meridian to formalise the schedule review workflow.",
+ "documents": [
+  {
+   "title": "Stakeholder Register",
+   "folder": "1/02",
+   "area": "G000",
+   "disc": "P",
+   "type": "&REG",
+   "rev": "A",
+   "status": "Issued for Information",
+   "sections": [
+    {
+     "heading": "1. Purpose and Scope",
+     "paragraphs": [
+      "This register identifies the external and contractual stakeholders of the HELIOS 100 MW Solar PV + BESS Power Plant (HEL001) at Qizilqum Solar Site, Navoi Region, and records for each the named contact, interest in the project, relative influence and agreed communication channel. It is issued on 3 December 2026 following the Kick-off Meeting (M02) and uses the Client Representative and Owner's Engineer contacts confirmed at that meeting.",
+      "The register is owned by Planning (Aziz Karimov) and maintained with the Project Director. It will be reviewed monthly and whenever a contact changes, and feeds the Communications Plan and the baseline schedule coordination activities (A040)."
+     ]
+    },
+    {
+     "heading": "2. Stakeholder Register",
+     "paragraphs": [
+      "Influence and interest are rated High, Medium or Low. All formal correspondence is numbered through the Document Controller (Nilufar Yusupova) under the project numbering procedure."
+     ],
+     "table": {
+      "columns": [
+       "Stakeholder",
+       "Contact",
+       "Role",
+       "Interest",
+       "Influence / Interest",
+       "Communication channel",
+       "HEP owner"
+      ],
+      "rows": [
+       [
+        "QSE",
+        "Khalid Al-Mansoori",
+        "Client Project Manager",
+        "Schedule, progress, NTP, milestone payments; PAC 2028-05-31",
+        "High / High",
+        "Weekly progress meeting; formal letters via Document Controller; email for routine",
+        "Rajan Iyer"
+       ],
+       [
+        "QSE",
+        "Omar Hassan",
+        "Client Commercial & Contracts Manager",
+        "Advance payment, IPCs, variations, LDs, guarantees",
+        "High / High",
+        "Formal letters; monthly commercial meeting",
+        "Thomas Becker"
+       ],
+       [
+        "QSE",
+        "Bekzod Nazarov",
+        "Client Site Representative",
+        "Day-to-day site access, inspections, witness points, site instructions",
+        "Medium / High",
+        "Daily site contact; weekly look-ahead; site meeting",
+        "Sanjay Mehta"
+       ],
+       [
+        "OWE (Meridian)",
+        "Sophie Laurent",
+        "Owner's Engineer Lead",
+        "Design review, schedule approval (A040, target 2027-01-10), ITP and test witnessing, certifying",
+        "High / High",
+        "Transmittals via Document Controller; fortnightly design review; baseline review workshop",
+        "Aziz Karimov (schedule), Elena Petrova (design)"
+       ],
+       [
+        "UzGridCo (GRD)",
+        "Ulugbek Mirzaev",
+        "Head of Grid Connections, Navoi Region",
+        "Grid connection agreement, protection coordination, energisation permit (M10 2028-01-20, M11 2028-02-15)",
+        "High / High",
+        "Formal letters via QSE where required; monthly grid coordination meeting",
+        "Elena Petrova"
+       ],
+       [
+        "Navoi Regional Administration / State Construction Inspectorate (GOV)",
+        "Shavkat Bobojonov",
+        "Deputy Head, Construction Supervision",
+        "Construction permit (M07 2027-03-20), land allocation, environmental approvals, inspections, customs liaison",
+        "High / High",
+        "Formal letters; permit submission meetings; site inspection notices",
+        "Thomas Becker"
+       ],
+       [
+        "Navoi Qurilish LLC",
+        "Rustam Ergashev",
+        "Project Manager, civil works",
+        "Clearing, grading, roads, piling, foundations, trenches; first piles M08 2027-04-12",
+        "Medium / High",
+        "Weekly subcontractor meeting; 3-week look-ahead; daily progress email",
+        "Sanjay Mehta"
+       ],
+       [
+        "SteelPro Montaj LLC",
+        "Erkin Saidov",
+        "Site Manager, mounting structures",
+        "Tracker and module installation, 128 MWp",
+        "Medium / High",
+        "Weekly subcontractor meeting; look-ahead; daily manpower report",
+        "Sanjay Mehta"
+       ],
+       [
+        "UzElectroMontaj JSC",
+        "Farrukh Abdullaev",
+        "Project Manager, DC/AC electrical",
+        "String cabling, MV cabling, inverter stations, earthing, SCADA field cabling",
+        "Medium / High",
+        "Weekly subcontractor meeting; look-ahead; daily report",
+        "Sanjay Mehta"
+       ],
+       [
+        "GridWorks Central Asia LLP",
+        "Sergey Volkov",
+        "Project Director, substation and OHTL",
+        "33/220 kV substation, 9 km 220 kV OHTL, grid interface, protection and SCADA",
+        "High / High",
+        "Weekly meeting; formal letters; milestone tracker",
+        "Sanjay Mehta / Elena Petrova"
+       ],
+       [
+        "SunPeak Solar Technology Co.",
+        "Chen Yu",
+        "Key Account Manager",
+        "206,500 x 620 Wp modules DDP site; first delivery M09 2027-07-20",
+        "High / Medium",
+        "Procurement progress emails; monthly expediting call; formal letters",
+        "Mehmet Yildiz"
+       ],
+       [
+        "VoltEdge Power Electronics GmbH",
+        "Hans Muller",
+        "Project Sales Manager",
+        "28 central inverter stations 3.6 MVA with MV transformers and switchgear",
+        "Medium / High",
+        "Procurement emails; monthly expediting call; FAT notices",
+        "Mehmet Yildiz"
+       ],
+       [
+        "AxisTrack Systems S.A.",
+        "Carlos Mendes",
+        "Regional Sales Director",
+        "Single-axis trackers 128 MWp, pile design support",
+        "Medium / High",
+        "Procurement emails; design interface meetings",
+        "Mehmet Yildiz"
+       ],
+       [
+        "CellCore Energy Storage Ltd.",
+        "Zhang Min",
+        "Project Manager",
+        "50 MW / 100 MWh LFP BESS, PCS, EMS; commissioning M12 2028-04-15",
+        "Medium / High",
+        "Procurement emails; monthly expediting call; FAT notices",
+        "Mehmet Yildiz"
+       ]
+      ]
+     }
+    },
+    {
+     "heading": "3. Stakeholder Engagement Priorities",
+     "bullets": [
+      "QSE and Meridian: agree the baseline schedule submission and approval route in A040, with Meridian approval targeted for 2027-01-10.",
+      "UzGridCo: early alignment of grid connection agreement and protection coordination, which drive the M10 (2028-01-20) and M11 (2028-02-15) milestones.",
+      "Navoi Regional Administration / State Construction Inspectorate: construction permit (M07, 2027-03-20) and land allocation and cadastral passport (A110, to 2027-02-15) are critical to M08 first piles on 2027-04-12.",
+      "Vendors: confirm delivery windows early so the procurement-linked schedule logic is credible, in particular modules for M09 (2027-07-20)."
+     ]
+    },
+    {
+     "heading": "4. Communication Rules",
+     "bullets": [
+      "Formal instructions, notices, claims and submissions are by numbered letter only; email is for routine coordination and is not a contractual notice.",
+      "Schedule submissions to Meridian go by transmittal with native P6 (XER) file, PDF and narrative.",
+      "Weekly progress report each Friday and monthly report by the 5th working day; look-ahead issued weekly.",
+      "Site works run Monday to Saturday; site-facing communication with subcontractors is through the Construction Manager."
+     ]
+    },
+    {
+     "heading": "5. Maintenance and Open Points",
+     "paragraphs": [
+      "Contact telephone numbers and email addresses are held in the controlled contact list with Document Control and are not reproduced here. Open point: confirmation of the UzGridCo and State Construction Inspectorate secondary contacts and their preferred language for formal letters (Uzbek, Russian or English).",
+      "This register will be re-issued as Rev B after the first month of execution or upon any change in stakeholders."
+     ]
+    }
+   ]
+  }
+ ],
+ "letters": [
+  {
+   "to_role": "client-owners-engineer",
+   "dept": "PL",
+   "subject": "Baseline Schedule L1-L3 - Proposed Submission and Review Route (HEL001)",
+   "body_paragraphs": [
+    "Further to the Kick-off Meeting held today, Helios EPC LLC confirms the proposed route for submission and approval of the Baseline Programme (activity A040).",
+    "HEP will submit the Level 1-3 baseline in Primavera P6 (XER), PDF and a narrative covering logic, calendars (Monday to Saturday working), critical path and key assumptions. The outline baseline presented today is based on the contract milestones M00 to M14 and PAC on 2028-05-31.",
+    "We propose a one-week review window followed by a joint review workshop with Meridian and QSE, one comment round and resubmission, targeting approval by 2027-01-10. We ask Meridian to confirm the review contact, the number of review days and the format of comments.",
+    "Aziz Karimov will coordinate the submission and is available to walk Meridian through the model ahead of the formal transmittal."
+   ],
+   "cc_roles": [
+    "epc-project-director",
+    "client-project-manager"
+   ],
+   "requires_response_by_day": 9
+  }
+ ],
+ "emails": [
+  {
+   "to_roles": [
+    "epc-planning-engineer-1",
+    "epc-planning-engineer-2"
+   ],
+   "subject": "Baseline L1-L3 - actions after KOM",
+   "body": "Priya, Dilnoza,\n\nKOM went through; the schedule route with Meridian is proposed in today's letter. Priya: build the L2 construction logic by block PV1-PV4. Dilnoza: procurement and engineering logic, with supplier lead times to be confirmed by Mehmet and Elena. First internal review of the draft model on 2026-12-10, please.\n\nAziz"
+  }
+ ],
+ "meeting_minutes": [],
+ "register_updates": [],
+ "schedule_updates": [
+  {
+   "activity_id": "A040",
+   "pct_complete": 5,
+   "note": "Outline L1-L3 presented at KOM; submission route proposed to Meridian; detailed model build under way."
+  }
+ ],
+ "requests": [
+  {
+   "to_role": "epc-scm-lead",
+   "what": "Please provide supplier lead times and promised delivery windows for modules, inverters, trackers and BESS for the baseline logic.",
+   "due_day": 7
+  },
+  {
+   "to_role": "epc-engineering-lead",
+   "what": "Please provide the design deliverable list with planned issue dates for logic-linking the engineering activities in the baseline.",
+   "due_day": 7
+  }
+ ]
+}

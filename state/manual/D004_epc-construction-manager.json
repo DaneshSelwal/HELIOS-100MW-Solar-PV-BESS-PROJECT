@@ -1,0 +1,172 @@
+{
+ "summary": "I put together the one-page construction and site organisation summary for PEP Rev A and sent it to Rajan with the M05 mobilisation sequence, temporary facilities and the Mon-Sat arrangement. I acknowledged Aziz's L3 request and told him subcontractor mobilisation and duration assumptions will follow once the subcontracting strategy is issued. I also asked HSE, Engineering and Contracts for the inputs I need before 1 March.",
+ "documents": [
+  {
+   "title": "Construction and Site Organisation Summary for PEP Rev A",
+   "folder": "5/01",
+   "area": "SIT",
+   "disc": "P",
+   "type": "&PRC",
+   "rev": "A",
+   "status": "Issued for Information",
+   "sections": [
+    {
+     "heading": "1. Purpose and basis",
+     "paragraphs": [
+      "This one-page summary gives the Project Execution Plan (PEP) Rev A input from Construction on site organisation, the mobilisation sequence for Milestone M05 (Site Mobilisation, 1 March 2027) and the Monday to Saturday working arrangement. It is based on the Project Brief, the Kick-off Meeting minutes (HEL001-MOM-KOM-001) and the Level 1/2 milestone schedule. Subcontractor durations are not yet confirmed and will be issued after the subcontracting strategy."
+     ]
+    },
+    {
+     "heading": "2. Site organisation",
+     "paragraphs": [
+      "Sanjay Mehta, Construction Manager, leads site and reports to Rajan Iyer. HEP site team interfaces: Jamshid Tursunov (HSE), Arun Pillai (QA/QC), Elena Petrova (Engineering) and Mehmet Yildiz (SCM, material receipt). Client interface on site is Bekzod Nazarov (QSE Site Representative); Owner's Engineer inspection through Sophie Laurent's team."
+     ],
+     "bullets": [
+      "Civil works: Navoi Qurilish LLC (Rustam Ergashev)",
+      "Mounting structures and trackers: SteelPro Montaj LLC (Erkin Saidov)",
+      "DC/AC electrical: UzElectroMontaj JSC (Farrukh Abdullaev)",
+      "Plant substation and 220 kV OHTL: GridWorks Central Asia LLP (Sergey Volkov)",
+      "Vendor supervision: AxisTrack, VoltEdge, SunPeak, CellCore as per supply contracts"
+     ]
+    },
+    {
+     "heading": "3. Mobilisation sequence to M05 (1 March 2027)",
+     "table": {
+      "columns": [
+       "Step",
+       "Window",
+       "Content",
+       "Dependency"
+      ],
+      "rows": [
+       [
+        "1",
+        "20 Dec 2026 onward",
+        "Topographic survey and geotechnical investigation (A210, A220); site access track survey (12 km from A-380)",
+        "NTP 15 Dec; land access from QSE (A110)"
+       ],
+       [
+        "2",
+        "Jan-Feb 2027",
+        "Procure/rent camp units, offices, power, water, fuel, welfare; HSE plan issue 31 Jan; induction regime",
+        "HSE plan; QSE land confirmation"
+       ],
+       [
+        "3",
+        "Feb 2027",
+        "Access track upgrade, site entrance, laydown area set-out, temporary fencing of camp zone",
+        "Civil subcontract in place"
+       ],
+       [
+        "4",
+        "By 1 Mar 2027 (M05)",
+        "Camp, site office, first aid, security and induction point operational; core HEP team on site",
+        "Steps 1-3"
+       ],
+       [
+        "5",
+        "March 2027",
+        "Civil, MMS, electrical and substation subcontractor teams mobilise in stages; pile test area set-out",
+        "Subcontract awards; construction permit M07 20 Mar"
+       ],
+       [
+        "6",
+        "From 12 Apr 2027 (M08)",
+        "First piles driven; first module delivery follows 20 Jul 2027 (M09)",
+        "Permit, approved piling design"
+       ]
+      ]
+     }
+    },
+    {
+     "heading": "4. Temporary facilities (planning basis)",
+     "bullets": [
+      "Main site camp and HEP/QSE/OWE offices with meeting room near the site entrance; separate subcontractor yards",
+      "Laydown and storage areas sized for the 206,500 modules, trackers and 28 inverter stations, with a controlled materials receiving point",
+      "Temporary power (generators until grid), potable water by tanker, sanitation and waste collection; no settlements within 6 km, so full self-sufficiency is assumed",
+      "Site clinic with first aider and ambulance, fire-fighting, security gate and vehicle control",
+      "Concrete and materials testing laboratory arrangements with QA/QC; survey control points"
+     ]
+    },
+    {
+     "heading": "5. Working arrangement",
+     "paragraphs": [
+      "Site works are Monday to Saturday, one day shift in winter (about 07:30 to 17:30 allowing for daylight and cold) extended in summer with early starts to avoid peak heat. Sunday is rest and maintenance day; any Sunday work needs my approval and HSE notification. Daily site diary, daily toolbox talk, weekly construction report and Thursday progress meeting follow the agreed reporting format."
+     ]
+    },
+    {
+     "heading": "6. Risks and assumptions",
+     "bullets": [
+      "M05 (1 Mar) falls before the construction permit (M07, 20 Mar): early works must be limited to what is allowed without the permit; Contracts and local authority to confirm",
+      "Late land documents (A110) are the main risk to M07 and M08",
+      "Winter ground at site (frost, gypsum-cemented layers) may affect early civil works and pile testing",
+      "Subcontractor mobilisation dates are assumptions until the subcontracting strategy is issued"
+     ]
+    }
+   ]
+  }
+ ],
+ "letters": [],
+ "emails": [
+  {
+   "to_roles": [
+    "epc-project-director"
+   ],
+   "subject": "PEP Rev A input - Construction and site organisation summary",
+   "body": "Rajan,\n\nIn response to REQ-003-epc-proj, here is the Construction input for PEP Rev A. The one-page summary is registered in 5/01 (Construction and Site Organisation Summary, Rev A). Key points:\n\n1. Mobilisation sequence to M05 (1 March 2027)\n- From 20 Dec 2026: topographic survey and geotechnical investigation (A210, A220), plus survey of the 12 km access track from the A-380. This needs land access from QSE (A110).\n- Jan-Feb 2027: camp units, offices, power, water, welfare ordered or rented; HSE plan issued by Jamshid on 31 Jan; site induction from first access.\n- Feb 2027: access track upgrade, site entrance, laydown set-out, fenced camp zone.\n- 1 Mar 2027 (M05): camp, offices, first aid, security gate and induction point working; core HEP site team on site.\n- March: civil, MMS, electrical and substation subcontractors mobilise in stages. First piles 12 Apr (M08), first modules 20 Jul (M09).\n\n2. Temporary facilities: main camp and offices (HEP, QSE, OWE), separate subcontractor yards, laydown for 206,500 modules, trackers and 28 inverter stations with a controlled receiving point, generator power until grid, tanker water, sanitation, clinic and fire-fighting. No settlements within 6 km, so we plan to be self-sufficient.\n\n3. Working arrangement: Monday to Saturday, day shift in winter, early starts in summer, Sunday rest and maintenance. Sunday work only with my approval and HSE notice. Daily diary, daily toolbox talk, weekly construction report and the Thursday progress meeting.\n\n4. Points I need you to watch: M05 (1 Mar) is before the construction permit (M07, 20 Mar), so we must confirm with Thomas and Shavkat Bobojonov what early works are allowed without the permit. Late land documents are the main risk to M07 and M08. Subcontractor durations are not firm until the subcontracting strategy is issued.\n\nI have asked Jamshid, Elena and Thomas for the inputs I need. Call me if you want changes before the PEP goes out on 15 Dec.\n\nSanjay"
+  },
+  {
+   "to_roles": [
+    "epc-planning-manager"
+   ],
+   "subject": "Re: subcontractor mobilisation dates and duration assumptions for L3 validation",
+   "body": "Aziz,\n\nAcknowledging REQ-003-epc-plan. I will give you mobilisation dates and duration assumptions for civil (Navoi Qurilish), MMS (SteelPro Montaj), electrical (UzElectroMontaj) and substation/OHTL (GridWorks) once the subcontracting strategy is issued. I will not give you numbers before that, because they would be guesses and would not survive your L3 validation.\n\nWhat you can use now: site camp ready by M05 (1 Mar 2027), survey and geotech from 20 Dec (A210, A220), first piles 12 Apr (M08), site works Monday to Saturday. I will send the subcontractor inputs before your due date of Day 12 (15 Dec) if the strategy is out by then. Please tell me which L3 activities you want durations for so I send them in your format.\n\nSanjay"
+  }
+ ],
+ "meeting_minutes": [],
+ "register_updates": [
+  {
+   "register": "risk",
+   "op": "append",
+   "row": {
+    "id": "R-CM-001",
+    "category": "Permits / Construction",
+    "description": "M05 site mobilisation (1 Mar 2027) precedes construction permit M07 (20 Mar 2027); scope of early works allowed without permit unconfirmed",
+    "probability": "Medium",
+    "impact": "High",
+    "score": "12",
+    "owner": "epc-construction-manager",
+    "mitigation": "Thomas Becker and local authority to confirm permitted early works; limit mobilisation to camp, survey and access works",
+    "status": "Open"
+   }
+  },
+  {
+   "register": "actions",
+   "op": "append",
+   "row": {
+    "action": "Provide subcontractor mobilisation dates and duration assumptions to Planning Manager after subcontracting strategy issue",
+    "owner": "epc-construction-manager",
+    "due_date": "2026-12-15",
+    "status": "Open"
+   }
+  }
+ ],
+ "schedule_updates": [],
+ "requests": [
+  {
+   "to_role": "epc-hse-manager",
+   "what": "Confirm site HSE requirements for camp, clinic, fire-fighting and induction point before M05 (1 Mar 2027), and the winter-works precautions to include in the HSE plan due 31 Jan 2027.",
+   "due_day": 10
+  },
+  {
+   "to_role": "epc-contracts-manager",
+   "what": "Confirm which early works (camp, access track, survey, laydown) may start before construction permit M07 (20 Mar 2027), and the status of subcontract awards and land access for the 20 Dec survey start.",
+   "due_day": 10
+  },
+  {
+   "to_role": "epc-engineering-lead",
+   "what": "Provide site layout, camp and laydown location constraints and design package timing for the permit file so I can finalise the temporary facilities layout.",
+   "due_day": 12
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "summary": "I hosted the Kick-off Meeting for QSE and led our items on lender reporting format, communication protocol and document review periods. I then issued the formal Notice of Nomination of Client Representative to Rajan Iyer, copied to Sophie Laurent and Omar Hassan, closing ACTIONS-001-013 a day ahead of its 4 December due date.",
+ "documents": [],
+ "letters": [
+  {
+   "to_role": "epc-project-director",
+   "dept": "PM",
+   "subject": "Notice of Nomination of Client Representative (HEL001)",
+   "body_paragraphs": [
+    "Dear Mr Iyer,",
+    "Further to the Contract signed on 1 December 2026 between Qizilqum Solar Energy JSC (QSE) and Helios EPC LLC for the HELIOS 100 MW Solar PV + BESS Power Plant (HEL001), and to your letter HEL001-L-PM-HEP-QSE-0003 of 2 December 2026, QSE hereby gives formal notice that Mr Khalid Al-Mansoori, Client Project Manager, is nominated as the Employer's Representative (Client Representative) for the Contract with effect from today, 3 December 2026, in accordance with the Employer's administration provisions of the Contract (Clause 3 of the Conditions). This notice closes action ACTIONS-001-013 recorded at the Kick-off Meeting.",
+    "Within the limits notified below, the Client Representative is authorised to act for QSE in the following matters: (a) issuing and receiving notices, instructions and correspondence under the Contract; (b) review, comment, approval or rejection of submissions, including the Baseline Schedule, Project Execution Plan, design documents and proposed subcontractors, within the review periods agreed at Kick-off; (c) certification of Interim Payment Certificates and milestone payments, on the recommendation of the Owner's Engineer and the Client Commercial & Contracts Manager; (d) interface with the project lenders, including monthly reporting; and (e) day-to-day change control, including the receipt and initial evaluation of variation notices.",
+    "The following remain reserved to QSE Board or Shareholder approval and are outside this delegation: execution of any Contract amendment or Variation Order that alters the Contract Price or the Time for Completion; termination or suspension of the Contract; release or draw-down of any security, guarantee or retention; and any waiver of delay liquidated damages. Such matters will be processed by Mr Omar Hassan, Client Commercial & Contracts Manager, with my recommendation.",
+    "The Owner's Engineer is Meridian Energy Consultants, represented on the project by Ms Sophie Laurent, Owner's Engineer Lead. Ms Laurent and her team will review and comment on technical submissions, witness inspections and tests, and recommend payment amounts on QSE's behalf. The Owner's Engineer has no authority to amend the Contract or relieve Helios EPC LLC of any obligation, and no instruction from the Owner's Engineer shall be treated as a Variation unless confirmed in writing by the Client Representative. Day-to-day site matters will be handled by Mr Bekzod Nazarov, Client Site Representative. Please ensure that all formal correspondence is addressed to the Client Representative with a copy to the Owner's Engineer, and that submissions follow the agreed document numbering procedure.",
+    "Please acknowledge receipt of this notice and confirm Helios EPC LLC's corresponding Contractor's Representative nomination and authorities by 10 December 2026, so that both appointments can be recorded in the Stakeholder Register and Communications Plan before Notice to Proceed on 15 December 2026.",
+    "Yours sincerely,",
+    "Khalid Al-Mansoori, Client Project Manager, Qizilqum Solar Energy JSC"
+   ],
+   "cc_roles": ["client-owners-engineer", "client-commercial-manager"],
+   "reply_to_ref": "HEL001-L-PM-HEP-QSE-0003",
+   "attachments": [],
+   "requires_response_by_day": 9
+  }
+ ],
+ "emails": [
+  {
+   "to_roles": ["client-owners-engineer", "client-commercial-manager", "client-site-representative"],
+   "subject": "HEL001 - Kick-off follow-up: nomination notice issued and QSE reporting protocol",
+   "body": "Colleagues, the Notice of Nomination of Client Representative has been issued to Helios EPC today (ACTIONS-001-013 closed). Please keep all contractual correspondence addressed to me with Sophie copied, and route payment and security matters through Omar. For lender reporting I need the Owner's Engineer's monthly inputs by the 3rd working day of each month; Bekzod to provide weekly site observations each Friday. Document review periods agreed at Kick-off apply from tomorrow. Regards, Khalid"
+  }
+ ],
+ "meeting_minutes": [],
+ "register_updates": [
+  {
+   "register": "actions",
+   "op": "append",
+   "row": {
+    "action": "Issue formal Client Representative nomination notice to Helios EPC (ACTIONS-001-013) - issued 3 Dec 2026, awaiting acknowledgement and Contractor's Representative confirmation",
+    "owner": "client-project-manager",
+    "due_date": "2026-12-04",
+    "status": "Closed"
+   }
+  }
+ ],
+ "schedule_updates": [],
+ "requests": [
+  {
+   "to_role": "client-owners-engineer",
+   "what": "Provide the Owner's Engineer's template and calendar for monthly lender report inputs (technical progress, quality, HSE observations), aligned with the QSE reporting format agreed at Kick-off.",
+   "due_day": 7
+  },
+  {
+   "to_role": "epc-project-director",
+   "what": "Acknowledge the nomination notice and confirm Helios EPC's Contractor's Representative, delegated authorities and the monthly progress report format for lender reporting.",
+   "due_day": 9
+  }
+ ]
+}

@@ -1,0 +1,88 @@
+{
+  "narrative": "Day 4 is a cold, clear Saturday. All HELIOS work is still office-based in Tashkent with no presence at the Qizilqum site yet. Helios EPC sets out its commercial and supply strategy: SCM issues the Procurement Plan and Package List, and Contracts issues the Subcontracting Strategy and Prequalification Criteria. Engineering and Construction send their one-page inputs for PEP Rev A to the Project Director ahead of the 7 December deadline.",
+  "events_interpretation": [],
+  "day_plan": [
+    {
+      "role": "epc-scm-lead",
+      "tasks": [
+        "Issue Rev A of the Procurement Plan and Package List: package breakdown (modules, trackers, inverter stations, BESS, MV/HV equipment, cables, civil, MMS, electrical and substation subcontracts), procurement strategy, long-lead items, RFQ dates, incoterms and logistics route to the Navoi site",
+        "Send procurement packages, vendor lead times and PO dates to the Planning Manager for the baseline L3 schedule (ACTIONS-000-007, due 8 Dec), aligned with M06 Module Supply Contract on 15 Feb 2027"
+      ],
+      "must_produce": [
+        {
+          "kind": "document",
+          "title": "Procurement Plan and Package List",
+          "folder": "4/01",
+          "area": "G000",
+          "disc": "P",
+          "type": "&PRC",
+          "notes": "Packages, strategy, long-lead items, RFQ dates, incoterms, logistics"
+        },
+        {
+          "kind": "email",
+          "title": "Procurement packages, vendor lead times and PO dates for baseline L3 (ACTIONS-000-007)",
+          "to_role": "epc-planning-manager"
+        }
+      ]
+    },
+    {
+      "role": "epc-contracts-manager",
+      "tasks": [
+        "Issue Rev A of the Subcontracting Strategy and Prequalification Criteria for the civil, MMS, electrical and substation/OHTL packages: contract forms, back-to-back FIDIC terms, local content, HSE/QA thresholds, financial capacity and bonding requirements (A710)",
+        "Ask SCM to align the subcontract package list with the procurement plan before prequalification questionnaires are issued"
+      ],
+      "must_produce": [
+        {
+          "kind": "document",
+          "title": "Subcontracting Strategy and Prequalification Criteria",
+          "folder": "14/01",
+          "area": "G000",
+          "disc": "K",
+          "type": "&PRC"
+        },
+        {
+          "kind": "email",
+          "title": "Alignment of subcontract packages with Procurement Plan and prequalification timing",
+          "to_role": "epc-scm-lead"
+        }
+      ]
+    },
+    {
+      "role": "epc-engineering-lead",
+      "tasks": [
+        "Answer the Project Director's request (REQ-003-epc-proj) with a one-page engineering and design management summary for PEP Rev A: design stages, OWE review cycle (10 working days for drawings and calculations) and the Basic Design route to M04"
+      ],
+      "must_produce": [
+        {
+          "kind": "email",
+          "title": "PEP Rev A input - Engineering and design management summary",
+          "to_role": "epc-project-director"
+        }
+      ]
+    },
+    {
+      "role": "epc-construction-manager",
+      "tasks": [
+        "Answer the Project Director's request (REQ-003-epc-proj) with a one-page construction and site organisation summary for PEP Rev A: mobilisation sequence for M05 on 1 March 2027, temporary facilities and the Mon-Sat site works arrangement",
+        "Acknowledge the Planning Manager's request REQ-003-epc-plan and say that subcontractor mobilisation and duration assumptions will follow once the subcontracting strategy is issued"
+      ],
+      "must_produce": [
+        {
+          "kind": "email",
+          "title": "PEP Rev A input - Construction and site organisation summary",
+          "to_role": "epc-project-director"
+        },
+        {
+          "kind": "email",
+          "title": "Re: subcontractor mobilisation dates and duration assumptions for L3 validation",
+          "to_role": "epc-planning-manager"
+        }
+      ]
+    }
+  ],
+  "site": {
+    "manpower": 0,
+    "productivity": 1.0
+  },
+  "notes_for_log": "Saturday office day; no event-engine happenings. Scripted deliverables issued: Procurement Plan and Package List (SCM, 4/01) and Subcontracting Strategy and Prequalification Criteria (Contracts, 14/01, A710 starts early). ACTIONS-000-007 input sent to planning. Engineering and Construction PEP Rev A inputs close the REQ-003 requests to the Project Director. A050 APG/advance payment planned start today; QSE comments on the APG forms are still due 7 Dec (ACT-002-KOM-01)."
+}

@@ -1,0 +1,217 @@
+{
+ "summary": "I issued Rev A of the Project Quality Management Plan for HELIOS today, covering the quality policy, organisation, document review interface, design review, vendor surveillance and FAT, ITPs, NCR handling, audits and records handover. I sent the quality section summary to Aziz Karimov for PEP Rev A and answered the HSE and contracts requests on the QMP interfaces.",
+ "documents": [
+  {
+   "title": "Project Quality Management Plan",
+   "folder": "10/01",
+   "area": "G000",
+   "disc": "Q",
+   "type": "&AQA",
+   "rev": "A",
+   "status": "Issued for Review",
+   "sections": [
+    {
+     "heading": "1. Purpose, scope and status",
+     "paragraphs": [
+      "This Project Quality Management Plan (QMP) sets out how Helios EPC LLC (HEP) will plan, control, verify and record quality for the HELIOS 100 MW Solar PV and BESS Power Plant (HEL001) under the EPC Contract signed on 1 December 2026. It applies to all HEP work and to subcontractors and vendors working for HEP.",
+      "The QMP covers the PV blocks PV1 to PV4, the BESS (BES), the plant substation (PSS), the 220 kV OHTL (TL1), the grid substation interface (GSS) and site infrastructure (SIT). It is issued for review by Qizilqum Solar Energy JSC (QSE) and Meridian Energy Consultants (OWE)."
+     ],
+     "bullets": [
+      "Governing standards: ISO 9001:2015, the EPC Contract (FIDIC Silver Book 2017 based, amended), the approved Design Basis and the applicable Uzbek and IEC codes listed in 15/02.",
+      "Review period: 14 days for plans and procedures, as agreed at the Kick-off Meeting. Comments due 2026-12-21, to be consolidated by Sophie Laurent (OWE).",
+      "Contract clause references in this QMP are to be confirmed by Thomas Becker before the Rev B issue."
+     ]
+    },
+    {
+     "heading": "2. Quality policy and objectives",
+     "paragraphs": [
+      "HEP will deliver HELIOS to the contracted specification, codes and programme. Quality is built in at design, verified at vendor and site, and recorded so that each component can be traced to its inspection. Quality objectives are reviewed monthly and reported in the monthly progress report to QSE."
+     ],
+     "bullets": [
+      "At least 95 percent of hold points released at first inspection, measured monthly from the first piling inspection (M08, 12 April 2027).",
+      "No work covered before the related hold point is released by QA/QC.",
+      "All NCRs issued with a closure plan within 2 working days and closed within the target in Section 8.",
+      "All vendor FATs completed before the equipment is shipped, unless the Project Director approves a deviation in writing.",
+      "100 percent of measuring and test equipment in use within its calibration date."
+     ]
+    },
+    {
+     "heading": "3. Organisation and responsibilities",
+     "paragraphs": [
+      "Arun Pillai (QA/QC Manager) owns this QMP and reports to Rajan Iyer. Each discipline lead is responsible for quality in their own scope, and QA/QC verifies that the controls work. Subcontractor quality leads are named in their quality submissions before mobilisation."
+     ],
+     "table": {
+      "columns": ["Role", "Name", "Quality responsibility"],
+      "rows": [
+       ["Project Director (HEP)", "Rajan Iyer", "Approves the QMP; decides escalated NCRs and deviations"],
+       ["QA/QC Manager (HEP)", "Arun Pillai", "Owns QMP, ITPs, inspection records, NCR register, audits and calibration register"],
+       ["Engineering Manager (HEP)", "Elena Petrova", "Design review, design verification and vendor document review"],
+       ["Construction Manager (HEP)", "Sanjay Mehta", "Construction inspections; requests hold point release"],
+       ["Supply Chain Manager (HEP)", "Mehmet Yildiz", "Vendor qualification and FAT scheduling"],
+       ["Procurement Engineer (HEP)", "Li Wei", "Quality clauses in purchase orders"],
+       ["Planning Manager (HEP)", "Aziz Karimov", "Quality milestones in PEP Rev A and the baseline schedule"],
+       ["HSE Manager (HEP)", "Jamshid Tursunov", "HSE inspection and hold points that interface with the QMP"],
+       ["Contracts Manager (HEP)", "Thomas Becker", "Contract clause interpretation and deemed-approval wording"],
+       ["Document Controller (HEP)", "Nilufar Yusupova", "Registration, numbering and transmittals of quality documents"],
+       ["Subcontractor site QC leads", "Rustam Ergashev (civil), Erkin Saidov (MMS), Farrukh Abdullaev (electrical), Sergey Volkov (substation)", "Site inspection and test records in their scope, and ITP submissions"]
+      ]
+     }
+    },
+    {
+     "heading": "4. Document control interface and review periods",
+     "paragraphs": [
+      "All quality documents are registered in the EDMS under the Document Control and Numbering Procedure (HEL-M-PM-HEP-QSE-01-0A) before work starts. Review periods follow the protocol agreed with QSE and OWE at the Kick-off Meeting. Comments are consolidated by OWE."
+     ],
+     "table": {
+      "columns": ["Document category", "Review period", "HEP owner"],
+      "rows": [
+       ["Engineering drawings, calculations and specifications", "10 working days", "Elena Petrova"],
+       ["Plans and procedures (PEP, HSE plan, QMP)", "14 days", "Rajan Iyer, Arun Pillai, Jamshid Tursunov"],
+       ["Method statements and ITPs", "7 working days", "Sanjay Mehta, Arun Pillai"],
+       ["RFIs and technical queries", "5 working days", "Sanjay Mehta"]
+      ]
+     },
+     "bullets": [
+      "QMP Rev A review closes 2026-12-21. Rev B will be issued with consolidated comments within 7 days of closure.",
+      "Deemed-approval wording is taken from the Contract and confirmed by Thomas Becker."
+     ]
+    },
+    {
+     "heading": "5. Design review and verification",
+     "paragraphs": [
+      "Design is reviewed at three points: Basic Design (M04, 15 March 2027), Issued for Construction packages, and as-built. Every calculation is checked by a competent person who did not prepare it. Review comments and their close-out are logged against the design review matrix kept by Elena Petrova."
+     ],
+     "bullets": [
+      "First design document register issued by 15 December 2026.",
+      "Design review minutes recorded in 3/06 with each comment, owner and close-out date.",
+      "No construction drawing released for work until its review is closed or the open points are agreed in writing."
+     ]
+    },
+    {
+     "heading": "6. Vendor surveillance and FAT",
+     "paragraphs": [
+      "Each major vendor is surveilled from purchase order to delivery. Factory inspections and FATs are witnessed by HEP QA/QC, and shipment is released only after the FAT report is accepted. FAT dates will be confirmed by Mehmet Yildiz against the delivery schedules."
+     ],
+     "table": {
+      "columns": ["Package", "Vendor (contact)", "Scope", "Surveillance and FAT points"],
+      "rows": [
+       ["PV modules", "SunPeak Solar Technology Co. (Chen Yu)", "206,500 x 620 Wp TOPCon bifacial, DDP site", "Factory audit before PO; pre-shipment inspection with flash-test sampling; first delivery M09, 20 July 2027"],
+       ["Central inverter stations", "VoltEdge Power Electronics GmbH (Hans Muller)", "28 x 3.6 MVA stations incl. MV transformers and switchgear", "FAT of each station type; witness of routine tests and temperature rise"],
+       ["Single-axis trackers", "AxisTrack Systems S.A. (Carlos Mendes)", "Trackers for 128 MWp incl. pile design support", "Pile design review; component inspection; FAT of drive and controller"],
+       ["BESS containers", "CellCore Energy Storage Ltd. (Zhang Min)", "50 MW / 100 MWh LFP, PCS and EMS, DDP site", "FAT of containers, PCS and EMS; supervision of installation and commissioning (M12)"]
+      ]
+     }
+    },
+    {
+     "heading": "7. Inspection and test plans, hold and witness points",
+     "paragraphs": [
+      "An ITP is prepared for each work package and submitted under the 7 working day review period. A hold point stops the activity until QA/QC releases it in writing. A witness point allows the activity to proceed after notice to QA/QC, unless QA/QC objects in writing. Inspection records are kept in 10/06 and filed as CQC, MQC or EQC records."
+     ],
+     "table": {
+      "columns": ["Activity", "Point type", "Area", "Discipline and record"],
+      "rows": [
+       ["Pile setting-out and driving records (first piles M08, 12 April 2027)", "Hold", "PV1-PV4", "Civil, CQC"],
+       ["Pile load tests", "Witness", "PV1-PV4", "Civil, CQC"],
+       ["Foundation rebar inspection before concrete pour (inverter stations, substation)", "Hold", "PV1-PV4, PSS", "Civil, CQC"],
+       ["Tracker alignment and torque check", "Hold", "PV1-PV4", "Mechanical, MQC"],
+       ["String cable insulation resistance test", "Hold", "PV1-PV4", "Electrical, EQC"],
+       ["Earthing resistance test", "Witness", "PV1-PV4, PSS", "Electrical, EQC"],
+       ["Substation pre-energisation tests", "Hold", "PSS", "Electrical, EQC"],
+       ["220 kV OHTL energisation", "Hold", "TL1", "Electrical, EQC, with grid operator permit"]
+      ]
+     }
+    },
+    {
+     "heading": "8. Non-conformance and corrective action",
+     "paragraphs": [
+      "Non-conformances are recorded in the NCR Register (10/03) and corrective actions are tracked in 10/04, following the ISO 9001:2015 clause 10.2 method. Work in the affected scope stops for Major and Critical NCRs until a containment action is agreed."
+     ],
+     "table": {
+      "columns": ["Severity", "Definition", "Response", "Closure target"],
+      "rows": [
+       ["Minor", "Documentation or cosmetic deviation with no effect on performance", "Response within 2 working days", "14 days"],
+       ["Major", "Deviation from specification affecting performance, safety or durability; reworkable", "Containment within 1 working day; scope stopped", "30 days"],
+       ["Critical", "Safety impact, breach of a code or permit, or risk to grid connection or a milestone", "Immediate stop; escalated to Rajan Iyer the same day", "Closure plan within 5 working days; closure per plan"]
+      ]
+     },
+     "bullets": [
+      "Major and Critical NCRs are reviewed at the weekly progress meeting (Thursdays) and reported in the monthly progress report to QSE.",
+      "Client notification is given where the Contract requires it, as agreed by Thomas Becker."
+     ]
+    },
+    {
+     "heading": "9. Audits, calibration and quality records",
+     "paragraphs": [
+      "Internal audits are led by Arun Pillai as ISO 9001 lead auditor. Subcontractor quality audits are completed before site mobilisation on 1 March 2027 (M05). Measuring and test equipment is calibrated against traceable standards and logged in the Calibration Register (10/07)."
+     ],
+     "bullets": [
+      "Internal audit: quarterly, with the first audit in Q1 2027 covering the PEP, the ITP system and the NCR process.",
+      "Subcontractor audits: completed before mobilisation; findings closed before first site work.",
+      "Calibration: torque wrenches, insulation and earth testers, IV curve tracers and survey instruments are calibrated at intervals not exceeding 12 months or the manufacturer interval, whichever is shorter.",
+      "Quality records are kept for the defects liability period and handed over under Section 10."
+     ]
+    },
+    {
+     "heading": "10. Records handover and interfaces",
+     "paragraphs": [
+      "Quality records are handed over to QSE and OWE at Provisional Acceptance (M14, 31 May 2028) in an index by area and discipline. The QMP interfaces with the PEP through the quality section summary sent to Aziz Karimov, and with the HSE plan (A070, due 31 January 2027) through the HSE hold points agreed with Jamshid Tursunov."
+     ],
+     "bullets": [
+      "Quality section summary for PEP Rev A: issued to the Planning Manager on 2026-12-07.",
+      "HSE hold points and induction-linked inspections: to be aligned with the HSE plan timeline.",
+      "Final quality dossier format: to be agreed with OWE by the Kick-off of site mobilisation."
+     ]
+    }
+   ]
+  }
+ ],
+ "letters": [],
+ "emails": [
+  {
+   "to_roles": ["epc-planning-manager"],
+   "subject": "QMP Rev A issued - quality section summary for PEP Rev A",
+   "body": "Aziz,\n\nQMP Rev A is issued for review (10/01, Rev A). For cross-reference in PEP Rev A, the quality points are:\n\n1. Review period 14 days, comments to Arun Pillai by 2026-12-21.\n2. Quality hold points on piling (first piles M08, 12 April 2027), foundation pours, tracker alignment, string insulation, substation pre-energisation and 220 kV OHTL energisation.\n3. Vendor FATs before shipment: modules (first delivery M09, 20 July 2027), inverter stations, trackers and BESS containers. Please align the FAT dates with the delivery schedules.\n4. Subcontractor quality audits completed before mobilisation on 1 March 2027.\n\nPlease include these in PEP Rev A, due 15 December.\n\nArun Pillai\nQA/QC Manager, Helios EPC LLC"
+  },
+  {
+   "to_roles": ["epc-hse-manager"],
+   "subject": "Response to REQ-005 - QMP and HSE inspection hold point interface",
+   "body": "Jamshid,\n\nAs requested, the interface between the QMP and HSE inspection is set out in Sections 7 and 10 of QMP Rev A. Hold points for HSE sign-off (scaffolding, lifting equipment, excavation and electrical isolation) should be released before the related quality hold point, so the two plans can be run in one permit sequence.\n\nPlease align the HSE plan timeline (A070, due 31 January 2027) with the QMP hold point list, and confirm by 2026-12-14 if you need any further hold points.\n\nArun Pillai\nQA/QC Manager, Helios EPC LLC"
+  },
+  {
+   "to_roles": ["epc-contracts-manager"],
+   "subject": "Response to REQ-004 - subcontractor quality prequalification and ITP expectations",
+   "body": "Thomas,\n\nFor Sections 5 and 9 of the Subcontracting Strategy, the quality expectations for subcontractors are: a named site QC lead, an approved ITP for each work package submitted under the 7 working day review period, and a quality audit completed before mobilisation on 1 March 2027. Subcontractors must also accept the hold and witness points in QMP Rev A, Section 7.\n\nPlease confirm the clause references in the subcontract conditions so they can be included in QMP Rev B.\n\nArun Pillai\nQA/QC Manager, Helios EPC LLC"
+  }
+ ],
+ "meeting_minutes": [],
+ "register_updates": [
+  {
+   "register": "actions",
+   "op": "append",
+   "row": {
+    "action": "Issue QMP Rev A and send quality section summary to planning manager for PEP Rev A",
+    "owner": "epc-qaqc-manager",
+    "due_date": "2026-12-07",
+    "status": "Closed"
+   }
+  },
+  {
+   "register": "actions",
+   "op": "append",
+   "row": {
+    "action": "Consolidate and respond to QMP Rev A review comments (QSE and OWE)",
+    "owner": "epc-qaqc-manager",
+    "due_date": "2026-12-21",
+    "status": "Open"
+   }
+  }
+ ],
+ "schedule_updates": [],
+ "requests": [
+  {
+   "to_role": "client-owners-engineer",
+   "what": "Please send QMP Rev A review comments by 2026-12-21 to Arun Pillai, and confirm the OWE contact for quality documents when you send the consolidated review matrix.",
+   "due_day": 20
+  }
+ ]
+}

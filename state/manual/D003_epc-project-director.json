@@ -1,0 +1,81 @@
+{
+"summary": "I answered Thomas Becker's request REQ-002 by authorising release of the HEP signatory specimen sheet to QSE and naming the alternate signatories in my absence. I acknowledged QSE's Notice of Nomination of Client Representative and confirmed my own appointment as Contractor's Representative. I also started structuring PEP Rev A and asked the leads for their inputs.",
+"documents": [],
+"letters": [
+{
+"to_role": "client-project-manager",
+"dept": "PM",
+"subject": "Acknowledgement of Nomination of Client Representative (HEL001)",
+"reply_to_ref": "HEL001-L-PM-QSE-HEP-0002",
+"cc_roles": ["client-owners-engineer", "client-commercial-manager", "epc-contracts-manager"],
+"body_paragraphs": [
+"Dear Mr Al-Mansoori,",
+"We acknowledge receipt of your Notice of Nomination of Client Representative (ref. HEL001-L-PM-QSE-HEP-0002) dated 3 December 2026, nominating you as the Employer's Representative for the Contract with effect from that date. We note the scope of your delegated authority at items (a) to (e) of your notice. We also note the matters reserved to the QSE Board or Shareholders: Contract amendments or Variation Orders altering the Contract Price or Time for Completion, termination or suspension, release or draw-down of any security or retention, and waiver of delay liquidated damages.",
+"With effect from today, Helios EPC LLC will address all formal correspondence, notices, submissions and requests for approval to you as Client Representative. Ms Sophie Laurent, Owner's Engineer Lead, will be copied on all technical submissions and formal correspondence. Payment applications, security and guarantee matters, and any correspondence that may affect the Contract Price will be routed to Mr Omar Hassan, Client Commercial & Contracts Manager, with a copy to you. Day-to-day site matters will be coordinated with Mr Bekzod Nazarov, Client Site Representative. We also note that no instruction from the Owner's Engineer will be treated as a Variation unless you confirm it in writing. All submissions will follow the agreed document numbering procedure.",
+"In response to your request for our corresponding nomination, I confirm that I, Rajan Iyer, Project Director, am appointed as Contractor's Representative for the Contract with full authority to act for Helios EPC LLC on contractual and commercial matters. In my absence, notices and correspondence may be signed by the following named persons within these limits: Mr Thomas Becker, Contracts & Commercial Manager, for contractual, commercial and payment correspondence; Ms Elena Petrova, Engineering Manager, for technical and design submissions; and Mr Sanjay Mehta, Construction Manager, for site instructions and site-level correspondence. Any notice that alters the Contract Price or the Time for Completion, or that terminates or suspends the Contract, will be signed by me alone. Mr Becker will send the HEP signatory specimen sheet to Mr Omar Hassan separately.",
+"You also asked us to confirm the monthly progress report format for lender reporting. We will propose the format, content and issue date in the Project Execution Plan Rev A, which I will issue by 15 December 2026 as agreed at the Kick-off Meeting (ACT-002-KOM-07). We will align the format with the lender reporting requirements and the review periods agreed at Kick-off, and I would welcome any lender template or minimum content requirements from you before then, so they can be reflected in Rev A.",
+"Please record both appointments in the Stakeholder Register and Communications Plan ahead of Notice to Proceed on 15 December 2026.",
+"Yours sincerely,\nRajan Iyer\nProject Director, Helios EPC LLC"
+],
+"requires_response_by_day": 9
+}
+],
+"emails": [
+{
+"to_roles": ["epc-contracts-manager"],
+"subject": "Re: Signatory specimen sheet and authorised signatories in PD absence",
+"body": "Thomas,\n\nRe REQ-002. Yes, you are authorised to release the HEP signatory specimen sheet to QSE. Send it to Omar Hassan and copy Khalid Al-Mansoori. Please send it by 7 December, so it is on record before NTP on 15 December. Check the sheet shows the same names and limits I set out in my acknowledgement of Khalid's nomination notice (HEL001-L-PM-QSE-HEP-0002).\n\nAuthorised signatories in my absence:\n1. You, Thomas Becker: contractual, commercial and payment correspondence, including payment applications to QSE.\n2. Elena Petrova: technical and design submissions and transmittals.\n3. Sanjay Mehta: site instructions and site-level correspondence.\n\nAny notice that changes the Contract Price or the Time for Completion, and any notice of claim, termination or suspension, needs my signature. If I am unreachable, send it to me for a decision and do not sign it yourself. You may only issue a notice to protect a time bar, and then only after a call or message to me. Tell me straight away if you do. Please make sure no letter goes out that I have not seen if it commits HEP on price, time or security.\n\nPlease update the Stakeholder Register and Communications Plan with these names and limits, and tell me once the sheet is sent. This closes ACT-002-KOM-03 from your side.\n\nRajan"
+}
+],
+"meeting_minutes": [],
+"register_updates": [
+{
+"register": "actions",
+"op": "append",
+"row": {
+"action": "Issue Project Execution Plan Rev A with reporting format, communication protocol and review periods (ACT-002-KOM-07); structure agreed, inputs requested from leads",
+"owner": "epc-project-director",
+"due_date": "2026-12-15",
+"status": "In progress"
+}
+}
+],
+"schedule_updates": [
+{
+"activity_id": "A030",
+"note": "PEP Rev A structure set out; inputs requested from engineering, planning, supply chain, construction, HSE, QA/QC and contracts. Issue to client by 2026-12-15."
+}
+],
+"requests": [
+{
+"to_role": "epc-planning-manager",
+"what": "Send me the agreed reporting calendar and the Level 1 schedule summary, plus proposed content and layout for the Monthly Progress Report, for the PEP Rev A reporting section. Check it against QSE's lender reporting needs.",
+"due_day": 6
+},
+{
+"to_role": "epc-document-controller",
+"what": "Send me the Document Control and Numbering Procedure status and the review periods agreed at Kick-off (HEL001-MOM-KOM-001), for the PEP communication protocol section. Please also draft the PEP Rev A document list and distribution matrix.",
+"due_day": 6
+},
+{
+"to_role": "epc-engineering-lead",
+"what": "Send me a one-page engineering and design management summary for PEP Rev A: design deliverable stages, review cycle with OWE, and the Basic Design M04 route.",
+"due_day": 7
+},
+{
+"to_role": "epc-scm-lead",
+"what": "Send me a one-page procurement and logistics summary for PEP Rev A, covering the package list, M06 module supply contract route and the customs approach.",
+"due_day": 7
+},
+{
+"to_role": "epc-construction-manager",
+"what": "Send me a one-page construction and site organisation summary for PEP Rev A, covering the mobilisation sequence for M05 and the site works Mon-Sat arrangement.",
+"due_day": 7
+},
+{
+"to_role": "epc-hse-manager",
+"what": "Send me a one-page HSE and QA/QC management summary for PEP Rev A, with the HSE plan timeline (A070) and the interface with Arun Pillai's Quality Management Plan.",
+"due_day": 7
+}
+]
+}

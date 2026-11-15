@@ -1,0 +1,283 @@
+{
+ "summary": "I issued Rev A of the Subcontracting Strategy and Prequalification Criteria covering the civil, MMS, electrical and substation/OHTL packages, with back-to-back terms, local content, HSE/QA, financial and bonding criteria. I asked Mehmet Yıldız to align the package list with the Procurement Plan by 9 December before questionnaires go out, and wrote to Shavkat Bobojonov on parallel lodging of the construction permit file (REQ-003).",
+ "documents": [
+  {
+   "title": "Subcontracting Strategy and Prequalification Criteria",
+   "folder": "14/01",
+   "area": "G000",
+   "disc": "K",
+   "type": "&PRC",
+   "rev": "A",
+   "status": "Issued for Information",
+   "sections": [
+    {
+     "heading": "1. Purpose and Scope",
+     "paragraphs": [
+      "This document sets out the strategy of Helios EPC LLC (HEP) for subcontracting the site works of the HELIOS 100 MW Solar PV + BESS Power Plant (HEL001) under the EPC Contract of 1 December 2026 (FIDIC Silver Book 2017 based, amended; USD 95,000,000 lump sum). It also fixes the criteria against which candidate subcontractors will be prequalified. It is issued as Rev A for activity A710 (Subcontracting strategy and prequalification), forecast 10 December 2026 to 31 January 2027.",
+      "The strategy covers four works packages: Civil, Mounting Structure and Tracker Installation (MMS), Electrical (DC/AC), and Plant Substation with 220 kV OHTL. Supply packages (modules, inverter stations, trackers, BESS) are purchased under supply contracts managed by Supply Chain and are outside this document, except where interfaces with installation packages are identified."
+     ]
+    },
+    {
+     "heading": "2. Contractual Position and Governing Principles",
+     "paragraphs": [
+      "HEP remains fully responsible to Qizilqum Solar Energy JSC (QSE) for the works of its subcontractors as for its own, in accordance with the Subcontracting clause of the Contract. Subcontracting of any part of the Works, and the identity of each subcontractor, is subject to the Employer's consent or notice requirements stated in the Contract. Thomas Becker will confirm the exact wording, period and deemed-consent mechanism against the executed Contract before the proposed list is issued, and the result will be recorded in Rev B."
+     ],
+     "bullets": [
+      "Single point of responsibility: no subcontract relieves HEP of any obligation to QSE.",
+      "Back-to-back: each subcontract flows down price basis, time, LDs, defects liability, warranties, insurance, HSE, QA, audit, confidentiality and step-in rights.",
+      "Lump-sum or unit-rate with an agreed cap per package; no open-ended cost-plus arrangements.",
+      "No award before approval or notification to QSE where required, and not before the NTP date of 15 December 2026 unless HEP accepts the risk in writing.",
+      "Compliance with Uzbek law, including labour, tax, construction licensing and local registration requirements."
+     ]
+    },
+    {
+     "heading": "3. Package Definition and Procurement Route",
+     "paragraphs": [
+      "The packages below are provisional. They will be aligned with the Procurement Plan by Supply Chain (Mehmet Yıldız) before prequalification questionnaires are issued. Values are not stated here; budgets are held in the project cost baseline and will be released to bidders only as per the tender documents."
+     ],
+     "table": {
+      "columns": [
+       "Pkg",
+       "Scope",
+       "Candidate (working assumption)",
+       "Contract form",
+       "Key interface"
+      ],
+      "rows": [
+       [
+        "SC-01 Civil",
+        "Site clearing, grading, access roads, drainage, fencing, piling, foundations for inverter stations and substation, cable trenches",
+        "Navoi Qurilish LLC (Rustam Ergashev)",
+        "Lump sum with unit rates for piling and earthworks quantities",
+        "Geotech (A220), tracker pile design, M08 first piles 12 Apr 2027"
+       ],
+       [
+        "SC-02 MMS",
+        "Mounting structure and tracker installation, module mounting",
+        "SteelPro Montaj LLC (Erkin Saidov)",
+        "Unit rate per tracker and per module, capped",
+        "Tracker vendor design and supervision, civil piles, M09 first modules 20 Jul 2027"
+       ],
+       [
+        "SC-03 Electrical",
+        "String cabling, combiner boxes, MV cabling, inverter station installation, earthing, SCADA field cabling",
+        "UzElectroMontaj JSC (Farrukh Abdullaev)",
+        "Lump sum with measured provisional quantities for cabling",
+        "Inverter vendor, MMS, substation, SCADA"
+       ],
+       [
+        "SC-04 Substation and OHTL",
+        "33/220 kV plant substation, 220 kV OHTL 9 km, grid interface, protection and SCADA",
+        "GridWorks Central Asia LLP (Sergey Volkov)",
+        "Lump sum, milestone payments",
+        "UzGridCo approvals, M10 energisation 20 Jan 2028, M11 first power 15 Feb 2028"
+       ]
+      ]
+     }
+    },
+    {
+     "heading": "4. Selection Approach",
+     "paragraphs": [
+      "Each package will be tendered competitively among at least three prequalified bidders where the market allows. Where fewer qualified firms exist for a specialist scope (notably the 220 kV OHTL and grid interface), a documented single-source or two-bidder justification will be prepared by Contracts and Supply Chain and approved by the Project Director. The firms named in Section 3 are working assumptions only; none has been awarded or promised work, and each must pass the same prequalification as any other bidder.",
+      "Evaluation will be weighted: technical and resource capability 40%, commercial 35%, HSE and quality 15%, local content and programme commitment 10%. Technical and HSE/QA gates are pass/fail before commercial opening."
+     ]
+    },
+    {
+     "heading": "5. Prequalification Criteria",
+     "paragraphs": [
+      "A candidate must pass every mandatory criterion. Scores below the stated thresholds lead to rejection or to acceptance with named conditions approved by the Project Director."
+     ],
+     "table": {
+      "columns": [
+       "Area",
+       "Mandatory criterion",
+       "Evidence"
+      ],
+      "rows": [
+       [
+        "Legal and licensing",
+        "Registered in Uzbekistan, valid construction licence for the relevant class, tax and social-insurance clearance",
+        "Registration extract, licences, tax certificates"
+       ],
+       [
+        "Experience",
+        "Civil, MMS, electrical: at least 2 comparable projects of 20 MW or more in the last 7 years. Substation/OHTL: at least 1 project of 110 kV or higher, and 1 OHTL of 5 km or more, in the last 10 years",
+        "Reference list with client contacts, completion certificates"
+       ],
+       [
+        "Resources",
+        "Named key personnel with CVs, plant and equipment list, mobilisation plan for peak labour",
+        "CVs, equipment register, labour histogram"
+       ],
+       [
+        "Financial capacity",
+        "Average annual turnover of at least 2 times the annual value of the package; positive equity; no insolvency proceedings; working capital to carry at least 2 months of work",
+        "Audited accounts for the last 3 years, bank letter"
+       ],
+       [
+        "HSE",
+        "Documented HSE management system, TRIR and LTI records for 3 years, no fatality in the last 3 years without accepted corrective action, willingness to work to HEP HSE Plan",
+        "HSE manual, statistics, references; assessed by Jamshid Tursunov"
+       ],
+       [
+        "Quality",
+        "Quality system ideally to ISO 9001 or equivalent; ITP and method-statement capability; calibrated equipment",
+        "Certificates, sample ITP; assessed by Arun Pillai"
+       ],
+       [
+        "Programme",
+        "Written commitment to the milestone dates M05 to M13 relevant to the package",
+        "Programme statement"
+       ],
+       [
+        "Compliance and ethics",
+        "Anti-bribery and sanctions declaration, no conflict of interest, no disqualification by lenders or authorities",
+        "Signed declarations"
+       ]
+      ]
+     }
+    },
+    {
+     "heading": "6. Local Content",
+     "paragraphs": [
+      "Local participation is a project objective of QSE and the Navoi Regional Administration. HEP will give preference to Uzbek subcontractors, labour and materials where quality, safety and programme are not compromised. Targets proposed for Rev A, to be validated against any local-content obligation in the Contract and the PPA: at least 80% of site labour hired locally or from Uzbekistan across all packages; civil package materials (aggregate, concrete, reinforcement, cable-trench works) sourced locally; and foreign specialist subcontractors required to nominate local sub-tier partners and a training plan. Each bidder will report local content quarterly. Supply Chain will align this with the Localisation register (4/10)."
+     ]
+    },
+    {
+     "heading": "7. Financial Terms, Bonding and Insurance",
+     "paragraphs": [
+      "The following back-to-back requirements are proposed. Final percentages will be confirmed with the Project Director and Supply Chain, and adjusted per package risk."
+     ],
+     "bullets": [
+      "Retention: 5% of each payment, matching the Contract retention, held until the end of the defects liability period, with release of half upon HEP's own release by QSE.",
+      "Advance payment: up to 10% against an on-demand advance payment bond from a bank acceptable to HEP, reducing pro rata as recovered through payments.",
+      "Performance bond: 10% of the subcontract price, on demand, valid until completion and defects handover; reduced to 5% after completion where agreed.",
+      "Parent company guarantee where the bidder is a subsidiary and its own balance sheet does not meet the financial test.",
+      "Delay damages: flowed down at not less than the HEP exposure of 0.5% per week of the delayed subcontract value, capped at 10% of the subcontract price; separate milestone LDs for packages on the critical path.",
+      "Insurance: Contractor's all risks and third party liability to the Contract limits for the subcontractor's scope, workers' compensation as required by law, and plant insurance; HEP and QSE as additional insureds where possible.",
+      "Payment: monthly applications, certification by HEP within 14 days, payment within 30 days after certification, and pay-when-paid only to the extent QSE's non-payment is not caused by HEP.",
+      "Currency: payment in USD or UZS equivalent as agreed per package; no price adjustment unless specified."
+     ]
+    },
+    {
+     "heading": "8. Contract Forms and Back-to-Back Terms",
+     "paragraphs": [
+      "HEP will use a standard subcontract set based on FIDIC conditions for construction, adapted to the Silver Book obligations of the Contract. The set includes: Form of Agreement; Particular Conditions with back-to-back amendments; Scope and Technical Specification; Programme; Price Schedule; HSE, QA, security and environmental requirements; Insurance and bonds; and the Subcontractor Prequalification and Delivery Questionnaire. Back-to-back flow-down will cover notices and time bars, which are shortened by at least 7 days so that HEP can meet the Contract's notice periods, variations and claims procedure, inspection and testing, taking-over, defects liability, termination, dispute resolution, and access for QSE and the Owner's Engineer (Meridian) audits.",
+      "Governing law and dispute resolution will mirror the Contract so far as Uzbek mandatory law permits."
+     ]
+    },
+    {
+     "heading": "9. HSE and Quality Thresholds",
+     "paragraphs": [
+      "Bidders must accept the project HSE Plan (due 31 January 2027) and the Quality Management Plan. Prequalification HSE score of at least 70 out of 100 is required, with no open critical findings. Subcontractors will provide a package-specific HSE plan, risk assessments and method statements before mobilisation, complete site induction before first access, and report weekly manhours, incidents and toolbox talks. Quality: ITPs and method statements are submitted for review within the agreed 7 working days; hold and witness points are identified in the subcontract; and non-conformances are tracked in the NCR register."
+     ]
+    },
+    {
+     "heading": "10. Process, Responsibilities and Programme",
+     "paragraphs": [
+      "Responsibilities: Thomas Becker leads the strategy, forms and legal terms; Mehmet Yıldız and Li Wei lead the tender process and alignment with the Procurement Plan; Sanjay Mehta and Elena Petrova provide scope and technical evaluation; Jamshid Tursunov and Arun Pillai carry out HSE and quality assessment; Rajan Iyer approves the proposed list and awards.",
+      "Target dates, subject to confirmation with Planning (Aziz Karimov) and consistent with A710 and mobilisation M05 on 1 March 2027:"
+     ],
+     "bullets": [
+      "Alignment of package list with Procurement Plan: by 9 December 2026.",
+      "Prequalification questionnaires issued: by 14 December 2026.",
+      "Returns and assessment: 11 January 2027; prequalified list and Proposed Subcontractor List to Project Director: 18 January 2027.",
+      "Submission to QSE for consent or notification: by 22 January 2027.",
+      "Completion of A710: 31 January 2027; tender issue to prequalified bidders thereafter, so that civil award precedes M05 and M08."
+     ]
+    },
+    {
+     "heading": "11. Risks and Open Items",
+     "bullets": [
+      "Civil, MMS and electrical contractors have limited capacity for concurrent works in winter 2026/27 and the summer 2027 peak; early engagement is required.",
+      "Bank acceptability and bond-issuing capacity of local subcontractors may delay awards; bank lists to be confirmed.",
+      "Contract deemed-consent wording and local-content obligations are to be verified by Contracts.",
+      "Tracker and inverter vendor installation supervision scopes must be coordinated with SC-02 and SC-03 to avoid gaps.",
+      "Currency and price escalation exposure for subcontract prices fixed beyond 12 months."
+     ]
+    }
+   ]
+  }
+ ],
+ "letters": [
+  {
+   "to_role": "local-authority",
+   "dept": "CO",
+   "subject": "Construction Permit File - Parallel Lodging with Basic Design Review and Applicable Standards (HEL001)",
+   "body_paragraphs": [
+    "Dear Mr Bobojonov,",
+    "Further to the Kick-off Meeting held on 3 December 2026 under the HELIOS 100 MW Solar PV + BESS project (HEL001), we write about the construction permit file, which HEP will prepare and file with the Navoi Regional Administration and State Construction Inspectorate, with the land documents provided by QSE. The target date for obtaining the permit is 20 March 2027.",
+    "The permit file will be based on the Basic Design (Stage 2) set, which is planned for submission to the Owner's Engineer on 12 February 2027 and approval by QSE on 15 March 2027. We would be grateful if you could confirm: (a) whether the file may be lodged for examination in parallel with the Owner's Engineer's review of the Basic Design, with any later revisions to follow as supplements; (b) the standards, codes and expert examinations the Inspectorate applies to a solar plant, BESS, 33/220 kV substation and 220 kV OHTL; and (c) the statutory examination period and the documents required in the file.",
+    "We would welcome a short meeting at your convenience in the week of 14 December 2026 so that our Engineering Manager, Elena Petrova, and I can agree the list of documents. We would be grateful for your reply by 14 December 2026.",
+    "Yours faithfully,\nThomas Becker\nContracts & Commercial Manager, Helios EPC LLC"
+   ],
+   "cc_roles": [
+    "client-project-manager",
+    "epc-project-director",
+    "epc-engineering-lead"
+   ],
+   "requires_response_by_day": 14
+  }
+ ],
+ "emails": [
+  {
+   "to_roles": [
+    "epc-scm-lead"
+   ],
+   "subject": "Alignment of subcontract packages with Procurement Plan and prequalification timing",
+   "body": "Mehmet,\n\nToday I issued Rev A of the Subcontracting Strategy and Prequalification Criteria (14/01, HEL001-G000-K-&PRC), for activity A710. Before I issue the prequalification questionnaires, please align the subcontract package list with the Procurement Plan.\n\nI have defined four provisional works packages:\n- SC-01 Civil (clearing, grading, roads, drainage, fencing, piling, foundations, cable trenches)\n- SC-02 MMS (tracker installation and module mounting)\n- SC-03 Electrical (DC/AC, MV, inverter station installation, earthing, SCADA field cabling)\n- SC-04 Substation and 220 kV OHTL (9 km)\n\nPlease confirm by 9 December 2026:\n1. That these packages, and their boundaries, match the Procurement Plan. Please tell me where installation, supervision or free-issue items are split differently, in particular for trackers (piles design support), inverter stations (MV and installation) and BESS (supervision of installation by CellCore).\n2. Your free-issue and delivery interface dates per package (for example first module delivery M09, 20 July 2027), so that I can reflect them in the subcontract terms.\n3. Which firms are already in contact with your team, so that we do not approach the same bidders on different terms.\n4. Your preferred tender sequence and any packages you would like to be tendered together.\n\nMy proposed timing is: questionnaires out by 14 December, returns by 11 January, prequalified list to Rajan by 18 January 2027, and submission to QSE by 22 January, inside the A710 window (finish 31 January). Civil must be awarded in time for mobilisation on 1 March (M05) and first piles on 12 April (M08). I need your input on whether Li Wei can help with the questionnaire logistics. I will also ask Sanjay and Elena for technical scope input.\n\nThe named firms in the strategy are working assumptions only and carry no commitment. Please do not discuss award with any of them until the list is approved.\n\nRegards,\nThomas Becker\nContracts & Commercial Manager, HEP"
+  }
+ ],
+ "meeting_minutes": [],
+ "register_updates": [
+  {
+   "register": "actions",
+   "op": "append",
+   "row": {
+    "action": "Align subcontract package list with Procurement Plan (SC-01 to SC-04) before prequalification questionnaires issue",
+    "owner": "epc-scm-lead",
+    "due_date": "2026-12-09",
+    "status": "open"
+   }
+  },
+  {
+   "register": "actions",
+   "op": "append",
+   "row": {
+    "action": "Verify Contract subcontracting consent, deemed-consent and local-content wording and record in Subcontracting Strategy Rev B",
+    "owner": "epc-contracts-manager",
+    "due_date": "2026-12-11",
+    "status": "open"
+   }
+  }
+ ],
+ "schedule_updates": [
+  {
+   "activity_id": "A710",
+   "pct_complete": 10,
+   "note": "Subcontracting Strategy and Prequalification Criteria Rev A issued; package alignment with SCM requested for 9 Dec."
+  }
+ ],
+ "requests": [
+  {
+   "to_role": "epc-scm-lead",
+   "what": "Confirm package boundaries, free-issue interfaces and tender sequence against Procurement Plan for SC-01 to SC-04 by 9 December 2026",
+   "due_day": 8
+  },
+  {
+   "to_role": "epc-construction-manager",
+   "what": "Provide scope descriptions, site constraints, and preferred subcontractor technical evaluation criteria for civil, MMS, electrical and substation/OHTL packages for the prequalification questionnaires",
+   "due_day": 10
+  },
+  {
+   "to_role": "epc-hse-manager",
+   "what": "Confirm HSE prequalification scoring (threshold 70/100) and statistics requirements in Section 5 and 9 of the Subcontracting Strategy",
+   "due_day": 10
+  },
+  {
+   "to_role": "epc-qaqc-manager",
+   "what": "Confirm quality prequalification requirements and ITP expectations for subcontractors in Section 5 and 9 of the Subcontracting Strategy",
+   "due_day": 10
+  }
+ ]
+}

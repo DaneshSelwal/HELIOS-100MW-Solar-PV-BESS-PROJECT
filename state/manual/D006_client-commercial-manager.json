@@ -1,0 +1,42 @@
+{
+  "summary": "I returned QSE's comments on the draft Advance Payment Guarantee and Performance Security forms to Thomas Becker by letter today, as the action was due today. I also set out what QSE needs on the issuing bank's rating evidence and the signatory documents, so that the forms can be agreed by 11 December ahead of NTP.",
+  "documents": [],
+  "letters": [
+    {
+      "to_role": "epc-contracts-manager",
+      "dept": "CO",
+      "subject": "QSE Comments on Draft Advance Payment Guarantee and Performance Security Forms (HEL001)",
+      "body_paragraphs": [
+        "Dear Thomas,",
+        "Further to your letter HEL001-L-CM-HEP-QSE-0001, submitting the draft Advance Payment Guarantee and Performance Security forms for approval on 2 December 2026, please find below QSE's comments on the drafts. These comments are provided on 7 December 2026, the date committed at the weekly progress meeting, and are consistent with the Contract as signed on 1 December 2026.",
+        "Advance Payment Guarantee: the guaranteed amount must equal the 10% advance on the Contract Price of USD 95,000,000, that is USD 9,500,000, and must not exceed it. The validity must run until the advance has been fully recovered, with no earlier expiry date. The form must be unconditional and payable on first written demand, and must not add conditions that are not in the Contract. QSE will release the advance, which is targeted for receipt on 5 January 2027, only against an issued and accepted guarantee, so the wording must be final before issue.",
+        "Performance Security: the amount, validity and reduction or release provisions must follow the Contract exactly. We do not accept any release linked to events other than those set out in the Contract, and any extension of validity must be shown on the form itself. Please confirm that the form annexed to the EPC Contract is the one used in your draft and identify any deviation from it in a separate schedule, so that it can be considered on its own merits.",
+        "Issuing bank: QSE cannot yet accept the bank proposed by HEP. We need the bank's name, its latest rating report and evidence of its acceptability for this type of instrument. QSE will confirm its position in writing by 9 December 2026, as recorded in the minutes of the weekly progress meeting. The signatory specimen sheet and power of attorney for both instruments are also required by 11 December 2026, so that the forms can be agreed and the instruments issued before NTP on 15 December 2026.",
+        "Please note that these comments are not exhaustive and QSE reserves the right to make further comments once the revised forms and the bank evidence have been received. Nothing in this letter waives any right of the Employer under the Contract. As agreed in the communication protocol, we will confirm any position affecting scope, time or cost by formal letter. I would be grateful for an acknowledgement of this letter within two working days.",
+        "Yours sincerely,\nOmar Hassan\nClient Commercial & Contracts Manager\nQizilqum Solar Energy JSC (QSE)"
+      ],
+      "cc_roles": [
+        "client-project-manager"
+      ],
+      "reply_to_ref": "HEL001-L-CM-HEP-QSE-0001",
+      "attachments": [],
+      "requires_response_by_day": 10
+    }
+  ],
+  "emails": [],
+  "meeting_minutes": [],
+  "register_updates": [],
+  "schedule_updates": [],
+  "requests": [
+    {
+      "to_role": "epc-contracts-manager",
+      "what": "Provide the name of the proposed issuing bank, its latest rating report and evidence of its acceptability for the APG and Performance Security, so QSE can respond by 9 December 2026 (ACT-002-KOM-02).",
+      "due_day": 8
+    },
+    {
+      "to_role": "epc-contracts-manager",
+      "what": "Submit the signatory specimen sheet and power of attorney for the APG and Performance Security and the revised forms reflecting QSE comments, for agreement by 11 December 2026.",
+      "due_day": 10
+    }
+  ]
+}

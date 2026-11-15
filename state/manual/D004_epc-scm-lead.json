@@ -1,0 +1,496 @@
+{
+ "summary": "I issued Rev A of the Procurement Plan and Package List with nine supply packages and four subcontracts, with RFQ and award dates, incoterms and the logistics route to Navoi. I sent the vendor lead times and PO dates to Aziz for the baseline L3 (ACTIONS-000-007), a one-page summary to Rajan, and the package list and cargo insurance points to Thomas. The transformer lead time against M10 is my main concern, and I need Elena's specifications by 18 December.",
+ "documents": [
+  {
+   "title": "Procurement Plan and Package List",
+   "folder": "4/01",
+   "area": "G000",
+   "disc": "P",
+   "type": "&PRC",
+   "rev": "A",
+   "status": "Issued for Review",
+   "sections": [
+    {
+     "heading": "1. Purpose and scope",
+     "paragraphs": [
+      "This Procurement Plan and Package List, Rev A, defines how Helios EPC LLC (HEP) will buy, expedite, ship and clear the equipment and subcontract packages for the HELIOS 100 MW Solar PV + BESS Plant (HEL001), Qizilqum Solar Site, Navoi Region. It covers 100 MWac / 128 MWp PV (PV1-PV4), the 50 MW / 100 MWh BESS, the 33/220 kV plant substation and the 9 km 220 kV OHTL.",
+      "It is the procurement input to the Level 3 baseline schedule (A040, approval target 10 January 2027) and to the Project Execution Plan Rev A. All dates are planning dates; they are driven by the contract milestones M04 (15 Mar 2027), M06 (15 Feb 2027), M08 (12 Apr 2027), M09 (20 Jul 2027), M10 (20 Jan 2028) and M12 (15 Apr 2028). Prices shown elsewhere are indicative budgets only until bids are in."
+     ]
+    },
+    {
+     "heading": "2. Procurement strategy",
+     "paragraphs": [
+      "Strategy is lump-sum, back-to-back with the EPC Contract (FIDIC Silver Book 2017 based, amended): fixed-price supply orders, warranty and performance terms not less than the EPC Contract, delay LDs from vendors set to cover HEP's exposure of 0.5% per week capped at 10%."
+     ],
+     "bullets": [
+      "Main equipment (modules, trackers, inverter stations, BESS) goes to the named vendors in the Contract documents, with at least two competitive alternates per package so that price tension is maintained and a fallback exists.",
+      "Transformers, HV and MV switchgear, cables and SCADA are competitively tendered with 3 to 4 qualified bidders; technical evaluation by Elena Petrova's team, commercial evaluation by Li Wei and me, approval by Rajan Iyer.",
+      "Subcontract packages (civil, MMS and tracker installation, electrical, substation and OHTL) follow prequalification in folder 14/02 and the subcontract drafting plan under activity A710 run by Thomas Becker.",
+      "Local content: cables (LV), fencing, aggregates, cement, rebar and civil consumables are sourced in Uzbekistan where quality and price are acceptable; register in folder 4/10.",
+      "Client approval: vendor lists are submitted to QSE and Meridian (Sophie Laurent) for approval before RFQ award, per the Contract, using the 10 working day review period for specifications.",
+      "Payment terms: advance payments only against advance payment bonds; milestone payments tied to FAT, shipment and delivery; 5-10% retention or performance bond on major supply orders."
+     ]
+    },
+    {
+     "heading": "3. Package list, RFQ dates, incoterms and delivery windows",
+     "paragraphs": [
+      "The table lists each main package with RFQ issue date, award or PO date and the delivery window at site. Equipment packages P01-P09 and subcontract packages S01-S04 are tracked in the procurement register (folder 4/09)."
+     ],
+     "table": {
+      "columns": [
+       "Pkg",
+       "Package",
+       "Source / counterparty",
+       "Scope / quantity",
+       "Incoterm",
+       "RFQ issue",
+       "Award / PO",
+       "Delivery window at site"
+      ],
+      "rows": [
+       [
+        "P01",
+        "PV modules 620 Wp TOPCon bifacial",
+        "SunPeak Solar Technology Co. (Chen Yu) + 2 alternates",
+        "206,500 modules, 128.03 MWp (approx. 335 x 40 ft containers)",
+        "DDP site",
+        "2026-12-21",
+        "2027-02-15 (M06)",
+        "2027-07-20 (M09) to 2027-11-30"
+       ],
+       [
+        "P02",
+        "Single-axis trackers incl. pile design support",
+        "AxisTrack Systems S.A. (Carlos Mendes) + 1 alternate",
+        "128 MWp, all PV1-PV4",
+        "DAP site",
+        "2027-01-04",
+        "LOI/engineering 2027-01-29; PO 2027-02-26",
+        "2027-06-01 to 2027-09-30"
+       ],
+       [
+        "P03",
+        "Inverter stations (inverter, MV transformer, MV switchgear)",
+        "VoltEdge Power Electronics GmbH (Hans Müller) + 1 alternate",
+        "28 x 3.6 MVA stations",
+        "DAP site",
+        "2027-01-11",
+        "2027-03-15",
+        "2027-10-01 to 2027-12-15"
+       ],
+       [
+        "P04",
+        "BESS 50 MW / 100 MWh LFP, PCS, EMS",
+        "CellCore Energy Storage Ltd. (Zhang Min) + 1 alternate",
+        "Containers, PCS, EMS, supervision of installation and commissioning",
+        "DDP site",
+        "2027-01-18",
+        "2027-04-30",
+        "2027-12-01 to 2028-01-31"
+       ],
+       [
+        "P05",
+        "220/33 kV power transformer(s) and 220 kV switchgear and protection",
+        "Tier-1 OEM shortlist (to be confirmed with Engineering)",
+        "Main transformer(s), 220 kV bays, CT/VT, protection and control",
+        "FCA/DAP site",
+        "2027-01-04",
+        "2027-02-12",
+        "2027-11-15 to 2027-12-15 (critical for M10)"
+       ],
+       [
+        "P06",
+        "33 kV switchgear, auxiliary transformers, LV and DC auxiliary systems",
+        "OEM shortlist (3 bidders)",
+        "Plant substation MV and LV boards",
+        "DAP site",
+        "2027-02-01",
+        "2027-04-15",
+        "2027-10-01 to 2027-11-30"
+       ],
+       [
+        "P07",
+        "Cables: DC string, LV, 33 kV MV, earthing, fibre optic",
+        "International and local manufacturers (3 to 4 bidders each)",
+        "Quantities from Basic Design (M04)",
+        "DAP site / EXW local",
+        "2027-03-01",
+        "2027-04-30",
+        "2027-07-01 to 2027-10-31, staged by block"
+       ],
+       [
+        "P08",
+        "SCADA, telecom, CCTV, meteorological stations, fencing and security",
+        "Shortlist to be agreed with Engineering",
+        "Per Basic Design",
+        "DAP site",
+        "2027-04-01",
+        "2027-06-01",
+        "2027-09-01 to 2027-11-30"
+       ],
+       [
+        "P09",
+        "220 kV OHTL materials (towers, conductor, OPGW, insulators, fittings)",
+        "Within GridWorks scope; HEP to approve vendors",
+        "9 km OHTL",
+        "DAP site",
+        "2027-01-11",
+        "2027-03-15",
+        "2027-08-01 to 2027-11-30"
+       ],
+       [
+        "S01",
+        "Civil works subcontract",
+        "Navoi Qurilish LLC (Rustam Ergashev)",
+        "Clearing, grading, roads, drainage, fencing, piling, foundations, trenches",
+        "n/a",
+        "2027-01-04",
+        "2027-02-15",
+        "Mobilise by 2027-03-01 (M05)"
+       ],
+       [
+        "S02",
+        "Mounting structure and tracker installation subcontract",
+        "SteelPro Montaj LLC (Erkin Saidov)",
+        "Tracker and module installation",
+        "n/a",
+        "2027-02-01",
+        "2027-03-15",
+        "Start with M08 (2027-04-12)"
+       ],
+       [
+        "S03",
+        "DC/AC electrical subcontract",
+        "UzElectroMontaj JSC (Farrukh Abdullaev)",
+        "String, MV cabling, inverter stations, earthing, SCADA field cabling",
+        "n/a",
+        "2027-03-15",
+        "2027-04-30",
+        "Start 2027-06"
+       ],
+       [
+        "S04",
+        "Plant substation and 220 kV OHTL subcontract",
+        "GridWorks Central Asia LLP (Sergey Volkov)",
+        "33/220 kV substation, 9 km OHTL, grid interface, protection and SCADA",
+        "n/a",
+        "2027-01-11",
+        "2027-03-15",
+        "Energisation 2028-01-20 (M10)"
+       ]
+      ]
+     }
+    },
+    {
+     "heading": "4. Long-lead items and critical path",
+     "paragraphs": [
+      "The following items drive the schedule and will be given weekly expediting attention from award:"
+     ],
+     "bullets": [
+      "Modules (P01): contract must be signed on 15 February 2027 (M06) to hold the factory slot for first delivery on 20 July 2027 (M09). Production 10-12 weeks after FAT release plus 6-7 weeks rail transit; any slip in M06 moves M09 day for day.",
+      "220/33 kV power transformer(s) (P05): 36-40 weeks ex-works. Award on 12 February 2027 gives site delivery in mid-November 2027, leaving only about 9 weeks to M10 (20 Jan 2028). This is the tightest item; I need the technical specification from Engineering by 18 December 2026 to issue RFQ on 4 January 2027.",
+      "Inverter stations (P03): 24-28 weeks including MV transformer and switchgear; PO by 15 March 2027 to deliver from 1 October 2027.",
+      "Trackers (P02): early engineering and pile design support is needed before first piles on 12 April 2027 (M08); loads and pile data from AxisTrack are required by end of February 2027.",
+      "BESS (P04): 28-32 weeks plus transport; PO by 30 April 2027 for delivery from 1 December 2027 against M12 (15 Apr 2028).",
+      "MV cabling (P07): 33 kV cable 16-20 weeks; PO by 30 April 2027."
+     ]
+    },
+    {
+     "heading": "5. Incoterms and logistics route to the Navoi site",
+     "paragraphs": [
+      "Site is about 45 km north-east of Navoi city, reached by a 12 km unpaved track from the A-380 highway; the nearest rail railhead is Navoi. Preferred routings:"
+     ],
+     "bullets": [
+      "Modules and BESS (China): rail via Kazakhstan border (Dostyk or Altynkol) to Uzbekistan, then Navoi railhead and road to site; transit 25-35 days. Sea freight to a Black Sea or Caspian port is the fallback.",
+      "Inverter stations (Germany) and trackers (Spain): road/rail or sea to Poti, then Caspian crossing and rail through Kazakhstan or Turkmenistan; or direct European road/rail via Turkey. Transit 35-50 days; two routes will be priced in each RFQ.",
+      "Heavy and oversized loads (power transformers, inverter stations): route survey of the A-380 and the 12 km track, bridge and power-line clearances, and a track upgrade by Navoi Qurilish before first heavy delivery (target June 2027).",
+      "Incoterms: DDP site for modules and BESS (vendor carries freight, customs and risk to site); DAP site for other imported equipment, with HEP or its agent handling import clearance; EXW/FCA only where HEP's forwarder holds a better rate.",
+      "Marine cargo insurance: all risks (Institute Cargo Clauses A), 110% of CIF value, warehouse to warehouse including site storage, to be confirmed with Thomas Becker."
+     ]
+    },
+    {
+     "heading": "6. Customs and import approach",
+     "paragraphs": [
+      "I will appoint a Uzbek customs broker by 29 January 2027. Customs duty and VAT relief for solar equipment under the Contract and the PPA structure must be confirmed by QSE and Thomas Becker; I am assuming exemption certificates will be required before each import and have built 4 weeks into the schedule per shipment. Pre-arrival declarations, HS code classification (modules, inverters, trackers, BESS, cables, transformers) and temporary storage at the Navoi railhead or a customs warehouse will be arranged. Shavkat Bobojonov's office will be the customs liaison point for authority queries."
+     ]
+    },
+    {
+     "heading": "7. Responsibilities and approvals",
+     "table": {
+      "columns": [
+       "Role",
+       "Person",
+       "Responsibility"
+      ],
+      "rows": [
+       [
+        "Supply Chain Manager",
+        "Mehmet Yıldız",
+        "Plan owner, negotiation, award recommendation, logistics, customs"
+       ],
+       [
+        "Buyer",
+        "Li Wei",
+        "RFQ preparation, bid tabulation, PO issue, expediting"
+       ],
+       [
+        "Engineering Manager",
+        "Elena Petrova",
+        "Technical specifications, technical bid evaluation, vendor documents, FAT scope"
+       ],
+       [
+        "Contracts Manager",
+        "Thomas Becker",
+        "Commercial terms, subcontracts (A710), insurance, notices"
+       ],
+       [
+        "QA/QC Manager",
+        "Arun Pillai",
+        "Vendor qualification, factory inspections and FAT"
+       ],
+       [
+        "Planning Manager",
+        "Aziz Karimov",
+        "Procurement logic in L1-L3 baseline"
+       ],
+       [
+        "Project Director",
+        "Rajan Iyer",
+        "Approval of awards"
+       ]
+      ]
+     }
+    },
+    {
+     "heading": "8. Risks and open items",
+     "bullets": [
+      "Late technical specifications from Engineering delay RFQ dates; I need specs for P05 by 18 Dec 2026 and P02 and P03 by 31 Dec 2026.",
+      "Customs duty exemption status not yet confirmed (action to Thomas Becker).",
+      "Border and rail congestion on the China-Kazakhstan route in winter; 2-3 weeks of buffer is included in the module window.",
+      "Transformer lead time versus M10 energisation (see section 4).",
+      "Basic Design approval (M04, 15 Mar 2027) comes after several awards; quantities for cables and BoP will be confirmed by provisional BoQ."
+     ]
+    },
+    {
+     "heading": "9. Next steps",
+     "bullets": [
+      "Submit procurement inputs to the Planning Manager by 8 December 2026 (ACTIONS-000-007).",
+      "Issue RFQ packages P01 by 21 December 2026 and P05, P02 by 4 January 2027.",
+      "Submit vendor lists to QSE and Meridian for approval by 15 January 2027.",
+      "Issue Rev B after baseline schedule approval and bid results."
+     ]
+    }
+   ]
+  }
+ ],
+ "letters": [],
+ "emails": [
+  {
+   "to_roles": [
+    "epc-planning-manager",
+    "epc-planning-engineer-2"
+   ],
+   "subject": "Procurement packages, vendor lead times and PO dates for baseline L3 (ACTIONS-000-007)",
+   "body": "Aziz,\n\nPlease find below my procurement inputs for the L3 baseline (ACTIONS-000-007, requests REQ-000/002/003), taken from the Procurement Plan and Package List Rev A issued today in folder 4/01. Dates are planning dates; lead times assume vendor slots are held from award.\n\nLong-lead and main packages (RFQ issue / award or PO / site delivery window / vendor lead time):\n- P01 PV modules, SunPeak, 206,500 x 620 Wp: RFQ 21 Dec 2026 / contract 15 Feb 2027 (M06) / 20 Jul 2027 (M09) to 30 Nov 2027 / production 10-12 wks plus 6-7 wks transit. DDP site.\n- P02 Trackers, AxisTrack, 128 MWp: RFQ 4 Jan 2027 / LOI 29 Jan, PO 26 Feb 2027 / 1 Jun to 30 Sep 2027 / 14-16 wks plus transit. DAP site.\n- P03 Inverter stations, VoltEdge, 28 x 3.6 MVA: RFQ 11 Jan / PO 15 Mar 2027 / 1 Oct to 15 Dec 2027 / 24-28 wks. DAP site.\n- P04 BESS, CellCore, 50 MW / 100 MWh: RFQ 18 Jan / PO 30 Apr 2027 / 1 Dec 2027 to 31 Jan 2028 / 28-32 wks. DDP site.\n- P05 220/33 kV transformer and 220 kV HV equipment: RFQ 4 Jan / PO 12 Feb 2027 / 15 Nov to 15 Dec 2027 / 36-40 wks. This is critical to M10 (20 Jan 2028).\n- P06 33 kV switchgear and auxiliaries: RFQ 1 Feb / PO 15 Apr / 1 Oct to 30 Nov 2027.\n- P07 Cables: RFQ 1 Mar / PO 30 Apr / 1 Jul to 31 Oct 2027 staged by block.\n- P08 SCADA, telecom, CCTV, met stations, fencing: RFQ 1 Apr / PO 1 Jun / 1 Sep to 30 Nov 2027.\n- P09 OHTL materials: RFQ 11 Jan / PO 15 Mar / 1 Aug to 30 Nov 2027.\n\nSubcontract awards (for A710): civil 15 Feb 2027, MMS and tracker installation 15 Mar, substation and OHTL 15 Mar, electrical 30 Apr.\n\nLogistics: modules and BESS by rail via Kazakhstan to the Navoi railhead (25-35 days), inverter stations and trackers from Europe via the Middle Corridor or Turkey (35-50 days), plus 4 weeks customs allowance per shipment. Please link the module logic to M06 and M09, and add the transformer as a driver for M10.\n\nThese dates depend on technical specifications from Elena by 18 Dec (P05) and 31 Dec (P02, P03). Priya and Dilnoza can contact Li Wei for the Excel version. I will update when bids arrive.\n\nMehmet"
+  },
+  {
+   "to_roles": [
+    "epc-project-director"
+   ],
+   "subject": "Procurement and logistics summary for PEP Rev A",
+   "body": "Rajan,\n\nOne-page summary for PEP Rev A, from the Procurement Plan and Package List Rev A (folder 4/01):\n\nPackages: 9 supply packages (modules, trackers, inverter stations, BESS, transformer and HV, MV switchgear, cables, SCADA/BoP, OHTL materials) and 4 subcontracts (civil, MMS/tracker installation, electrical, substation/OHTL).\n\nM06 route: RFQ to SunPeak and two alternates on 21 Dec 2026, bids 22 Jan, technical and commercial evaluation to 5 Feb, your approval and QSE/Meridian vendor approval, contract signature 15 Feb 2027. First modules on site 20 Jul 2027 (M09), 206,500 modules in about 335 containers through to 30 Nov 2027.\n\nLogistics and customs: rail from China via Kazakhstan to the Navoi railhead and road to site; European equipment via the Middle Corridor or Turkey. Modules and BESS DDP site, other equipment DAP site. Customs broker to be appointed by 29 Jan 2027; duty and VAT exemption certificates to be confirmed by Thomas and QSE.\n\nKey risk: the 220/33 kV transformer (36-40 weeks) against M10 energisation on 20 Jan 2028. It needs the technical specification from Elena by 18 Dec so that I can issue RFQ on 4 Jan and award on 12 Feb 2027. Late specifications are my main concern for all RFQ dates.\n\nMehmet"
+  },
+  {
+   "to_roles": [
+    "epc-contracts-manager"
+   ],
+   "subject": "Package list with award dates for A710, cargo insurance and customs exemption",
+   "body": "Thomas,\n\nIn response to REQ-000 (subcontract and vendor packages list for A710): the target award dates are in the Procurement Plan and Package List Rev A, folder 4/01. Subcontracts: civil, Navoi Qurilish 15 Feb 2027; MMS and tracker installation, SteelPro 15 Mar; substation and OHTL, GridWorks 15 Mar; electrical, UzElectroMontaj 30 Apr. Supply: modules 15 Feb (M06), trackers 26 Feb, transformer and HV 12 Feb, inverter stations 15 Mar, switchgear 15 Apr, BESS 30 Apr, cables 30 Apr.\n\nMarine cargo insurance proposed: all risks (Institute Cargo Clauses A), 110% of CIF value, warehouse to warehouse incl. site storage, covering modules, inverters, BESS, trackers and transformers; for DDP packages the vendor insures but names HEP and QSE as loss payee. Please confirm the policy requirement.\n\nI also need your confirmation of the customs duty and VAT exemption route for imported equipment and who obtains the certificates, as this affects the 4 week allowance per shipment.\n\nMehmet"
+  }
+ ],
+ "meeting_minutes": [],
+ "register_updates": [
+  {
+   "register": "procurement",
+   "op": "append",
+   "row": {
+    "package": "P01 PV modules 620 Wp (206,500)",
+    "vendor": "SunPeak Solar Technology Co.",
+    "stage": "RFQ planned 2026-12-21",
+    "value_usd": "14500000",
+    "promised_delivery": "2027-07-20",
+    "status": "Planned",
+    "notes": "Indicative budget; contract M06 2027-02-15; DDP site"
+   }
+  },
+  {
+   "register": "procurement",
+   "op": "append",
+   "row": {
+    "package": "P02 Single-axis trackers 128 MWp",
+    "vendor": "AxisTrack Systems S.A.",
+    "stage": "RFQ planned 2027-01-04",
+    "value_usd": "8000000",
+    "promised_delivery": "2027-06-01",
+    "status": "Planned",
+    "notes": "Indicative budget; PO 2027-02-26; DAP site"
+   }
+  },
+  {
+   "register": "procurement",
+   "op": "append",
+   "row": {
+    "package": "P03 Inverter stations 28 x 3.6 MVA",
+    "vendor": "VoltEdge Power Electronics GmbH",
+    "stage": "RFQ planned 2027-01-11",
+    "value_usd": "9500000",
+    "promised_delivery": "2027-10-01",
+    "status": "Planned",
+    "notes": "Indicative budget; PO 2027-03-15; DAP site"
+   }
+  },
+  {
+   "register": "procurement",
+   "op": "append",
+   "row": {
+    "package": "P04 BESS 50 MW / 100 MWh",
+    "vendor": "CellCore Energy Storage Ltd.",
+    "stage": "RFQ planned 2027-01-18",
+    "value_usd": "22000000",
+    "promised_delivery": "2027-12-01",
+    "status": "Planned",
+    "notes": "Indicative budget; PO 2027-04-30; DDP site"
+   }
+  },
+  {
+   "register": "procurement",
+   "op": "append",
+   "row": {
+    "package": "P05 220/33 kV transformer and 220 kV HV equipment",
+    "vendor": "TBD (competitive)",
+    "stage": "RFQ planned 2027-01-04",
+    "value_usd": "6000000",
+    "promised_delivery": "2027-11-15",
+    "status": "Planned",
+    "notes": "Critical for M10; spec needed from Engineering by 2026-12-18"
+   }
+  },
+  {
+   "register": "procurement",
+   "op": "append",
+   "row": {
+    "package": "P06 33 kV switchgear and auxiliaries",
+    "vendor": "TBD (competitive)",
+    "stage": "RFQ planned 2027-02-01",
+    "value_usd": "2500000",
+    "promised_delivery": "2027-10-01",
+    "status": "Planned",
+    "notes": "Indicative budget; PO 2027-04-15"
+   }
+  },
+  {
+   "register": "procurement",
+   "op": "append",
+   "row": {
+    "package": "P07 Cables DC, LV, MV 33 kV, earthing, FO",
+    "vendor": "TBD (competitive, local and international)",
+    "stage": "RFQ planned 2027-03-01",
+    "value_usd": "6000000",
+    "promised_delivery": "2027-07-01",
+    "status": "Planned",
+    "notes": "Indicative budget; PO 2027-04-30; quantities after M04"
+   }
+  },
+  {
+   "register": "procurement",
+   "op": "append",
+   "row": {
+    "package": "P08 SCADA, telecom, CCTV, met stations, fencing",
+    "vendor": "TBD (competitive)",
+    "stage": "RFQ planned 2027-04-01",
+    "value_usd": "2500000",
+    "promised_delivery": "2027-09-01",
+    "status": "Planned",
+    "notes": "Indicative budget; PO 2027-06-01"
+   }
+  },
+  {
+   "register": "procurement",
+   "op": "append",
+   "row": {
+    "package": "P09 220 kV OHTL materials",
+    "vendor": "GridWorks Central Asia LLP (vendors to be approved)",
+    "stage": "RFQ planned 2027-01-11",
+    "value_usd": "3000000",
+    "promised_delivery": "2027-08-01",
+    "status": "Planned",
+    "notes": "Within substation/OHTL scope; vendor approval by HEP"
+   }
+  },
+  {
+   "register": "procurement",
+   "op": "append",
+   "row": {
+    "package": "S01 Civil works subcontract",
+    "vendor": "Navoi Qurilish LLC",
+    "stage": "RFQ planned 2027-01-04",
+    "value_usd": "7000000",
+    "promised_delivery": "2027-03-01",
+    "status": "Planned",
+    "notes": "Award 2027-02-15; mobilise M05"
+   }
+  },
+  {
+   "register": "procurement",
+   "op": "append",
+   "row": {
+    "package": "S02 MMS and tracker installation subcontract",
+    "vendor": "SteelPro Montaj LLC",
+    "stage": "RFQ planned 2027-02-01",
+    "value_usd": "2500000",
+    "promised_delivery": "2027-04-12",
+    "status": "Planned",
+    "notes": "Award 2027-03-15"
+   }
+  },
+  {
+   "register": "procurement",
+   "op": "append",
+   "row": {
+    "package": "S03 DC/AC electrical subcontract",
+    "vendor": "UzElectroMontaj JSC",
+    "stage": "RFQ planned 2027-03-15",
+    "value_usd": "5000000",
+    "promised_delivery": "2027-06-01",
+    "status": "Planned",
+    "notes": "Award 2027-04-30"
+   }
+  },
+  {
+   "register": "procurement",
+   "op": "append",
+   "row": {
+    "package": "S04 Plant substation and 220 kV OHTL subcontract",
+    "vendor": "GridWorks Central Asia LLP",
+    "stage": "RFQ planned 2027-01-11",
+    "value_usd": "5000000",
+    "promised_delivery": "2028-01-20",
+    "status": "Planned",
+    "notes": "Award 2027-03-15; M10"
+   }
+  }
+ ],
+ "schedule_updates": [],
+ "requests": [
+  {
+   "to_role": "epc-engineering-lead",
+   "what": "Technical specification for the 220/33 kV transformer and 220 kV HV equipment (P05) by 2026-12-18, and for trackers and inverter stations (P02, P03) by 2026-12-31, to hold RFQ dates.",
+   "due_day": 17
+  },
+  {
+   "to_role": "epc-contracts-manager",
+   "what": "Confirm customs duty and VAT exemption route for imported equipment, who obtains certificates, and marine cargo insurance requirement.",
+   "due_day": 14
+  }
+ ]
+}

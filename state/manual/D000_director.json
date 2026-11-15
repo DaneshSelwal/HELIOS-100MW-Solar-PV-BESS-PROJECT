@@ -1,0 +1,81 @@
+{
+  "narrative": "Day 0: Helios EPC LLC and Qizilqum Solar Energy JSC sign the USD 95 M lump-sum turnkey EPC Contract for HELIOS (HEL001) in Tashkent this morning. All work is in the office, with no site presence yet. Heavy rain and near-freezing temperatures over the Qizilqum plateau don't matter today, because mobilisation is months away. The EPC home office spends the afternoon on the formal first steps: confirming signature to the Client, setting out the key contract terms for the team, putting document control in place before the first transmittals, and getting the Day 1 baseline ready.",
+  "events_interpretation": [],
+  "day_plan": [
+    {
+      "role": "epc-contracts-manager",
+      "tasks": [
+        "Collect the executed EPC Contract (Agreement, Particular Conditions, Employer's Requirements, Schedules) from the signing ceremony and check that every page is initialled and every annex is complete",
+        "Extract the key commercial terms (price, payment schedule, advance and retention, LDs and caps, bonds, time for completion, key FIDIC Silver Book 2017 amendments) for the project team",
+        "Flag the immediate contractual deadlines: Advance Payment Guarantee and Performance Security submission, insurances, NTP on 2026-12-15, and the Kick-off Meeting within the contractual period"
+      ],
+      "must_produce": [
+        {
+          "kind": "document",
+          "title": "EPC Contract — Executive Summary and Key Terms",
+          "folder": "2/01",
+          "area": "G000",
+          "disc": "K",
+          "type": "&CON",
+          "notes": "Sections: Parties; Scope; Price (USD 95,000,000 lump sum); Time (18 months to completion, PAC target 2028-05-31, NTP 2026-12-15); LDs (0.5%/week delay, capped at 10%); Payment terms (10% advance against APG, milestone payments, 5% retention); Bonds (APG, Performance Security, retention release); Key FIDIC Silver amendments (unforeseeable ground conditions risk, grid connection interface, change of law, force majeure, Employer's Requirements precedence). End with a list of contractual notice deadlines for the first 60 days."
+        }
+      ]
+    },
+    {
+      "role": "epc-project-director",
+      "tasks": [
+        "Sign the EPC Contract on behalf of Helios EPC LLC and confirm execution formally to the Client",
+        "Propose the date, venue and agenda for the Kick-off Meeting (Milestone M02, 2026-12-03) and name the EPC key personnel",
+        "Brief the HEP core team on the priorities for the first two weeks up to NTP"
+      ],
+      "must_produce": [
+        {
+          "kind": "letter",
+          "title": "Confirmation of Contract Signature and Proposal for Kick-off Meeting",
+          "to_role": "client-project-manager",
+          "dept": "PM",
+          "notes": "Confirm the EPC Contract was executed on 2026-12-01. Propose the Kick-off Meeting on 2026-12-03 at the QSE Tashkent office with the Owner's Engineer (Meridian) attending. Attach a draft agenda: introductions and organisation charts, communication and correspondence protocol, document numbering and submission, baseline schedule approach, APG and advance payment, NTP preconditions, permits and land allocation, HSE expectations, next meetings. Name Rajan Iyer as the EPC Representative and ask the Client to name its Representative and the OE contact."
+        }
+      ]
+    },
+    {
+      "role": "epc-document-controller",
+      "tasks": [
+        "Set up the project document register and folder structure on the EDMS for HEL001",
+        "Issue the document control and numbering procedure before the first outgoing correspondence is numbered",
+        "Register today's outgoing letter and the contract summary in the correspondence and document registers"
+      ],
+      "must_produce": [
+        {
+          "kind": "document",
+          "title": "Document Control and Numbering Procedure",
+          "folder": "1/07",
+          "area": "G000",
+          "disc": "P",
+          "type": "&PRC",
+          "notes": "Cover the numbering scheme (project code, area, discipline, document type, sequence, revision), revision and status codes (IFR/IFA/IFC/AFC/As-built), transmittal process to the Client/OE with contractual review periods, correspondence numbering by department, the Client/OE review return codes, the MDR/register, and archiving rules."
+        }
+      ]
+    },
+    {
+      "role": "epc-planning-manager",
+      "tasks": [
+        "Mark A010 Contract signature as complete and freeze the tender schedule as the starting point for the L1-L3 baseline (A040)",
+        "Prepare the schedule section of the Kick-off Meeting agenda and the list of NTP preconditions to track"
+      ],
+      "must_produce": [
+        {
+          "kind": "email",
+          "title": "Day 0 schedule status and baseline schedule development plan",
+          "to_role": "epc-project-director",
+          "notes": "A010 complete. Baseline L1-L3 to be submitted for OE review by 2027-01-10. Key near-term dates: KOM 2026-12-03, APG submission and advance payment (A050), NTP 2026-12-15. Ask for the WBS and procurement inputs from the SCM lead and Engineering Manager by 2026-12-08."
+        }
+      ]
+    }
+  ],
+  "site": {
+    "manpower": 0,
+    "productivity": 0.0
+  },
+  "notes_for_log": "Day 0 (2026-12-01, Tuesday): EPC Contract signed; A010 complete. Rain at site has no impact because the site is not mobilised (manpower 0). Outputs today: contract executive summary (Contracts), signature confirmation and KOM proposal letter to the Client PM (PD), document control procedure (DC), schedule status email (Planning). Upcoming: KOM 2026-12-03, APG submission, NTP 2026-12-15."
+}

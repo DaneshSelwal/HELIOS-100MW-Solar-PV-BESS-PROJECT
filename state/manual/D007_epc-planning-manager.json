@@ -1,0 +1,420 @@
+{
+ "summary": "I chaired the first internal HEP weekly progress meeting in Tashkent and recorded the actions on the transformer specification, the APG/Performance Security bank evidence and the medical evacuation route. I issued the Progress Measurement and Reporting Procedure (Rev A) for review and updated A020 to 100%, A030 to 50% and A040 to 33%. Rain caused a partial stoppage at site, so no site progress was measured today.",
+ "documents": [
+  {
+   "title": "Progress Measurement and Reporting Procedure",
+   "folder": "1/07",
+   "area": "G000",
+   "disc": "P",
+   "type": "&PRC",
+   "rev": "A",
+   "status": "Issued for Review",
+   "sections": [
+    {
+     "heading": "1. Purpose and Scope",
+     "paragraphs": [
+      "This procedure defines how Helios EPC LLC (HEP) measures, weights, certifies and reports progress on the HELIOS 100 MW PV + BESS Power Plant (HEL001). It applies to engineering, procurement, construction, testing and commissioning, and to the subcontractors Navoi Qurilish, SteelPro Montaj, UzElectroMontaj and GridWorks Central Asia, and to the vendors SunPeak, VoltEdge, AxisTrack and CellCore. It is the single basis for the monthly progress report, the weekly look-ahead, the one-page dashboard and the S-curve submitted to QSE and Meridian, and it supports payment milestones and any extension of time analysis under the Contract.",
+      "The procedure is issued as Rev A for review by the Project Director and will be reflected in PEP Rev A (reporting and communication section). Comments are requested by 11 December 2026 so that the first monthly report (December 2026, due 5 January 2027) is produced under the final rules."
+     ]
+    },
+    {
+     "heading": "2. Roles and Responsibilities",
+     "table": {
+      "columns": [
+       "Role",
+       "Responsibility"
+      ],
+      "rows": [
+       [
+        "Planning Manager (Aziz Karimov)",
+        "Owns this procedure; approves weightings; consolidates progress; issues S-curve, dashboard and reports; performs delay analysis"
+       ],
+       [
+        "Planning Engineers (Priya Nair, Dilnoza Rashidova)",
+        "Collect and verify weekly progress; update the schedule; Priya Nair covers construction and site, Dilnoza Rashidova covers procurement and engineering"
+       ],
+       [
+        "Engineering Manager (Elena Petrova)",
+        "Submits deliverable status against the Design Document Register"
+       ],
+       [
+        "Supply Chain Manager (Mehmet Yıldız)",
+        "Submits PO, FAT, shipping and delivery status per package"
+       ],
+       [
+        "Construction Manager (Sanjay Mehta)",
+        "Submits measured quantities, certified by subcontractor and Client Site Representative where required"
+       ],
+       [
+        "QA/QC Manager (Arun Pillai)",
+        "Confirms that completed quantities have signed ITPs; progress is not earned without them"
+       ],
+       [
+        "HSE Manager (Jamshid Tursunov)",
+        "Submits manpower, manhours and HSE statistics"
+       ],
+       [
+        "Contracts Manager (Thomas Becker)",
+        "Aligns progress with payment milestones, variations and EOT notices"
+       ],
+       [
+        "Document Controller (Nilufar Yusupova)",
+        "Issues and archives reports with correct numbering"
+       ]
+      ]
+     }
+    },
+    {
+     "heading": "3. Progress Measurement Principles",
+     "paragraphs": [
+      "Progress is measured against the approved baseline schedule (Level 1-3, A040) using a single physical percent-complete per activity. Progress is based on objective evidence only: approved deliverables, signed delivery notes, measured installed quantities and signed inspection records. Opinion-based percentages are not accepted, and no activity is reported above 90% until its closing evidence is on file.",
+      "Every activity carries one measurement method (Section 4). Activity logic is not altered when progress is updated; any change to logic, durations or constraints is recorded as a schedule revision with a reason. Actual start and finish dates are those evidenced by the site diary, transmittals or delivery records."
+     ]
+    },
+    {
+     "heading": "4. Weighting and Earned-Value Rules by Discipline",
+     "paragraphs": [
+      "Weights are proposed here pending cost loading of the baseline. Project weights will be fixed when the baseline is approved and then frozen, except through approved changes. Within each discipline, activity weight is proportional to budgeted manhours or contract value."
+     ],
+     "table": {
+      "columns": [
+       "Discipline",
+       "Proposed weight of project",
+       "Measurement method and earned-value rule"
+      ],
+      "rows": [
+       [
+        "Project management and planning",
+        "3%",
+        "Level of effort, spread evenly over the contract duration"
+       ],
+       [
+        "Engineering and design",
+        "8%",
+        "Per deliverable: 20% started, 50% issued for review, 80% approved by OWE (Code A/B), 100% IFC issued; weighted by manhours"
+       ],
+       [
+        "Procurement",
+        "52%",
+        "Per package: 10% RFQ issued, 25% award/PO, 40% design/vendor documents approved, 70% FAT passed and shipped, 90% delivered to site, 100% inspected and accepted"
+       ],
+       [
+        "Civil and structural construction",
+        "12%",
+        "Measured quantities: piles driven, foundations poured, trenches and roads completed, accepted with signed ITP"
+       ],
+       [
+        "Mechanical (mounting structures, trackers, modules)",
+        "12%",
+        "Installed units against total (piles to module mounting), earned only after QC acceptance"
+       ],
+       [
+        "Electrical (DC, AC, MV, earthing, SCADA)",
+        "8%",
+        "Installed cable metres, terminated strings, installed inverter stations, with QC records"
+       ],
+       [
+        "Substation and 220 kV OHTL",
+        "3%",
+        "Milestone-based per stage: foundations, steel erection, equipment installed, stringing, testing"
+       ],
+       [
+        "Testing, commissioning and handover",
+        "2%",
+        "Per test procedure completed and certificate signed: pre-commissioning, energisation, performance test, PAC"
+       ]
+      ]
+     }
+    },
+    {
+     "heading": "5. Progress Cut-off and Data Collection",
+     "bullets": [
+      "Weekly cut-off: Saturday 24:00 (site works Monday to Saturday); data to Planning by Monday 12:00.",
+      "Weekly progress meeting: Thursday, internal HEP meeting first, then the Client weekly meeting as agreed at the Kick-off Meeting.",
+      "Monthly cut-off: last calendar day of each month. Report issued to QSE and Meridian by the 5th of the following month. First report covers December 2026 and is due 5 January 2027.",
+      "Subcontractors submit weekly progress by Monday 10:00 on the HEP template, with quantities, manpower and equipment.",
+      "Progress claimed after cut-off is carried to the next period. Late data is flagged in the report and not backdated.",
+      "The Planning Engineer reviews the submitted progress, checks it against the Construction Manager and QA/QC records, and records any difference in the update log."
+     ]
+    },
+    {
+     "heading": "6. Schedule Update and Delay Recording",
+     "paragraphs": [
+      "After each cut-off the schedule is statused in Primavera P6 with actual dates, physical percent complete and remaining durations. The updated schedule is compared with the baseline, and the critical path and near-critical paths (float below 15 days) are reported. Variance of more than 5 days on any critical activity or more than 10 days on any other Level 2 milestone requires a written recovery proposal from the activity owner within 2 working days.",
+      "Every delay event is logged in the delay register with date, cause, affected activities, responsible party and contemporaneous record. The register is the source for any time impact analysis and for notices under the Contract, prepared with Thomas Becker. Weather stoppage, such as rain and sub-zero days, is recorded day by day with site diary reference."
+     ]
+    },
+    {
+     "heading": "7. Reporting Outputs",
+     "table": {
+      "columns": [
+       "Output",
+       "Frequency",
+       "Content",
+       "Issued to"
+      ],
+      "rows": [
+       [
+        "Weekly look-ahead",
+        "Weekly, Thursday",
+        "3-week look-ahead by area and discipline, key constraints, inputs required",
+        "Internal; QSE and OWE on request"
+       ],
+       [
+        "One-page dashboard",
+        "Monthly with report; weekly internally",
+        "Overall % planned vs actual, S-curve, critical items, HSE statistics, top risks, milestones M00-M14",
+        "QSE, OWE"
+       ],
+       [
+        "Monthly progress report",
+        "Monthly, by the 5th",
+        "Summary; progress against baseline (S-curve, planned vs actual); engineering; procurement; construction; HSE; quality; commercial; risks; look-ahead",
+        "QSE, OWE"
+       ],
+       [
+        "S-curve",
+        "Monthly",
+        "Cumulative planned, actual and forecast progress, weighted per Section 4",
+        "Within report and dashboard"
+       ],
+       [
+        "Delay and EOT records",
+        "As events occur",
+        "Delay register, notices, time impact analyses",
+        "Project Director, Contracts Manager"
+       ]
+      ]
+     }
+    },
+    {
+     "heading": "8. S-curve, Earned Value Indicators and Forecast",
+     "paragraphs": [
+      "The S-curve is built from the baseline weighted progress, resource-loaded once the baseline is approved. Until then, a time-phased profile based on the Level 2 milestone schedule is used and labelled as provisional. From the first report after approval, schedule performance index (SPI = earned / planned) and forecast completion date are reported. Cost indicators (CPI) are produced with Thomas Becker for internal use only, unless the Contract requires otherwise.",
+      "The Project Director's weekly critical items, the 220/33 kV transformer (R-001) and the geotechnical/Basic Design negative float (R-003), are shown on every dashboard with owner, mitigation and date."
+     ]
+    },
+    {
+     "heading": "9. Review, Records and Revision",
+     "paragraphs": [
+      "This procedure is reviewed after the first monthly report and after baseline approval. Records (weekly progress sheets, update logs, reports) are filed under 1_Project_Mgmt/07_Communications and 1_Project_Mgmt/04_Schedule by the Document Controller. Revisions are numbered per the Document Control and Numbering Procedure."
+     ]
+    }
+   ]
+  }
+ ],
+ "letters": [],
+ "emails": [
+  {
+   "to_roles": [
+    "epc-project-director"
+   ],
+   "subject": "Progress Measurement Procedure Rev A and Weekly Meeting No. 1 actions",
+   "body": "Rajan,\n\nThe first internal weekly meeting is minuted and the actions are issued with owners and dates. The Progress Measurement and Reporting Procedure Rev A is issued for your review. Proposed discipline weights (engineering 8%, procurement 52%, construction 32%) are provisional until the baseline is cost loaded. I am closing PEP comments 1-7 by 11 December and will send the revised PEP, the Level 1 summary and the reporting calendar by 10 December as requested.\n\nI note that A040 stands at 33% and the first L2 draft is still due 21 December. The baseline input actions ACTIONS-000-006 and ACTIONS-000-007 are still open and will move that date if not received by Friday.\n\nAziz Karimov"
+  }
+ ],
+ "meeting_minutes": [
+  {
+   "mom_kind": "WPM",
+   "title": "Weekly Progress Meeting (EPC Internal) No. 1",
+   "venue": "HEP Office, Tashkent",
+   "attendee_roles": [
+    "epc-planning-manager",
+    "epc-project-director",
+    "epc-engineering-lead",
+    "epc-scm-lead",
+    "epc-contracts-manager",
+    "epc-construction-manager",
+    "epc-hse-manager",
+    "epc-qaqc-manager",
+    "epc-document-controller"
+   ],
+   "items": [
+    {
+     "topic": "Opening, previous actions and agenda",
+     "discussion": "Aziz Karimov opened the first internal HEP weekly meeting at the Tashkent office. Rajan Iyer set the rule that the meeting is held on Thursdays after this first Tuesday session, with the internal meeting held before the Client weekly meeting. Actions from the Kick-off Meeting were reviewed and the status below was accepted."
+    },
+    {
+     "topic": "Schedule status A020, A030, A040, A050, A710",
+     "discussion": "A020 Kick-off and team mobilisation is closed at 100% following this meeting. A030 PEP and procedures stands at 50%: PEP Rev A is approved for internal issue by the Project Director, subject to comments 1-7. A040 baseline L1-L3 is at 33%: L1/L2 are issued for review and L3 is being built, with the first L2 draft due 21 December and submission for approval by 10 January 2027. A050 stands at 6%: forms are with QSE. A710 subcontracting strategy and prequalification is at 10%. Aziz Karimov noted that rain today stopped part of the site works, with no impact on these activities."
+    },
+    {
+     "topic": "PEP Rev A comments",
+     "discussion": "Rajan Iyer's seven comments were walked through. Aziz Karimov will close them in the same revision by 11 December, including the exact KOM reporting format, review periods with deemed-approval wording marked as to be confirmed by Thomas Becker, the R-001 and R-003 critical items with mitigation owners and dates, and the M05 versus M07 controlled assumption. Arun Pillai's quality points (QMP comments due 21 December, hold points, vendor FATs, audits before 1 March 2027) are to be included."
+    },
+    {
+     "topic": "Baseline inputs ACTIONS-000-006 and ACTIONS-000-007",
+     "discussion": "Inputs due today were reviewed. Planning confirmed that the baseline cannot move to L3 without durations and logic from Engineering (design package timing) and Construction (productivity and mobilisation sequence). Elena Petrova will provide the design document register and construction permit file timing; Sanjay Mehta will provide productivity assumptions and the sequence for M05 to M08. Any item still missing on 11 December will be shown in the baseline as an assumption."
+    },
+    {
+     "topic": "220/33 kV transformer specification",
+     "discussion": "Rajan Iyer repeated that 18 December is a hold date and not a target. Elena Petrova is to confirm by 9 December that the date is secure and name the author, with the assumptions and ranges for values depending on the Basic Design and UzGridCo. Mehmet Yıldız needs the specification for RFQ on 4 January 2027 and award on 12 February 2027. Early Meridian review is to run in parallel. Planning will show the item as R-001 (score 20) on the dashboard."
+    },
+    {
+     "topic": "APG and Performance Security bank evidence",
+     "discussion": "Thomas Becker reported that QSE comments on the forms were received on 7 December and QSE response on the issuing bank is due 9 December. HEP must provide bank rating evidence and the signatory specimen sheet. The target for agreed forms is 11 December, and delay would put the advance payment (M03, 5 January 2027) and NTP preconditions at risk. Thomas Becker will obtain written confirmation of the bank's rating evidence and report on 10 December."
+    },
+    {
+     "topic": "HSE early-access requirements and medical evacuation",
+     "discussion": "Jamshid Tursunov presented the early-access requirements for the survey and geotechnical crews from 20 December: induction, PPE, site emergency plan, communications and first aid. The medical evacuation route from site to the nearest hospital in Navoi (12 km unpaved track to A-380, then onward) is not yet confirmed in writing; he will confirm it with the hospital and Sanjay Mehta. Winter conditions with rain and temperatures of -3 to 6 degrees C are included in the plan."
+    },
+    {
+     "topic": "Progress Measurement and Reporting Procedure",
+     "discussion": "Aziz Karimov presented the procedure issued today: weighting by discipline, earned-value rules, weekly cut-off Saturday, monthly cut-off on the last day of the month with issue by the 5th, weekly look-ahead, one-page dashboard and S-curve. The proposed weights are provisional until the baseline is cost loaded. Disciplines are to return comments by 11 December. Arun Pillai confirmed that progress will only be earned with signed QC records."
+    },
+    {
+     "topic": "Look-ahead to NTP on 15 December and to the Client weekly meeting on 10 December",
+     "discussion": "Items to be ready for NTP: approved APG and Performance Security forms, insurance evidence, PEP Rev A, first design document register and baseline process. For the Client weekly meeting on 10 December, the team agreed the position on land allocation (A110, QSE letter due 10 December), PEP issue date 15 December and first L2 draft date 21 December. The next internal meeting is on Thursday 10 December before the Client meeting. Meeting closed."
+    }
+   ],
+   "actions": [
+    {
+     "action": "Confirm 18 December for the 220/33 kV transformer specification, name the author and list assumptions and ranges for Basic Design and grid-code dependent values",
+     "owner_role": "epc-engineering-lead",
+     "due_date": "2026-12-09"
+    },
+    {
+     "action": "Obtain written confirmation of APG and Performance Security bank rating evidence, and deliver signatory specimen sheet and power of attorney to QSE",
+     "owner_role": "epc-contracts-manager",
+     "due_date": "2026-12-11"
+    },
+    {
+     "action": "Confirm in writing the medical evacuation route and receiving hospital for the survey and geotechnical crews from 20 December",
+     "owner_role": "epc-hse-manager",
+     "due_date": "2026-12-11"
+    },
+    {
+     "action": "Provide productivity assumptions and the M05-M08 sequence for the L3 baseline (ACTIONS-000-006)",
+     "owner_role": "epc-construction-manager",
+     "due_date": "2026-12-11"
+    },
+    {
+     "action": "Issue the first Design Document Register and design package timing for the construction permit file (ACTIONS-000-007)",
+     "owner_role": "epc-engineering-lead",
+     "due_date": "2026-12-11"
+    },
+    {
+     "action": "Close PEP Rev A comments 1-7 and issue the revised PEP with the Level 1 summary and reporting calendar to the Project Director",
+     "owner_role": "epc-planning-manager",
+     "due_date": "2026-12-11"
+    },
+    {
+     "action": "Return comments on the Progress Measurement and Reporting Procedure Rev A and the proposed discipline weights",
+     "owner_role": "epc-project-director",
+     "due_date": "2026-12-11"
+    },
+    {
+     "action": "Confirm procurement and logistics status per package for the look-ahead and align vendor FAT dates with delivery schedules",
+     "owner_role": "epc-scm-lead",
+     "due_date": "2026-12-10"
+    },
+    {
+     "action": "Issue the first L2 draft schedule for OWE sight and submit the baseline L1-L3 for approval",
+     "owner_role": "epc-planning-manager",
+     "due_date": "2026-12-21"
+    }
+   ]
+  }
+ ],
+ "register_updates": [
+  {
+   "register": "actions",
+   "op": "append",
+   "row": {
+    "action": "Confirm 18 December for the 220/33 kV transformer specification, name the author and list assumptions and ranges for Basic Design and grid-code dependent values",
+    "owner": "epc-engineering-lead",
+    "due_date": "2026-12-09",
+    "status": "Open"
+   }
+  },
+  {
+   "register": "actions",
+   "op": "append",
+   "row": {
+    "action": "Obtain written confirmation of APG and Performance Security bank rating evidence, and deliver signatory specimen sheet and power of attorney to QSE",
+    "owner": "epc-contracts-manager",
+    "due_date": "2026-12-11",
+    "status": "Open"
+   }
+  },
+  {
+   "register": "actions",
+   "op": "append",
+   "row": {
+    "action": "Confirm in writing the medical evacuation route and receiving hospital for the survey and geotechnical crews from 20 December",
+    "owner": "epc-hse-manager",
+    "due_date": "2026-12-11",
+    "status": "Open"
+   }
+  },
+  {
+   "register": "actions",
+   "op": "append",
+   "row": {
+    "action": "Provide productivity assumptions and the M05-M08 sequence for the L3 baseline (ACTIONS-000-006)",
+    "owner": "epc-construction-manager",
+    "due_date": "2026-12-11",
+    "status": "Open"
+   }
+  },
+  {
+   "register": "actions",
+   "op": "append",
+   "row": {
+    "action": "Issue the first Design Document Register and design package timing for the construction permit file (ACTIONS-000-007)",
+    "owner": "epc-engineering-lead",
+    "due_date": "2026-12-11",
+    "status": "Open"
+   }
+  },
+  {
+   "register": "actions",
+   "op": "append",
+   "row": {
+    "action": "Close PEP Rev A comments 1-7 and issue the revised PEP with the Level 1 summary and reporting calendar to the Project Director",
+    "owner": "epc-planning-manager",
+    "due_date": "2026-12-11",
+    "status": "Open"
+   }
+  }
+ ],
+ "schedule_updates": [
+  {
+   "activity_id": "A020",
+   "pct_complete": 100,
+   "note": "First internal weekly progress meeting held on 8 December; kick-off and team mobilisation closed."
+  },
+  {
+   "activity_id": "A030",
+   "pct_complete": 50,
+   "note": "PEP Rev A approved for internal issue by the Project Director with comments 1-7 to close by 11 December; Progress Measurement Procedure Rev A issued."
+  },
+  {
+   "activity_id": "A040",
+   "pct_complete": 33,
+   "note": "L1/L2 under review; L3 build waiting for baseline inputs ACTIONS-000-006 and -007 due 11 December; first L2 draft remains 21 December."
+  }
+ ],
+ "requests": [
+  {
+   "to_role": "epc-construction-manager",
+   "what": "Provide construction productivity assumptions and the sequence for M05 to M08 for the L3 baseline (ACTIONS-000-006)",
+   "due_day": 10
+  },
+  {
+   "to_role": "epc-engineering-lead",
+   "what": "Provide the first Design Document Register and design package timing for the construction permit file (ACTIONS-000-007)",
+   "due_day": 10
+  },
+  {
+   "to_role": "epc-project-director",
+   "what": "Review the Progress Measurement and Reporting Procedure Rev A, in particular the proposed discipline weights, and return comments",
+   "due_day": 10
+  },
+  {
+   "to_role": "epc-hse-manager",
+   "what": "Written confirmation of the medical evacuation route and receiving hospital for early site access",
+   "due_day": 10
+  }
+ ]
+}

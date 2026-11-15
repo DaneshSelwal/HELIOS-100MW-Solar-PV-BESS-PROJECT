@@ -1,0 +1,188 @@
+{
+ "summary": "I started Rev A of the Project HSE Management Plan today as a first issue for internal review, covering HSE policy, Uzbek legal requirements, hazard identification and risk assessment, permit to work, induction, climate hazards, remote-site emergency response and traffic management on the 12 km access track. I also sent Sanjay Mehta the early-access HSE, induction, permit, emergency response and first-aid requirements he needs for the 20 December survey and geotechnical mobilisation.",
+ "documents": [
+  {
+   "title": "Project HSE Management Plan",
+   "folder": "11/01",
+   "area": "G000",
+   "disc": "H",
+   "type": "&HSE",
+   "rev": "A",
+   "status": "Issued for Internal Review",
+   "sections": [
+    {
+     "heading": "1. Purpose, Scope and HSE Policy",
+     "paragraphs": [
+      "This Project HSE Management Plan (the Plan) sets out how Helios EPC LLC (HEP) will manage health, safety, security and environmental risks on the HELIOS 100 MW Solar PV and BESS Power Plant (HEL001) at the Qizilqum Solar Site, Navoi Region, approximately 45 km north-east of Navoi city. The Plan covers the 128 MWp PV blocks PV1 to PV4, the 50 MW / 100 MWh BESS, the 33/220 kV plant substation, the 220 kV OHTL (9 km) and the 12 km site access track from the A-380 highway.",
+      "The Plan applies to all HEP personnel, all subcontractors (Navoi Qurilish LLC, SteelPro Montaj LLC, UzElectroMontaj JSC and GridWorks Central Asia LLP), all supplier personnel working on site, and all visitors. HEP's HSE policy is zero harm to people and zero tolerance for work without valid PPE or without a valid permit to work. Rev A is a first issue for internal review. It will be finalised and submitted to QSE and OWE by 31 January 2027, with the 14-day review period agreed for plans and procedures."
+     ],
+     "bullets": [
+      "Stop any work that presents an imminent risk to life or limb, and report it immediately.",
+      "No person enters the site without a completed site induction and a valid induction card.",
+      "No hazardous activity starts without a valid permit to work and a pre-start briefing.",
+      "Every incident, injury and near miss is reported and investigated, without exception.",
+      "Subcontractors carry full HSE responsibility for their own scope, supported by HEP oversight."
+     ]
+    },
+    {
+     "heading": "2. Organisation and Responsibilities",
+     "paragraphs": [
+      "The Project Director is accountable for HSE performance. The Construction Manager implements the Plan on site and the HSE Manager owns it, audits it and reports on it. Subcontractor project managers appoint a site HSE representative for their scope before mobilisation. The table below sets out the key HSE responsibilities."
+     ],
+     "table": {
+      "columns": ["Role", "Name", "HSE responsibility"],
+      "rows": [
+       ["Project Director (HEP)", "Rajan Iyer", "Accountable for HSE performance, approves the Plan and resources"],
+       ["Construction Manager (HEP)", "Sanjay Mehta", "Implements the Plan on site: mobilisation, camp, welfare, first aid, fire-fighting, daily permits"],
+       ["HSE Manager (HEP)", "Jamshid Tursunov", "Owns the Plan, risk assessments, inductions, PTW audits, incident reporting and HSE reporting"],
+       ["QA/QC Manager (HEP)", "Arun Pillai", "Aligns HSE inspections with the Quality Management Plan and hold points"],
+       ["Contracts Manager (HEP)", "Thomas Becker", "HSE clauses in subcontracts and HSE prequalification (threshold 70/100)"],
+       ["Document Controller (HEP)", "Nilufar Yusupova", "Registers and controls HSE documents in folder 11"],
+       ["Subcontractor project managers", "Rustam Ergashev, Erkin Saidov, Farrukh Abdullaev, Sergey Volkov", "Own HSE in their scope, appoint site HSE representatives, staff competent crews"],
+       ["Client Site Representative (QSE)", "Bekzod Nazarov", "Client-side site oversight and receipt of the monthly HSE report"],
+       ["Owner's Engineer (OWE)", "Sophie Laurent", "Reviews the Plan and consolidates OWE comments"]
+      ]
+     }
+    },
+    {
+     "heading": "3. Legal and Other Requirements",
+     "paragraphs": [
+      "The Plan is prepared to comply with the labour protection legislation of the Republic of Uzbekistan, including the Labour Code, and with the requirements of the State Construction Inspectorate attached to the construction permit (M07, 20 March 2027). Environmental and social controls follow the ESIA conditions held by QSE and implemented by HEP under activity A120. Where Uzbek requirements are silent or less strict, the IFC Environmental, Health and Safety Guidelines (General and Construction) and ISO 45001 are applied."
+     ],
+     "bullets": [
+      "Labour Code and national labour protection legislation of the Republic of Uzbekistan.",
+      "State Construction Inspectorate requirements, including inspection and notification regimes.",
+      "ESIA conditions and environmental approvals for the site (activity A120).",
+      "Navoi Regional Administration requirements for land use and access.",
+      "Contract HSE requirements under the EPC Contract and the Employer's requirements.",
+      "Grid operator (UzGridCo) safety rules for energisation and switching."
+     ]
+    },
+    {
+     "heading": "4. Hazard Identification and Risk Assessment",
+     "paragraphs": [
+      "Hazards are identified for each activity before work starts, using a 5 x 5 likelihood and severity matrix. Residual risk above medium must be accepted in writing by the HSE Manager and the Construction Manager. Task-specific risk assessments are issued for survey and geotechnical work (from 20 December 2026), site clearing and grading (from M05, 1 March 2027), piling (first piles 12 April 2027), module and tracker handling (first module delivery 20 July 2027) and energisation (from 20 January 2028). The principal site hazards are summarised below."
+     ],
+     "table": {
+      "columns": ["Hazard", "Main risks", "Key controls"],
+      "rows": [
+       ["Access track and vehicle movement", "Rollover, collision, dust, driver fatigue", "Speed limit 30 km/h on the 12 km track, convoy rules, vehicle checks, maximum driving hours"],
+       ["Summer heat", "Heat stroke, dehydration", "Work-rest regime, shaded rest areas, minimum 4 litres of drinking water per person per shift, stop-work rule above the heat limit"],
+       ["Winter cold and wind (-2 to 5 C today)", "Hypothermia, frostbite, slips on frozen ground, wind-blown sand", "Thermal clothing, heated rest tents, gritting of camp and work areas, wind checks before lifts"],
+       ["Excavation and cable trenches", "Collapse, buried services", "Excavation permit, service location survey, shoring or battering for depths over 1.2 m"],
+       ["Piling and heavy lifting", "Struck by load, crush injuries, equipment failure", "Lift plans, certified lifting equipment, exclusion zones, banksman control"],
+       ["Working at height on trackers and structures", "Falls from height", "Harness and fall arrest, edge protection, rescue plan, rated access equipment"],
+       ["Electrical work (DC, AC, MV, BESS)", "Electric shock, arc flash", "Lock-out tag-out, authorised persons only, PTW for every isolation, arc-flash PPE"],
+       ["Dust and silica in gypsum-cemented soils", "Respiratory disease", "Dust suppression with water, FFP3 respirators in dusty work, health surveillance"],
+       ["Fire (vegetation, cabling, BESS containers)", "Fire spread, toxic smoke", "Fire breaks, extinguishers at each work area, hot-work permit, BESS fire protection per vendor"]
+      ]
+     }
+    },
+    {
+     "heading": "5. Permit to Work and Site Induction",
+     "paragraphs": [
+      "No hazardous activity starts without a permit to work (PTW). Permit types are hot work, excavation, electrical isolation (lock-out tag-out), working at height, lifting, confined space and working near live services. Permits are issued daily by competent permit issuers nominated by the Construction Manager and are checked by the HSE team. Permits are closed out at the end of each shift and retained in the project file for at least 5 years.",
+      "All persons must complete the general site induction at the induction point before first access to the site. The induction lasts about 60 minutes and is given in Russian and Uzbek, with English for expatriate staff. Survey and geotechnical crews from 20 December 2026 are inducted before they leave camp or the access gate and carry an induction card at all times. A daily pre-start toolbox talk is held for every crew and recorded."
+     ],
+     "bullets": [
+      "Induction card is checked at the site gate; no card, no access.",
+      "Induction covers PPE, PTW, emergency signals, muster points, speed limits, fire, wildlife and the stop-work rule.",
+      "Refresher induction is given after any absence of more than 30 days or after a significant incident.",
+      "Zero tolerance: any person working without PPE or outside a valid permit is removed from site."
+     ]
+    },
+    {
+     "heading": "6. Emergency Response, First Aid and Medical Evacuation",
+     "paragraphs": [
+      "The site is remote, with no settlements within 6 km, and the access track is 12 km long and unpaved. Emergency response therefore relies on trained first aiders on every crew, a site clinic at camp, radio or satellite communication on every vehicle, and a pre-agreed medical evacuation route to Navoi. The site emergency plan will be issued with the camp arrangements and confirmed with Sanjay Mehta before M05 (1 March 2027). Emergency numbers are 103 for ambulance, 101 for fire and 102 for police, and these are posted at every work area and the camp."
+     ],
+     "bullets": [
+      "One trained first aider for every crew of 10 persons or fewer, with a first-aid kit in each vehicle.",
+      "Site clinic at camp with a qualified medical officer and an agreed evacuation vehicle at all times.",
+      "Casualty evacuation from the work area to the access gate and onwards to Navoi within the agreed response time.",
+      "Emergency drill at least once per quarter, covering fire, casualty rescue at height and vehicle rollover.",
+      "Fire-fighting equipment at each work area and in the camp, inspected weekly."
+     ]
+    },
+    {
+     "heading": "7. Environmental and Social Controls",
+     "paragraphs": [
+      "Environmental controls are implemented in line with the ESIA conditions (activity A120). The desert plateau has sparse vegetation and fragile gypsum-cemented ground, so disturbance is limited to the approved footprint and dust is controlled at source. Waste is segregated at the camp and removed to licensed facilities. Refuelling takes place only at designated bunded areas with spill kits available."
+     ],
+     "bullets": [
+      "No hunting, fishing or collection of flora or fauna by any person on site.",
+      "Chance-find procedure for archaeological or palaeontological finds, with immediate stop of work in the area.",
+      "Spill kits and bunded refuelling areas, with spill response drills.",
+      "Water use recorded monthly; dust suppression water sourcing approved by the Client Site Representative.",
+      "Grievances from local stakeholders are logged and answered under the grievance procedure (folder 11/08)."
+     ]
+    },
+    {
+     "heading": "8. Subcontractor HSE Management",
+     "paragraphs": [
+      "Subcontractors are prequalified on HSE performance with a minimum score of 70 out of 100, in line with the Subcontracting Strategy. Each subcontractor submits its HSE plan and named HSE representative before mobilisation. HEP audits subcontractors against the Plan and records findings in the subcontractor audit register. Subcontractor HSE statistics are reported monthly with HEP's own figures."
+     ],
+     "bullets": [
+      "HSE clauses are written into every subcontract and work order by the Contracts Manager.",
+      "Subcontractor HSE audits are carried out at least once per month for each active subcontractor.",
+      "Subcontractors must follow HEP's induction, PTW and emergency arrangements."
+     ]
+    },
+    {
+     "heading": "9. Incident Reporting and Investigation",
+     "paragraphs": [
+      "All injuries, near misses, property damage and environmental releases are reported. Injuries requiring treatment are reported to the HSE Manager within one hour of the event. Near misses are reported within 24 hours. A formal investigation report is issued within five working days for every lost-time or medical treatment case, with root cause and corrective actions tracked to closure. Serious incidents are notified to the State Construction Inspectorate and the Client within the time limits set by the Contract and local requirements."
+     ]
+    },
+    {
+     "heading": "10. HSE KPIs, Reporting and Look-Ahead",
+     "paragraphs": [
+      "HSE performance is reported monthly as part of the Monthly Progress Report, with a cut-off on the last day of the month and issue by the 5th. The first HSE data will be reported in the December 2026 report due on 5 January 2027. The HSE Manager will also present weekly HSE data at the Thursday progress meeting."
+     ],
+     "table": {
+      "columns": ["KPI", "Target", "Frequency"],
+      "rows": [
+       ["Lost-time injury frequency rate (LTIFR)", "Zero", "Monthly"],
+       ["Recordable injuries", "Zero", "Monthly"],
+       ["Site inductions completed before access", "100%", "Weekly"],
+       ["Active permits audited", "100% checked each week", "Weekly"],
+       ["Daily toolbox talks held and recorded", "100% of crews", "Daily"],
+       ["Near-miss reports submitted", "Encouraged; at least 1 per 20 workers per month", "Monthly"],
+       ["HSE site inspections", "At least 4 per week", "Weekly"],
+       ["Reportable environmental releases", "Zero", "Monthly"],
+       ["Subcontractor HSE audits completed", "100% of active subcontractors", "Monthly"]
+      ]
+     },
+     "bullets": [
+      "20 December 2026: survey and geotechnical crews mobilise under the induction regime in this Plan.",
+      "31 January 2027: Rev A submitted to QSE and OWE for review.",
+      "1 March 2027: site mobilisation (M05) with camp, clinic and fire-fighting arrangements in place."
+     ]
+    }
+   ]
+  }
+ ],
+ "letters": [],
+ "emails": [
+  {
+   "to_roles": ["epc-construction-manager"],
+   "subject": "Project HSE Management Plan Rev A - early-access HSE requirements for survey and geotech crews",
+   "body": "Dear Sanjay,\n\nThank you for your request for HSE inputs ahead of the 1 March 2027 mobilisation. Rev A of the Project HSE Management Plan is in preparation and will be issued for internal review shortly. Below are the requirements that apply to the survey and geotechnical crews from 20 December 2026, so that your mobilisation sequence can be planned now.\n\n1. Induction: every person must complete the general site induction at the induction point before first access. Crews are inducted before they leave camp or the access gate, and each carries an induction card. No card, no access. Induction is about 60 minutes, in Russian and Uzbek, with English for expatriates.\n\n2. Permit to work: no drilling, excavation or trial pit work starts without a permit. Excavation permits are needed before any trial pit or borehole deeper than 1.2 m, and a service location check is required before any ground penetration.\n\n3. Emergency response and first aid: each survey crew of 10 persons or fewer needs one trained first aider and a first-aid kit in each vehicle. Each vehicle needs radio or satellite communication. The emergency numbers are 103 ambulance, 101 fire and 102 police, and these must be posted at each work area. The medical evacuation route from the work area through the 12 km access track to Navoi needs to be confirmed with you before 20 December.\n\n4. Climate and daily controls: winter temperatures are between -2 and 5 C. Crews need thermal clothing, a heated rest point and wind checks before any work at height or near cranes. Daily pre-start toolbox talks are mandatory and recorded.\n\n5. Traffic: the access track has a 30 km/h speed limit and convoy rules. Drivers must have a valid licence and the vehicle must pass a daily check.\n\nTo close the gap before 1 March, I would be grateful if you could confirm the camp clinic, fire-fighting and induction point arrangements, and the nominated hospital for the emergency route. I will reflect your confirmations in Rev A.\n\nBest regards,\nJamshid Tursunov\nHSE Manager, Helios EPC LLC (HEP)"
+  }
+ ],
+ "meeting_minutes": [],
+ "register_updates": [],
+ "schedule_updates": [],
+ "requests": [
+  {
+   "to_role": "epc-construction-manager",
+   "what": "Confirm camp clinic, fire-fighting, induction point arrangements and the nominated hospital and medical evacuation route for the 20 December survey and geotechnical crews (REQ-004-epc-cons), before M05.",
+   "due_day": 10
+  },
+  {
+   "to_role": "epc-qaqc-manager",
+   "what": "Confirm the interface between the Quality Management Plan and HSE inspection and hold points for PEP Rev A, as requested in REQ-003-epc-proj, so the HSE plan timeline (A070) aligns with the quality plan.",
+   "due_day": 7
+  }
+ ]
+}

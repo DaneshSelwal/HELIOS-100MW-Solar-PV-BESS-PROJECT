@@ -1,0 +1,583 @@
+{
+ "summary": "I compiled the initial Risk Register with 18 risks from the KOM minutes, Procurement Plan, Subcontracting Strategy and PEP inputs, each with scoring, mitigation, owner and linked activity. I appended all rows to the project risk register and sent the top 5 exposures to Rajan Iyer for comment by 9 December.",
+ "documents": [
+  {
+   "title": "Risk Register (Initial)",
+   "folder": "1/06",
+   "area": "G000",
+   "disc": "P",
+   "type": "&REG",
+   "rev": "A",
+   "status": "Issued for Review",
+   "sections": [
+    {
+     "heading": "1. Purpose and scope",
+     "paragraphs": [
+      "This is the initial Risk Register for the HELIOS 100 MW PV + BESS project (HEL001), prepared by Planning for review by Rajan Iyer before inclusion in Project Execution Plan Rev A (A030). It is compiled from the Kick-off Meeting minutes (HEL001-MOM-KOM-001), the Procurement Plan and Package List Rev A, the Subcontracting Strategy Rev A, the Engineering Execution Plan Rev A and the Construction and Site Organisation Summary, and is linked to schedule activities and milestones M03 to M14.",
+      "The register is a living document. Owners will be asked to confirm or amend their risks at the weekly progress meeting on Thursdays, and it will be reissued monthly with the progress report. Dates quoted are planning dates and are not commitments until the baseline is approved (A040, 10 Jan 2027)."
+     ]
+    },
+    {
+     "heading": "2. Scoring method",
+     "paragraphs": [
+      "Probability (P) and Impact (I) are each scored 1 to 5. Score = P x I. Ratings: 15-25 High, 9-14 Medium, 1-8 Low."
+     ],
+     "bullets": [
+      "Probability: 1 rare, 2 unlikely, 3 possible, 4 likely, 5 almost certain.",
+      "Impact on time (guide): 1 under 3 days, 2 3-7 days, 3 1-3 weeks, 4 3-6 weeks or a key milestone at risk, 5 over 6 weeks or M10/M11/PAC at risk or LDs exposed (0.5% per week, capped 10%).",
+      "Cost and quality impacts are assessed by the owner and translated to the time scale by Planning where a schedule link exists."
+     ]
+    },
+    {
+     "heading": "3. Risk register",
+     "paragraphs": [
+      "Eighteen risks are recorded. Status of all risks is Open."
+     ],
+     "table": {
+      "columns": [
+       "ID",
+       "Category",
+       "Description",
+       "Linked activity",
+       "P",
+       "I",
+       "Score",
+       "Owner",
+       "Mitigation"
+      ],
+      "rows": [
+       [
+        "R-001",
+        "Procurement",
+        "220/33 kV transformer and 220 kV HV equipment (P05) lead time of 36-40 weeks from PO 12 Feb 2027 gives delivery 15 Nov-15 Dec 2027; installation, oil processing and testing then leave little or no float to M10 (20 Jan 2028). Late PO or late specification pushes M10 and M11 directly.",
+        "A540/P05 PO; M10",
+        "4",
+        "5",
+        "20 (High)",
+        "Mehmet Yildiz (SCM); schedule watch Aziz Karimov",
+        "Issue RFQ 4 Jan; hold factory slot with LOI before PO; seek 32-34 week offers and staged delivery; add transformer as explicit M10 driver in L3; weekly expediting; validate installation and test durations with GridWorks."
+       ],
+       [
+        "R-002",
+        "Engineering",
+        "Technical specifications for long-lead items arrive late (P05 due 18 Dec, P02/P03 due 31 Dec from Elena Petrova). Each day of slip moves RFQ issue (4 Jan, 11 Jan) and therefore PO and delivery dates day for day.",
+        "Specification milestones; RFQ P05, P02, P03",
+        "4",
+        "4",
+        "16 (High)",
+        "Elena Petrova (Engineering)",
+        "Agree frozen specification dates in writing; issue preliminary specifications with hold flags; Dilnoza Rashidova to track weekly; escalate to Rajan Iyer at 3 days slip."
+       ],
+       [
+        "R-003",
+        "Design / Site data",
+        "Geotechnical report A220 finishes 20 Feb 2027 but Basic Design submission is targeted 26 Feb and M04 approval is 15 Mar. On Engineering's stated review durations (14 days OWE plus 10 working days close-out) approval falls about 9-11 days after M04, so float is negative. Winter ground (gypsum-cemented layers) may also slow drilling.",
+        "A220; A310; M04",
+        "4",
+        "4",
+        "16 (High)",
+        "Elena Petrova; Sanjay Mehta (survey and geotech)",
+        "Request phased/preliminary geotechnical report by end Jan (REQ-004); issue Basic Design on stated assumptions with hold flags; negotiate parallel OWE review; confirm review periods against Contract with Thomas Becker."
+       ],
+       [
+        "R-004",
+        "Land / Permits",
+        "Land allocation decree and cadastral passport (A110) not confirmed before NTP on 15 Dec; QSE written status due 10 Dec. A110 forecast runs to 15 Feb 2027 and feeds the construction permit file (M07) and first piles (M08).",
+        "A110; A060 NTP; M07; M08",
+        "3",
+        "5",
+        "15 (High)",
+        "Khalid Al-Mansoori (QSE); HEP follow-up Rajan Iyer",
+        "Obtain QSE written status by 10 Dec; record dependency in NTP precondition tracker; keep survey access under interim site access letter; Contracts to reserve time-extension rights (Thomas Becker)."
+       ],
+       [
+        "R-005",
+        "Commercial / Finance",
+        "Advance Payment Guarantee form, issuing bank acceptability and signatory documents not agreed in time; advance payment (10%) is released only against accepted APG, so receipt could slip past 5 Jan 2027 (M03) and affect early procurement and mobilisation cash flow.",
+        "A050; M03",
+        "3",
+        "4",
+        "12 (Medium)",
+        "Thomas Becker (Contracts)",
+        "Close QSE comments by 7 Dec; bank acceptability by 9 Dec; signatory specimen by 11 Dec; prepare issue pack in advance; cash-flow plan for bridging early costs."
+       ],
+       [
+        "R-006",
+        "Permits",
+        "Construction permit (M07, 20 Mar 2027) delayed by incomplete design package, late QSE land documents or inspectorate review time; only 23 days remain before first piles M08 (12 Apr 2027).",
+        "M07; M08; A110",
+        "3",
+        "5",
+        "15 (High)",
+        "Thomas Becker; Shavkat Bobojonov (authority interface)",
+        "Parallel lodging with Basic Design (letter HEL001-L-CO-HEP-GOV-0001); confirm Engineering permit package dates by 8 Dec; pre-meeting with Inspectorate; define permit-free early works (survey, camp) legally."
+       ],
+       [
+        "R-007",
+        "Logistics / Customs",
+        "Customs clearance and DDP logistics through Kazakhstan by rail to Navoi railhead (25-35 days, plus Middle Corridor/Turkey routes 35-50 days) with 4 weeks customs allowance per shipment; border congestion could delay modules from M09 (20 Jul 2027) and BESS from 1 Dec 2027.",
+        "M09; P01, P04 delivery",
+        "3",
+        "4",
+        "12 (Medium)",
+        "Mehmet Yildiz (SCM); Li Wei",
+        "Appoint freight forwarder and customs broker early; pre-registration of import documents with Shavkat Bobojonov's customs liaison; stage shipments; add 2 weeks float in L3 logistics logic; alternate route study."
+       ],
+       [
+        "R-008",
+        "Weather / Survey",
+        "Winter conditions (-2 to 5 C, wind, possible snow or frozen ground) at survey and geotechnical start on 20 Dec 2026 reduce drilling and survey productivity at A210 (to 25 Jan) and A220 (to 20 Feb).",
+        "A210; A220",
+        "4",
+        "3",
+        "12 (Medium)",
+        "Sanjay Mehta (Construction)",
+        "Mobilise winterised crews and heated site welfare; allow weather days in L3; priority drilling on PSS and pile test areas; daily weather log for EOT records."
+       ],
+       [
+        "R-009",
+        "Grid",
+        "Grid connection agreement terms and protection coordination with UzGridCo (Ulugbek Mirzaev) delayed or changing; grid code and energisation permits late affect M10 (20 Jan 2028) and M11 first power (15 Feb 2028).",
+        "Grid studies; M10; M11",
+        "3",
+        "5",
+        "15 (High)",
+        "Rajan Iyer; Elena Petrova (technical); Sergey Volkov",
+        "Early technical meeting with UzGridCo; submit protection and SCADA concept in Basic Design; track energisation permit steps in L3; monthly meeting with grid operator."
+       ],
+       [
+        "R-010",
+        "Design",
+        "OWE review periods are not confirmed against the Contract (10 working days for drawings agreed at KOM, Engineering uses 14 calendar days for Basic Design) and comments may exceed assumptions; rolling IFC packages could finish later than 4 weeks before construction.",
+        "A310; IFC packages; M04",
+        "3",
+        "4",
+        "12 (Medium)",
+        "Elena Petrova; Thomas Becker",
+        "Confirm deemed-approval wording; agree review matrix with Sophie Laurent; track review cycles in design register; use priority packages for piling and foundations."
+       ],
+       [
+        "R-011",
+        "Procurement",
+        "Module supply contract (M06, 15 Feb 2027) delayed because RFQ (A610, 5 Jan to 15 Feb) and technical clarifications overrun; 10-12 weeks production plus 6-7 weeks transit leaves little slack to M09.",
+        "A610; M06; M09",
+        "3",
+        "4",
+        "12 (Medium)",
+        "Mehmet Yildiz; Li Wei",
+        "Issue RFQ 21 Dec; shortlist early; LOI before contract; align payment terms with advance payment timing."
+       ],
+       [
+        "R-012",
+        "Subcontractors",
+        "Subcontract awards (civil 15 Feb, MMS and substation/OHTL 15 Mar, electrical 30 Apr) slip or prequalification fails, delaying mobilisation to M05 (1 Mar 2027); subcontractor durations not yet validated.",
+        "A710; M05",
+        "3",
+        "4",
+        "12 (Medium)",
+        "Sanjay Mehta; Mehmet Yildiz",
+        "Run prequalification in parallel with RFQ; obtain duration inputs from Sanjay by 15 Dec; backup bidder per package."
+       ],
+       [
+        "R-013",
+        "Environment / Social",
+        "ESIA conditions (A120, to 10 Mar 2027) not implemented or monitoring plans late, causing regulator hold on site clearing.",
+        "A120",
+        "2",
+        "4",
+        "8 (Low)",
+        "Jamshid Tursunov (HSE)",
+        "Condition register by 31 Jan; incorporate into HSE plan; liaise with QSE on approval status."
+       ],
+       [
+        "R-014",
+        "Site / Ground",
+        "Sandy loam over gypsum-cemented layers causes pile refusal or corrosion issues; first piles M08 (12 Apr 2027) and pile production rates may be lower than assumed.",
+        "M08; pile installation",
+        "3",
+        "4",
+        "12 (Medium)",
+        "Rustam Ergashev; Elena Petrova",
+        "Pile load and pull-out test programme early; trackers vendor pile design support; contingency rigs and pre-drilling allowance in L3."
+       ],
+       [
+        "R-015",
+        "Access / Infrastructure",
+        "12 km unpaved track from A-380 degrades in winter or under heavy transformer, BESS and inverter transport, restricting delivery and mobilisation.",
+        "M05; deliveries from Jun 2027",
+        "3",
+        "3",
+        "9 (Medium)",
+        "Sanjay Mehta",
+        "Upgrade and maintain track under early civil works; heavy-haul route survey; delivery windows plan."
+       ],
+       [
+        "R-016",
+        "Resources",
+        "Winter and spring demand for skilled labour and cranes in Navoi Region and competing projects; labour shortage of electricians and welders for 2027 peak.",
+        "A710; installation activities",
+        "3",
+        "3",
+        "9 (Medium)",
+        "Sanjay Mehta",
+        "Early manpower histogram from subcontractors; local training and camp readiness by M05; incentives for retention."
+       ],
+       [
+        "R-017",
+        "Schedule / Progress",
+        "Baseline schedule L1-L3 (A040) approval slips beyond 10 Jan 2027 due to late inputs from Engineering, SCM and Construction; no approved baseline weakens delay claims.",
+        "A040",
+        "3",
+        "3",
+        "9 (Medium)",
+        "Aziz Karimov (Planning)",
+        "Input deadlines tracked by Priya Nair; first L2 draft 21 Dec; weekly review with Rajan Iyer."
+       ],
+       [
+        "R-018",
+        "Contract / Currency",
+        "Cost increases in module, steel and freight prices and currency movement during procurement before award affect lump-sum margin and may push scope trade-offs.",
+        "P01-P09 awards",
+        "3",
+        "3",
+        "9 (Medium)",
+        "Thomas Becker",
+        "Lock key prices with validity extensions; indexed supplier quotes; monitor monthly."
+       ]
+      ]
+     }
+    },
+    {
+     "heading": "4. Top exposures",
+     "paragraphs": [
+      "Planning sees five risks as most urgent in the next 30 days because they act on critical or near-critical paths."
+     ],
+     "bullets": [
+      "R-001 Transformer lead time against M10: PO 12 Feb 2027 plus 36-40 weeks puts delivery on 15 Nov to 15 Dec 2027, and 20 Jan 2028 leaves about 5 weeks at best for installation, oil processing, testing and energisation.",
+      "R-003 Geotechnical report A220 (20 Feb) against Basic Design (26 Feb) and M04 (15 Mar): float is negative by roughly 9-11 days on stated review durations.",
+      "R-004 Land allocation A110 before NTP and its knock-on to M07 and M08.",
+      "R-002 Long-lead specifications due 18 Dec (P05) and 31 Dec (P02, P03): late issue shifts RFQs, POs and deliveries day for day.",
+      "R-005 APG and advance payment (A050, M03 5 Jan 2027) timing."
+     ]
+    },
+    {
+     "heading": "5. Schedule observations",
+     "paragraphs": [
+      "Planning will model the transformer as an explicit driver of M10 and will add risk-based float checks in the L3 baseline. A first-pass view of dates indicates that float to M04 and M10 is already negative or close to zero on current inputs, and these must be resolved through mitigation actions rather than absorbed in the baseline. The M07 permit date of 20 Mar 2027 leaves only 23 days to M08 first piles on 12 Apr 2027, with no allowance for permit delays."
+     ]
+    },
+    {
+     "heading": "6. Next steps",
+     "bullets": [
+      "Rajan Iyer to review and comment by 9 Dec 2026.",
+      "Owners to confirm scores and mitigation dates by 11 Dec 2026.",
+      "Planning to link risks to L2/L3 activities in the baseline draft due 21 Dec 2026.",
+      "Risks appended to the project risk register as R-001 to R-018.",
+      "Register to be issued with PEP Rev A and reviewed monthly."
+     ]
+    }
+   ]
+  }
+ ],
+ "letters": [],
+ "emails": [
+  {
+   "to_roles": [
+    "epc-project-director"
+   ],
+   "subject": "Initial Risk Register for PEP Rev A - for review",
+   "body": "Rajan,\n\nI have issued the initial Risk Register (HEL001-G000-P-&REG, Rev A) with 18 risks, each with probability, impact, score, owner, mitigation and linked schedule activity. All are also appended to the risk register as R-001 to R-018.\n\nTop 5 exposures:\n1. R-001 Transformer lead time vs M10: PO 12 Feb 2027 plus 36-40 weeks gives delivery 15 Nov-15 Dec 2027; about 5 weeks at best before 20 Jan 2028 for installation and testing. Score 20.\n2. R-003 Geotech A220 (20 Feb) vs Basic Design 26 Feb and M04 15 Mar: float is negative by roughly 9-11 days on the stated review periods. Score 16.\n3. R-004 Land allocation A110 before NTP (QSE written status due 10 Dec); affects M07 and M08. Score 15.\n4. R-002 Specification dates for RFQs: P05 by 18 Dec, P02/P03 by 31 Dec from Elena. Score 16.\n5. R-005 APG and advance payment timing (A050, M03 5 Jan 2027): bank acceptance by 9 Dec, signatory pack by 11 Dec. Score 12.\n\nI would be grateful for your comments by 9 December so I can include them before PEP Rev A. I also need you to confirm that the Level 1 summary and reporting calendar (REQ-003) can follow tomorrow.\n\nRegards,\nAziz Karimov\nPlanning Manager, HEP"
+  }
+ ],
+ "meeting_minutes": [],
+ "register_updates": [
+  {
+   "register": "risk",
+   "op": "append",
+   "row": {
+    "id": "R-001",
+    "category": "Procurement",
+    "description": "220/33 kV transformer and 220 kV HV equipment (P05) lead time of 36-40 weeks from PO 12 Feb 2027 gives delivery 15 Nov-15 Dec 2027; installation, oil processing and testing then leave little or no float to M10 (20 Jan 2028). Late PO or late specification pushes M10 and M11 directly. [Linked: A540/P05 PO; M10]",
+    "probability": "4",
+    "impact": "5",
+    "score": "20",
+    "owner": "Mehmet Yildiz (SCM); schedule watch Aziz Karimov",
+    "mitigation": "Issue RFQ 4 Jan; hold factory slot with LOI before PO; seek 32-34 week offers and staged delivery; add transformer as explicit M10 driver in L3; weekly expediting; validate installation and test durations with GridWorks.",
+    "status": "Open"
+   }
+  },
+  {
+   "register": "risk",
+   "op": "append",
+   "row": {
+    "id": "R-002",
+    "category": "Engineering",
+    "description": "Technical specifications for long-lead items arrive late (P05 due 18 Dec, P02/P03 due 31 Dec from Elena Petrova). Each day of slip moves RFQ issue (4 Jan, 11 Jan) and therefore PO and delivery dates day for day. [Linked: Specification milestones; RFQ P05, P02, P03]",
+    "probability": "4",
+    "impact": "4",
+    "score": "16",
+    "owner": "Elena Petrova (Engineering)",
+    "mitigation": "Agree frozen specification dates in writing; issue preliminary specifications with hold flags; Dilnoza Rashidova to track weekly; escalate to Rajan Iyer at 3 days slip.",
+    "status": "Open"
+   }
+  },
+  {
+   "register": "risk",
+   "op": "append",
+   "row": {
+    "id": "R-003",
+    "category": "Design / Site data",
+    "description": "Geotechnical report A220 finishes 20 Feb 2027 but Basic Design submission is targeted 26 Feb and M04 approval is 15 Mar. On Engineering's stated review durations (14 days OWE plus 10 working days close-out) approval falls about 9-11 days after M04, so float is negative. Winter ground (gypsum-cemented layers) may also slow drilling. [Linked: A220; A310; M04]",
+    "probability": "4",
+    "impact": "4",
+    "score": "16",
+    "owner": "Elena Petrova; Sanjay Mehta (survey and geotech)",
+    "mitigation": "Request phased/preliminary geotechnical report by end Jan (REQ-004); issue Basic Design on stated assumptions with hold flags; negotiate parallel OWE review; confirm review periods against Contract with Thomas Becker.",
+    "status": "Open"
+   }
+  },
+  {
+   "register": "risk",
+   "op": "append",
+   "row": {
+    "id": "R-004",
+    "category": "Land / Permits",
+    "description": "Land allocation decree and cadastral passport (A110) not confirmed before NTP on 15 Dec; QSE written status due 10 Dec. A110 forecast runs to 15 Feb 2027 and feeds the construction permit file (M07) and first piles (M08). [Linked: A110; A060 NTP; M07; M08]",
+    "probability": "3",
+    "impact": "5",
+    "score": "15",
+    "owner": "Khalid Al-Mansoori (QSE); HEP follow-up Rajan Iyer",
+    "mitigation": "Obtain QSE written status by 10 Dec; record dependency in NTP precondition tracker; keep survey access under interim site access letter; Contracts to reserve time-extension rights (Thomas Becker).",
+    "status": "Open"
+   }
+  },
+  {
+   "register": "risk",
+   "op": "append",
+   "row": {
+    "id": "R-005",
+    "category": "Commercial / Finance",
+    "description": "Advance Payment Guarantee form, issuing bank acceptability and signatory documents not agreed in time; advance payment (10%) is released only against accepted APG, so receipt could slip past 5 Jan 2027 (M03) and affect early procurement and mobilisation cash flow. [Linked: A050; M03]",
+    "probability": "3",
+    "impact": "4",
+    "score": "12",
+    "owner": "Thomas Becker (Contracts)",
+    "mitigation": "Close QSE comments by 7 Dec; bank acceptability by 9 Dec; signatory specimen by 11 Dec; prepare issue pack in advance; cash-flow plan for bridging early costs.",
+    "status": "Open"
+   }
+  },
+  {
+   "register": "risk",
+   "op": "append",
+   "row": {
+    "id": "R-006",
+    "category": "Permits",
+    "description": "Construction permit (M07, 20 Mar 2027) delayed by incomplete design package, late QSE land documents or inspectorate review time; only 23 days remain before first piles M08 (12 Apr 2027). [Linked: M07; M08; A110]",
+    "probability": "3",
+    "impact": "5",
+    "score": "15",
+    "owner": "Thomas Becker; Shavkat Bobojonov (authority interface)",
+    "mitigation": "Parallel lodging with Basic Design (letter HEL001-L-CO-HEP-GOV-0001); confirm Engineering permit package dates by 8 Dec; pre-meeting with Inspectorate; define permit-free early works (survey, camp) legally.",
+    "status": "Open"
+   }
+  },
+  {
+   "register": "risk",
+   "op": "append",
+   "row": {
+    "id": "R-007",
+    "category": "Logistics / Customs",
+    "description": "Customs clearance and DDP logistics through Kazakhstan by rail to Navoi railhead (25-35 days, plus Middle Corridor/Turkey routes 35-50 days) with 4 weeks customs allowance per shipment; border congestion could delay modules from M09 (20 Jul 2027) and BESS from 1 Dec 2027. [Linked: M09; P01, P04 delivery]",
+    "probability": "3",
+    "impact": "4",
+    "score": "12",
+    "owner": "Mehmet Yildiz (SCM); Li Wei",
+    "mitigation": "Appoint freight forwarder and customs broker early; pre-registration of import documents with Shavkat Bobojonov's customs liaison; stage shipments; add 2 weeks float in L3 logistics logic; alternate route study.",
+    "status": "Open"
+   }
+  },
+  {
+   "register": "risk",
+   "op": "append",
+   "row": {
+    "id": "R-008",
+    "category": "Weather / Survey",
+    "description": "Winter conditions (-2 to 5 C, wind, possible snow or frozen ground) at survey and geotechnical start on 20 Dec 2026 reduce drilling and survey productivity at A210 (to 25 Jan) and A220 (to 20 Feb). [Linked: A210; A220]",
+    "probability": "4",
+    "impact": "3",
+    "score": "12",
+    "owner": "Sanjay Mehta (Construction)",
+    "mitigation": "Mobilise winterised crews and heated site welfare; allow weather days in L3; priority drilling on PSS and pile test areas; daily weather log for EOT records.",
+    "status": "Open"
+   }
+  },
+  {
+   "register": "risk",
+   "op": "append",
+   "row": {
+    "id": "R-009",
+    "category": "Grid",
+    "description": "Grid connection agreement terms and protection coordination with UzGridCo (Ulugbek Mirzaev) delayed or changing; grid code and energisation permits late affect M10 (20 Jan 2028) and M11 first power (15 Feb 2028). [Linked: Grid studies; M10; M11]",
+    "probability": "3",
+    "impact": "5",
+    "score": "15",
+    "owner": "Rajan Iyer; Elena Petrova (technical); Sergey Volkov",
+    "mitigation": "Early technical meeting with UzGridCo; submit protection and SCADA concept in Basic Design; track energisation permit steps in L3; monthly meeting with grid operator.",
+    "status": "Open"
+   }
+  },
+  {
+   "register": "risk",
+   "op": "append",
+   "row": {
+    "id": "R-010",
+    "category": "Design",
+    "description": "OWE review periods are not confirmed against the Contract (10 working days for drawings agreed at KOM, Engineering uses 14 calendar days for Basic Design) and comments may exceed assumptions; rolling IFC packages could finish later than 4 weeks before construction. [Linked: A310; IFC packages; M04]",
+    "probability": "3",
+    "impact": "4",
+    "score": "12",
+    "owner": "Elena Petrova; Thomas Becker",
+    "mitigation": "Confirm deemed-approval wording; agree review matrix with Sophie Laurent; track review cycles in design register; use priority packages for piling and foundations.",
+    "status": "Open"
+   }
+  },
+  {
+   "register": "risk",
+   "op": "append",
+   "row": {
+    "id": "R-011",
+    "category": "Procurement",
+    "description": "Module supply contract (M06, 15 Feb 2027) delayed because RFQ (A610, 5 Jan to 15 Feb) and technical clarifications overrun; 10-12 weeks production plus 6-7 weeks transit leaves little slack to M09. [Linked: A610; M06; M09]",
+    "probability": "3",
+    "impact": "4",
+    "score": "12",
+    "owner": "Mehmet Yildiz; Li Wei",
+    "mitigation": "Issue RFQ 21 Dec; shortlist early; LOI before contract; align payment terms with advance payment timing.",
+    "status": "Open"
+   }
+  },
+  {
+   "register": "risk",
+   "op": "append",
+   "row": {
+    "id": "R-012",
+    "category": "Subcontractors",
+    "description": "Subcontract awards (civil 15 Feb, MMS and substation/OHTL 15 Mar, electrical 30 Apr) slip or prequalification fails, delaying mobilisation to M05 (1 Mar 2027); subcontractor durations not yet validated. [Linked: A710; M05]",
+    "probability": "3",
+    "impact": "4",
+    "score": "12",
+    "owner": "Sanjay Mehta; Mehmet Yildiz",
+    "mitigation": "Run prequalification in parallel with RFQ; obtain duration inputs from Sanjay by 15 Dec; backup bidder per package.",
+    "status": "Open"
+   }
+  },
+  {
+   "register": "risk",
+   "op": "append",
+   "row": {
+    "id": "R-013",
+    "category": "Environment / Social",
+    "description": "ESIA conditions (A120, to 10 Mar 2027) not implemented or monitoring plans late, causing regulator hold on site clearing. [Linked: A120]",
+    "probability": "2",
+    "impact": "4",
+    "score": "8",
+    "owner": "Jamshid Tursunov (HSE)",
+    "mitigation": "Condition register by 31 Jan; incorporate into HSE plan; liaise with QSE on approval status.",
+    "status": "Open"
+   }
+  },
+  {
+   "register": "risk",
+   "op": "append",
+   "row": {
+    "id": "R-014",
+    "category": "Site / Ground",
+    "description": "Sandy loam over gypsum-cemented layers causes pile refusal or corrosion issues; first piles M08 (12 Apr 2027) and pile production rates may be lower than assumed. [Linked: M08; pile installation]",
+    "probability": "3",
+    "impact": "4",
+    "score": "12",
+    "owner": "Rustam Ergashev; Elena Petrova",
+    "mitigation": "Pile load and pull-out test programme early; trackers vendor pile design support; contingency rigs and pre-drilling allowance in L3.",
+    "status": "Open"
+   }
+  },
+  {
+   "register": "risk",
+   "op": "append",
+   "row": {
+    "id": "R-015",
+    "category": "Access / Infrastructure",
+    "description": "12 km unpaved track from A-380 degrades in winter or under heavy transformer, BESS and inverter transport, restricting delivery and mobilisation. [Linked: M05; deliveries from Jun 2027]",
+    "probability": "3",
+    "impact": "3",
+    "score": "9",
+    "owner": "Sanjay Mehta",
+    "mitigation": "Upgrade and maintain track under early civil works; heavy-haul route survey; delivery windows plan.",
+    "status": "Open"
+   }
+  },
+  {
+   "register": "risk",
+   "op": "append",
+   "row": {
+    "id": "R-016",
+    "category": "Resources",
+    "description": "Winter and spring demand for skilled labour and cranes in Navoi Region and competing projects; labour shortage of electricians and welders for 2027 peak. [Linked: A710; installation activities]",
+    "probability": "3",
+    "impact": "3",
+    "score": "9",
+    "owner": "Sanjay Mehta",
+    "mitigation": "Early manpower histogram from subcontractors; local training and camp readiness by M05; incentives for retention.",
+    "status": "Open"
+   }
+  },
+  {
+   "register": "risk",
+   "op": "append",
+   "row": {
+    "id": "R-017",
+    "category": "Schedule / Progress",
+    "description": "Baseline schedule L1-L3 (A040) approval slips beyond 10 Jan 2027 due to late inputs from Engineering, SCM and Construction; no approved baseline weakens delay claims. [Linked: A040]",
+    "probability": "3",
+    "impact": "3",
+    "score": "9",
+    "owner": "Aziz Karimov (Planning)",
+    "mitigation": "Input deadlines tracked by Priya Nair; first L2 draft 21 Dec; weekly review with Rajan Iyer.",
+    "status": "Open"
+   }
+  },
+  {
+   "register": "risk",
+   "op": "append",
+   "row": {
+    "id": "R-018",
+    "category": "Contract / Currency",
+    "description": "Cost increases in module, steel and freight prices and currency movement during procurement before award affect lump-sum margin and may push scope trade-offs. [Linked: P01-P09 awards]",
+    "probability": "3",
+    "impact": "3",
+    "score": "9",
+    "owner": "Thomas Becker",
+    "mitigation": "Lock key prices with validity extensions; indexed supplier quotes; monitor monthly.",
+    "status": "Open"
+   }
+  }
+ ],
+ "schedule_updates": [],
+ "requests": [
+  {
+   "to_role": "epc-scm-lead",
+   "what": "Confirm whether a factory slot for the 220/33 kV transformer (P05) can be reserved with an LOI before the PO on 12 Feb 2027, and request alternative offers with 32-34 week delivery.",
+   "due_day": 10
+  },
+  {
+   "to_role": "epc-engineering-lead",
+   "what": "Confirm in writing the frozen specification dates for P05 (18 Dec), P02 and P03 (31 Dec), and advise whether a phased geotechnical report can be issued by end January 2027.",
+   "due_day": 8
+  },
+  {
+   "to_role": "epc-contracts-manager",
+   "what": "Confirm contractual review periods and deemed-approval wording, and the time-extension and notice implications of late land allocation (A110) and APG acceptance.",
+   "due_day": 9
+  }
+ ]
+}

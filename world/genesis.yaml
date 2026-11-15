@@ -13,8 +13,8 @@ deliverables:
   - {day: 3, owner: epc-engineering-lead,    kind: document, title: Engineering Execution Plan and Deliverables List, folder: 3/02, area: G000, disc: E, type: "&PRC"}
   - {day: 4, owner: epc-scm-lead,            kind: document, title: Procurement Plan and Package List, folder: 4/01, area: G000, disc: P, type: "&PRC", notes: Packages, strategy, long-lead items, RFQ dates, incoterms, logistics}
   - {day: 4, owner: epc-contracts-manager,   kind: document, title: Subcontracting Strategy and Prequalification Criteria, folder: 14/01, area: G000, disc: K, type: "&PRC"}
-  - {day: 5, owner: epc-planning-manager,    kind: document, title: Risk Register (Initial), folder: 1/06, area: G000, disc: P, type: "&REG", notes: at least 15 risks with probability/impact/mitigation/owner; also append to risk register}
-  - {day: 5, owner: epc-hse-manager,         kind: document, title: Project HSE Management Plan, folder: 11/01, area: G000, disc: H, type: "&HSE"}
+  - {day: 6, owner: epc-planning-manager,    kind: document, title: Risk Register (Initial), folder: 1/06, area: G000, disc: P, type: "&REG", notes: at least 15 risks with probability/impact/mitigation/owner; also append to risk register}
+  - {day: 6, owner: epc-hse-manager,         kind: document, title: Project HSE Management Plan, folder: 11/01, area: G000, disc: H, type: "&HSE"}
   - {day: 6, owner: epc-qaqc-manager,        kind: document, title: Project Quality Management Plan, folder: 10/01, area: G000, disc: Q, type: "&AQA"}
   - {day: 6, owner: epc-planning-manager,    kind: document, title: Project Execution Plan, folder: 1/03, area: G000, disc: P, type: "&PRC", notes: comprehensive; approved by Project Director}
   - {day: 7, owner: epc-planning-manager,    kind: document, title: Progress Measurement and Reporting Procedure, folder: 1/07, area: G000, disc: P, type: "&PRC"}

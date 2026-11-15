@@ -1,0 +1,33 @@
+{
+"summary": "I replied to Mr Iyer's letter confirming the Kick-off Meeting for 3 December at our Tashkent office, with QSE and Meridian attendance and my nomination as Client Representative. I added reporting format, communication protocol and document review periods to the agenda, and copied the Owner's Engineer.",
+"documents": [],
+"letters": [
+{
+"to_role": "epc-project-director",
+"dept": "PM",
+"subject": "Re: Confirmation of Contract Signature and Kick-off Meeting Arrangements",
+"reply_to_ref": "HEL001-L-PM-HEP-QSE-0001",
+"cc_roles": ["client-owners-engineer", "client-commercial-manager", "epc-contracts-manager"],
+"body_paragraphs": [
+"Thank you for your letter HEL001-L-PM-HEP-QSE-0001 confirming execution of the EPC Contract on 2026-12-01. Qizilqum Solar Energy JSC (QSE) acknowledges 2026-12-01 as Day 0, the Notice to Proceed on 2026-12-15 and Provisional Acceptance on 2028-05-31. We share your wish for a close and disciplined working relationship, and we expect the programme to be held to those dates.",
+"QSE confirms the Kick-off Meeting (Milestone M02) for Thursday 2026-12-03 at the QSE office in Tashkent, starting at 10:00 local time. Please plan for a full-day session, with lunch break and close by 16:30. Helios EPC LLC should send its attendee list by close of business today, so we can arrange building access.",
+"QSE will be represented by myself as Client Project Manager, Mr Omar Hassan, Client Commercial & Contracts Manager, and Mr Bekzod Nazarov, Client Site Representative. In accordance with the Contract, I am nominated as the Client's Representative for all matters under the Contract, including approvals, payment certification, change control and lender interface. Formal notice of this nomination, with the extent of delegated authority, will follow separately. The Owner's Engineer, Meridian Energy Consultants, will attend and will be represented by Ms Sophie Laurent, Owner's Engineer Lead. We ask that the Owner's Engineer is copied on all correspondence and submittals under the Contract.",
+"We have reviewed the draft agenda (HEL001-G000-P-&MOM-00001-A) and request that the following items be added. First, reporting format: the monthly progress report content and issue date, the weekly look-ahead, and the data QSE needs for its monthly lender report (progress against baseline, S-curve, HSE statistics, cash flow forecast, permits and grid status). We ask that the first report cycle covers December 2026 and is received by the 5th of the following month. Second, communication protocol: authorised signatories, correspondence numbering and routing, response times for letters and RFIs, and the use of email versus formal letters. Third, document review periods: the review periods and return codes for design documents, procedures, subcontractor and vendor approvals, and the Document Control and Numbering Procedure transmitted under HEL001-L-PM-HEP-QSE-0002, which is under review and on which comments will follow within the review period.",
+"In addition, we would like the meeting to address the baseline schedule submission and approval route, the NTP preconditions, and the advance payment guarantee and advance payment timetable (Milestone M03, 2027-01-05). Please issue a revised agenda incorporating these points by 12:00 on 2026-12-02, and minutes of the meeting within two working days of the meeting for our review.",
+"We look forward to a productive start."
+],
+"requires_response_by_day": 1
+}
+],
+"emails": [],
+"meeting_minutes": [],
+"register_updates": [
+{"register":"actions","op":"append","row":{"action":"HEP to issue revised KOM agenda including QSE items (reporting format, communication protocol, document review periods) and attendee list","owner":"epc-project-director","due_date":"2026-12-02","status":"Open"}},
+{"register":"actions","op":"append","row":{"action":"QSE to issue formal Client Representative nomination notice","owner":"client-project-manager","due_date":"2026-12-04","status":"Open"}}
+],
+"schedule_updates": [],
+"requests": [
+{"to_role":"client-owners-engineer","what":"Please confirm Meridian attendance at the KOM on 2026-12-03 in Tashkent at 10:00 and send any OE agenda items and proposed review periods for design submittals.","due_day":1},
+{"to_role":"client-commercial-manager","what":"Please prepare QSE input for the KOM on the advance payment guarantee, advance payment timing, and payment certification and invoicing procedure.","due_day":1}
+]
+}

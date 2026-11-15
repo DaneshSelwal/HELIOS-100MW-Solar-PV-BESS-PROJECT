@@ -1,0 +1,716 @@
+{
+ "summary": "I issued the Project Charter and the Organisation Chart and RACI for tomorrow's Kick-off Meeting, and approved the Document Control and Numbering Procedure rev A with Nilufar. I wrote to Khalid Al-Mansoori to close out the KOM attendee, Client Representative and OE contact confirmations.",
+ "documents": [
+  {
+   "title": "Project Charter",
+   "folder": "1/01",
+   "area": "G000",
+   "disc": "P",
+   "type": "&PRC",
+   "rev": "A",
+   "status": "Issued for Information",
+   "sections": [
+    {
+     "heading": "1. Purpose and Authority",
+     "paragraphs": [
+      "This Project Charter establishes the objectives, scope, milestones, governance, authority limits and reporting lines for the HELIOS 100 MW Solar PV + BESS Power Plant (HEL001) at the Qizilqum Solar Site, Navoi Region, Uzbekistan. It is issued by Rajan Iyer, Project Director, on behalf of Helios EPC LLC (HEP) under the EPC Contract with Qizilqum Solar Energy JSC (QSE) signed on 2026-12-01 (Day 0), and is presented to the project team at the Kick-off Meeting on 2026-12-03.",
+      "The Charter is an internal HEP governance document. Where it differs from the EPC Contract (FIDIC Silver Book 2017 based, amended), the Contract prevails."
+     ]
+    },
+    {
+     "heading": "2. Project Objectives",
+     "paragraphs": [
+      "Deliver a safe, compliant, fully operational 100 MWac / 128 MWp PV plant with a 50 MW / 100 MWh BESS and 220 kV grid connection, achieving Provisional Acceptance (PAC) by 2028-05-31, within the lump-sum price of USD 95,000,000."
+     ],
+     "bullets": [
+      "Safety: zero fatalities and zero lost-time injuries; HSE plan issued before mobilisation.",
+      "Time: PAC on 2028-05-31 against 18 months from NTP; delay LDs of 0.5% per week, capped at 10% of the Contract Price, are to be avoided.",
+      "Cost: hold the lump-sum price and protect margin; every change to be raised through a formal Change Order.",
+      "Quality: all works inspected under approved ITPs; zero open Category A punch items at PAC.",
+      "Relationship: transparent, no-surprise reporting to QSE, Meridian Energy Consultants (OWE), UzGridCo and the authorities."
+     ]
+    },
+    {
+     "heading": "3. Scope Summary",
+     "paragraphs": [
+      "The EPC scope is lump-sum turnkey: design, procurement, construction, installation, testing and commissioning, to PAC and handover."
+     ],
+     "table": {
+      "columns": [
+       "Element",
+       "Summary"
+      ],
+      "rows": [
+       [
+        "PV plant",
+        "100 MWac / 128 MWp in four blocks PV1-PV4; 206,500 TOPCon bifacial 620 Wp modules; single-axis trackers; 28 central inverter stations of 3.6 MVA with MV transformers and switchgear"
+       ],
+       [
+        "BESS",
+        "50 MW / 100 MWh LFP containers, PCS and EMS"
+       ],
+       [
+        "Plant substation",
+        "33/220 kV plant substation (PSS)"
+       ],
+       [
+        "Grid connection",
+        "9 km 220 kV overhead transmission line to the nearest 220 kV substation; grid interface works, protection and SCADA"
+       ],
+       [
+        "Site infrastructure",
+        "12 km access track from A-380 highway, site roads, drainage, fencing, camp, SCADA field cabling"
+       ],
+       [
+        "Site",
+        "Desert plateau ~45 km north-east of Navoi city, elevation 310-335 m; sandy loam over gypsum-cemented layers; site works Mon-Sat"
+       ]
+      ]
+     }
+    },
+    {
+     "heading": "4. Commercial Framework",
+     "paragraphs": [
+      "Contract price USD 95,000,000, lump sum. Advance payment 10% (USD 9,500,000) against an advance payment guarantee; retention 5%; time for completion 18 months from NTP (2026-12-15). Payment applications and letters to QSE require my approval before issue."
+     ]
+    },
+    {
+     "heading": "5. Key Milestones M00-M14",
+     "table": {
+      "columns": [
+       "ID",
+       "Milestone",
+       "Date"
+      ],
+      "rows": [
+       [
+        "M00",
+        "Contract Signature",
+        "2026-12-01"
+       ],
+       [
+        "M01",
+        "Notice to Proceed",
+        "2026-12-15"
+       ],
+       [
+        "M02",
+        "Kick-off Meeting",
+        "2026-12-03"
+       ],
+       [
+        "M03",
+        "Advance Payment received",
+        "2027-01-05"
+       ],
+       [
+        "M04",
+        "Basic Design approved",
+        "2027-03-15"
+       ],
+       [
+        "M05",
+        "Site Mobilisation",
+        "2027-03-01"
+       ],
+       [
+        "M06",
+        "Module Supply Contract signed",
+        "2027-02-15"
+       ],
+       [
+        "M07",
+        "Construction Permit obtained",
+        "2027-03-20"
+       ],
+       [
+        "M08",
+        "First piles driven",
+        "2027-04-12"
+       ],
+       [
+        "M09",
+        "First module delivery on site",
+        "2027-07-20"
+       ],
+       [
+        "M10",
+        "Plant substation energised",
+        "2028-01-20"
+       ],
+       [
+        "M11",
+        "Grid back-feed / first power",
+        "2028-02-15"
+       ],
+       [
+        "M12",
+        "BESS commissioning complete",
+        "2028-04-15"
+       ],
+       [
+        "M13",
+        "Performance test passed",
+        "2028-05-15"
+       ],
+       [
+        "M14",
+        "Provisional Acceptance (PAC)",
+        "2028-05-31"
+       ]
+      ]
+     }
+    },
+    {
+     "heading": "6. Governance and Reporting Lines",
+     "paragraphs": [
+      "The Project Director holds overall accountability for delivery and is the single point of escalation to QSE. Functional managers report to the Project Director; subcontractors and vendors report through the responsible HEP manager."
+     ],
+     "bullets": [
+      "Weekly Progress Meeting with QSE and OWE, chaired by the Project Director.",
+      "Internal weekly coordination meeting led by the Project Director with all HEP managers.",
+      "Monthly Progress Report approved by the Project Director, issued to QSE by the 5th working day.",
+      "Planning Manager (Aziz Karimov) reports schedule status; Contracts Manager (Thomas Becker) reports commercial position and change exposure.",
+      "Escalation path: discipline manager, then Project Director, then QSE Project Manager (Khalid Al-Mansoori) and, if unresolved, the contractual dispute provisions.",
+      "All formal correspondence is numbered and controlled by the Document Controller (Nilufar Yusupova) under the Document Control and Numbering Procedure."
+     ]
+    },
+    {
+     "heading": "7. Authority Limits (internal, proposed for confirmation by HEP management)",
+     "paragraphs": [
+      "Limits below apply internally within HEP and are to be confirmed against the HEP delegation of authority. Nothing here amends the Contract."
+     ],
+     "table": {
+      "columns": [
+       "Decision",
+       "Authority"
+      ],
+      "rows": [
+       [
+        "Letters to QSE / OWE / authorities",
+        "Project Director signature; managers draft"
+       ],
+       [
+        "Payment applications (IPC) to QSE",
+        "Prepared by Contracts Manager; approved by Project Director"
+       ],
+       [
+        "Change Orders and variation notices",
+        "Contracts Manager prepares; Project Director approves; above-threshold items to HEP management"
+       ],
+       [
+        "Purchase orders and subcontract awards",
+        "Supply Chain Manager recommends; Project Director approves within delegated limit; higher to HEP management"
+       ],
+       [
+        "Technical design release (IFC)",
+        "Engineering Manager, with QA/QC concurrence"
+       ],
+       [
+        "Stop-work for safety reasons",
+        "HSE Manager and any site manager, without prior approval"
+       ],
+       [
+        "Schedule baseline and re-baselining",
+        "Planning Manager proposes; Project Director approves"
+       ]
+      ]
+     }
+    },
+    {
+     "heading": "8. Key Risks and Immediate Priorities",
+     "paragraphs": [
+      "The first 100 days are driven by NTP conditions, the advance payment guarantee, permits and land allocation, and early long-lead orders. The principal early risks are late construction permit (M07), late land confirmation and cadastral passport, geotechnical conditions (gypsum-cemented layers) affecting piling, winter works restrictions and the long remote access track."
+     ],
+     "bullets": [
+      "Submit the L1-L3 baseline schedule to OWE by 2027-01-10.",
+      "Issue the Project Execution Plan and procedures by 2027-01-15.",
+      "Provide the advance payment guarantee to enable M03 (2027-01-05).",
+      "Secure land allocation, cadastral passport and ESIA conditions with Navoi authorities.",
+      "Start topographic survey and geotechnical investigation from 2026-12-20.",
+      "Prequalify subcontractors by 2027-01-31."
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Project Organisation Chart and Responsibility Matrix",
+   "folder": "1/01",
+   "area": "G000",
+   "disc": "P",
+   "type": "&PRC",
+   "rev": "A",
+   "status": "Issued for Information",
+   "sections": [
+    {
+     "heading": "1. Purpose",
+     "paragraphs": [
+      "This document defines the project organisation of the HEP core team for HEL001 and the Responsibility Matrix (RACI), together with interfaces to QSE, OWE, UzGridCo and the authorities. It is issued for the Kick-off Meeting on 2026-12-03. Names are as at 2026-12-02."
+     ]
+    },
+    {
+     "heading": "2. HEP Organisation and Reporting Lines",
+     "table": {
+      "columns": [
+       "Role",
+       "Name",
+       "Reports to",
+       "Main responsibility"
+      ],
+      "rows": [
+       [
+        "Project Director",
+        "Rajan Iyer",
+        "HEP management",
+        "Overall delivery, client relationship, approvals, escalations"
+       ],
+       [
+        "Planning Manager",
+        "Aziz Karimov",
+        "Project Director",
+        "Baseline and progress schedule, reporting"
+       ],
+       [
+        "Planning Engineer",
+        "Priya Nair",
+        "Planning Manager",
+        "Schedule updates, progress measurement"
+       ],
+       [
+        "Planning Engineer (Procurement & Engineering interface)",
+        "Dilnoza Rashidova",
+        "Planning Manager",
+        "Procurement and design tracking"
+       ],
+       [
+        "Supply Chain Manager",
+        "Mehmet Yıldız",
+        "Project Director",
+        "Procurement strategy, logistics, customs"
+       ],
+       [
+        "Procurement Engineer / Buyer",
+        "Li Wei",
+        "Supply Chain Manager",
+        "RFQs, bid evaluation, POs"
+       ],
+       [
+        "Engineering Manager",
+        "Elena Petrova",
+        "Project Director",
+        "Design, calculations, technical submittals"
+       ],
+       [
+        "Construction Manager",
+        "Sanjay Mehta",
+        "Project Director",
+        "Site works, subcontractors, installation"
+       ],
+       [
+        "Contracts & Commercial Manager",
+        "Thomas Becker",
+        "Project Director",
+        "Contract administration, IPCs, changes, claims"
+       ],
+       [
+        "HSE Manager",
+        "Jamshid Tursunov",
+        "Project Director",
+        "HSE plan, site safety, environmental and social"
+       ],
+       [
+        "QA/QC Manager",
+        "Arun Pillai",
+        "Project Director",
+        "Quality plan, ITPs, NCRs, audits"
+       ],
+       [
+        "Document Controller",
+        "Nilufar Yusupova",
+        "Project Director",
+        "Document numbering, transmittals, registers"
+       ]
+      ]
+     }
+    },
+    {
+     "heading": "3. Subcontractors and Vendors (managed through HEP)",
+     "table": {
+      "columns": [
+       "Party",
+       "Contact",
+       "Scope",
+       "HEP interface"
+      ],
+      "rows": [
+       [
+        "Navoi Qurilish LLC",
+        "Rustam Ergashev",
+        "Civil works",
+        "Construction Manager"
+       ],
+       [
+        "SteelPro Montaj LLC",
+        "Erkin Saidov",
+        "Mounting structures, trackers, module installation",
+        "Construction Manager"
+       ],
+       [
+        "UzElectroMontaj JSC",
+        "Farrukh Abdullaev",
+        "DC/AC electrical, MV cabling, earthing, SCADA field cabling",
+        "Construction Manager"
+       ],
+       [
+        "GridWorks Central Asia LLP",
+        "Sergey Volkov",
+        "Plant substation, 220 kV OHTL, grid interface",
+        "Construction Manager / Engineering Manager"
+       ],
+       [
+        "SunPeak Solar Technology Co.",
+        "Chen Yu",
+        "206,500 modules",
+        "Supply Chain Manager"
+       ],
+       [
+        "VoltEdge Power Electronics GmbH",
+        "Hans Müller",
+        "28 inverter stations",
+        "Supply Chain Manager"
+       ],
+       [
+        "AxisTrack Systems S.A.",
+        "Carlos Mendes",
+        "Single-axis trackers",
+        "Supply Chain Manager"
+       ],
+       [
+        "CellCore Energy Storage Ltd.",
+        "Zhang Min",
+        "50 MW / 100 MWh BESS",
+        "Supply Chain Manager"
+       ]
+      ]
+     }
+    },
+    {
+     "heading": "4. External Interfaces",
+     "table": {
+      "columns": [
+       "Organisation",
+       "Counterpart",
+       "HEP lead",
+       "Subject"
+      ],
+      "rows": [
+       [
+        "QSE (Client)",
+        "Khalid Al-Mansoori, Client Project Manager",
+        "Project Director",
+        "Overall project, meetings, approvals"
+       ],
+       [
+        "QSE",
+        "Omar Hassan, Commercial & Contracts",
+        "Contracts Manager",
+        "Payments, changes, claims"
+       ],
+       [
+        "QSE",
+        "Bekzod Nazarov, Site Representative",
+        "Construction Manager",
+        "Site access, inspections, daily coordination"
+       ],
+       [
+        "OWE (Meridian)",
+        "Sophie Laurent, Owner's Engineer Lead",
+        "Engineering Manager",
+        "Design review, document approval, quality"
+       ],
+       [
+        "UzGridCo",
+        "Ulugbek Mirzaev, Head of Grid Connections",
+        "Engineering Manager (Project Director for escalation)",
+        "Connection agreement, protection coordination, energisation permits"
+       ],
+       [
+        "Navoi Regional Administration / State Construction Inspectorate",
+        "Shavkat Bobojonov, Deputy Head, Construction Supervision",
+        "Contracts Manager with Project Director",
+        "Construction permit, land, environmental approvals, customs liaison, inspections"
+       ]
+      ]
+     }
+    },
+    {
+     "heading": "5. Responsibility Matrix (RACI)",
+     "paragraphs": [
+      "R = Responsible, A = Accountable, C = Consulted, I = Informed. Abbreviations: PD Project Director, PLM Planning Manager, SCM Supply Chain, ENG Engineering, CON Construction, COM Contracts, HSE, QA QC, DC Document Control."
+     ],
+     "table": {
+      "columns": [
+       "Activity",
+       "PD",
+       "PLM",
+       "SCM",
+       "ENG",
+       "CON",
+       "COM",
+       "HSE",
+       "QA",
+       "DC"
+      ],
+      "rows": [
+       [
+        "Project Charter and PEP",
+        "A/R",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "I"
+       ],
+       [
+        "Baseline schedule L1-L3",
+        "A",
+        "R",
+        "C",
+        "C",
+        "C",
+        "C",
+        "I",
+        "I",
+        "I"
+       ],
+       [
+        "Subcontracting strategy and prequalification",
+        "A",
+        "C",
+        "R",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "I"
+       ],
+       [
+        "Procurement of major equipment",
+        "A",
+        "C",
+        "R",
+        "C",
+        "I",
+        "C",
+        "I",
+        "C",
+        "I"
+       ],
+       [
+        "Basic and detailed design",
+        "A",
+        "I",
+        "C",
+        "R",
+        "C",
+        "I",
+        "C",
+        "C",
+        "I"
+       ],
+       [
+        "Construction execution",
+        "A",
+        "C",
+        "I",
+        "C",
+        "R",
+        "I",
+        "C",
+        "C",
+        "I"
+       ],
+       [
+        "HSE plan and site safety",
+        "A",
+        "I",
+        "I",
+        "C",
+        "C",
+        "I",
+        "R",
+        "C",
+        "I"
+       ],
+       [
+        "Quality plan, ITPs, NCRs",
+        "A",
+        "I",
+        "C",
+        "C",
+        "C",
+        "I",
+        "C",
+        "R",
+        "I"
+       ],
+       [
+        "Payment applications and invoices",
+        "A",
+        "C",
+        "C",
+        "I",
+        "C",
+        "R",
+        "I",
+        "I",
+        "I"
+       ],
+       [
+        "Change Orders and claims",
+        "A",
+        "C",
+        "C",
+        "C",
+        "C",
+        "R",
+        "I",
+        "I",
+        "I"
+       ],
+       [
+        "Letters to client",
+        "A",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "I",
+        "I",
+        "R (numbering/issue)"
+       ],
+       [
+        "Document control and registers",
+        "I",
+        "I",
+        "I",
+        "C",
+        "I",
+        "I",
+        "I",
+        "C",
+        "A/R"
+       ],
+       [
+        "Monthly Progress Report",
+        "A",
+        "R",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "I"
+       ]
+      ]
+     }
+    },
+    {
+     "heading": "6. Communication Rules",
+     "bullets": [
+      "No surprises: any event affecting safety, schedule, cost or quality is reported to the Project Director the same day.",
+      "Only the Project Director signs letters to QSE; managers draft and route through the Document Controller.",
+      "Technical contact with OWE and UzGridCo is through the Engineering Manager; commercial contact with QSE through the Contracts Manager; both copy the Project Director.",
+      "Subcontractors and vendors communicate with the client only through HEP."
+     ]
+    }
+   ]
+  }
+ ],
+ "letters": [
+  {
+   "to_role": "client-project-manager",
+   "dept": "PM",
+   "subject": "Kick-off Meeting 3 December 2026 - Confirmation of Attendees, Client Representative and Owner's Engineer Contact (HEL001)",
+   "body_paragraphs": [
+    "Dear Khalid, further to our letter HEL001-L-PM-HEP-QSE-0001, I write to finalise arrangements for the Kick-off Meeting (M02) on 2026-12-03.",
+    "We ask QSE to confirm in writing by 2026-12-02 close of business: (a) the QSE attendees; (b) the person designated as Client Representative under the Contract; and (c) the contact at Meridian Energy Consultants for design review and document approvals. We assume Omar Hassan for commercial matters, Bekzod Nazarov for site matters and Sophie Laurent for the Owner's Engineer, subject to your confirmation.",
+    "HEP will attend with Aziz Karimov, Mehmet Yıldız, Elena Petrova, Sanjay Mehta, Thomas Becker, Jamshid Tursunov, Arun Pillai and Nilufar Yusupova. I will present the Project Charter and the project organisation, and Aziz Karimov will present the baseline schedule development plan. The draft agenda is already with you for comment.",
+    "Kindly also confirm the venue arrangements and whether UzGridCo or the authorities will be invited. I look forward to a productive start."
+   ],
+   "cc_roles": [
+    "epc-planning-manager",
+    "epc-contracts-manager",
+    "epc-document-controller"
+   ],
+   "reply_to_ref": "HEL001-L-PM-HEP-QSE-0001",
+   "requires_response_by_day": 2
+  }
+ ],
+ "emails": [
+  {
+   "to_roles": [
+    "epc-document-controller"
+   ],
+   "subject": "Approval of Document Control and Numbering Procedure rev A and KOM readiness",
+   "body": "Nilufar,\n\nI have reviewed the Document Control and Numbering Procedure rev A (HEL-M-PM-HEP-QSE-01-0A) and approve it for issue, with two minor comments: (1) add a short section on how letters are numbered by department and recipient, and (2) show the revision and status codes in one table. These can be incorporated in rev B after QSE and OWE comments; do not hold the transmittal. Please close REQ-000-epc-docu.\n\nFor tomorrow's Kick-off Meeting I need final materials by end of today: printed agenda and attendance sheets, the Charter and the Organisation Chart and RACI I have just issued, and the controlled copies of the EPC Contract summary. Please tell the team to send their slides to you by 17:00, and let me know if anything is missing.\n\nRajan"
+  },
+  {
+   "to_roles": [
+    "epc-planning-manager",
+    "epc-contracts-manager",
+    "epc-engineering-lead",
+    "epc-scm-lead",
+    "epc-construction-manager",
+    "epc-hse-manager",
+    "epc-qaqc-manager"
+   ],
+   "subject": "KOM 3 December - final materials and roles",
+   "body": "Team,\n\nThe Project Charter and the Organisation Chart and RACI are issued in 1_Project_Mgmt/01_Project_Charter. Please read your lines in the RACI before tomorrow. Send any KOM slides to Nilufar by 17:00 today, kept to five minutes per person and limited to your scope, first actions and what you need from QSE. Aziz presents the schedule, Thomas the contract and NTP preconditions. No surprises in front of the client: if you see a problem, tell me tonight.\n\nRajan"
+  }
+ ],
+ "meeting_minutes": [],
+ "register_updates": [
+  {
+   "register": "actions",
+   "op": "update",
+   "key": "action",
+   "value": "ACTIONS-000-004",
+   "row": {
+    "action": "ACTIONS-000-004 Confirm KOM attendees, Client Representative and OE contact with Khalid Al-Mansoori",
+    "owner": "epc-project-director",
+    "due_date": "2026-12-02",
+    "status": "In progress - letter issued 2026-12-02"
+   }
+  },
+  {
+   "register": "actions",
+   "op": "append",
+   "row": {
+    "action": "Incorporate Project Director comments in Document Control Procedure rev B after QSE/OWE review",
+    "owner": "epc-document-controller",
+    "due_date": "2026-12-10",
+    "status": "Open"
+   }
+  }
+ ],
+ "schedule_updates": [],
+ "requests": [
+  {
+   "to_role": "epc-document-controller",
+   "what": "Collate KOM materials, attendance sheets and controlled copies by end of 2026-12-02 and transmit the approved Document Control Procedure rev A to QSE and OWE.",
+   "due_day": 1
+  },
+  {
+   "to_role": "epc-planning-manager",
+   "what": "Provide KOM schedule slides (baseline development plan and NTP precondition tracker) by 17:00 on 2026-12-02.",
+   "due_day": 1
+  }
+ ]
+}

@@ -1,0 +1,136 @@
+{
+ "summary": "I chaired the Kick-off Meeting (M02) at the QSE Tashkent office from 10:00 to 16:30 and walked through organisation, the L1-L3 schedule outline, NTP preconditions, bank instrument forms and QSE's reporting, communication and review-period items. I recorded 10 decisions and 8 actions with owners and dates in the minutes, and confirmed the bank signatories and HEP's permit and land position to Thomas Becker.",
+ "documents": [],
+ "letters": [],
+ "emails": [
+  {
+   "to_roles": [
+    "epc-contracts-manager"
+   ],
+   "subject": "Re: Authorised signatories for bank instruments and HEP position on permit and land allocation (REQ-001-epc-cont)",
+   "body": "Thomas,\n\nFollowing today's KOM, here is my steer on both points.\n\n1. Bank instruments (APG and Performance Security): the authorised signatories are the HEP General Director (as registered signatory of Helios EPC LLC) together with myself, as Project Director, under the corporate power of attorney. You are the named contact for the issuing bank and for QSE (Omar Hassan). Please prepare the signatory specimen sheet and the power of attorney copy for submission with the final forms. Khalid and Omar noted at the KOM that QSE comments on the draft forms are due 7 December, and the issuing bank must be acceptable to QSE; we proposed our relationship bank and QSE will confirm acceptability by 9 December.\n\n2. Permits and land: HEP position as presented today - land allocation and the cadastral passport (A110) are QSE responsibilities under the Contract, and QSE accepted this should be confirmed in writing with the allocation decree. HEP will support with survey and boundary data. The construction permit (M07, 20 March 2027) is HEP's to prepare and file, with QSE providing the land documents and Shavkat Bobojonov's office as the permitting authority. Environmental conditions (A120) are shared: QSE holds the ESIA approval, HEP implements the conditions. Elena will give you the design package timing for the permit file by 8 December; please carry the risk that late land documents move M07 and M08.\n\nAction items are in the minutes. Keep the NTP checklist updated daily to 15 December and flag any slippage to me the same day.\n\nRajan"
+  }
+ ],
+ "meeting_minutes": [
+  {
+   "mom_kind": "KOM",
+   "title": "Kick-off Meeting",
+   "venue": "QSE office, Tashkent",
+   "attendee_roles": [
+    "epc-project-director",
+    "epc-planning-manager",
+    "epc-engineering-lead",
+    "epc-scm-lead",
+    "epc-contracts-manager",
+    "epc-construction-manager",
+    "client-project-manager",
+    "client-owners-engineer",
+    "client-commercial-manager"
+   ],
+   "items": [
+    {
+     "topic": "Opening, introductions and agenda",
+     "discussion": "I opened the meeting at 10:00, welcomed QSE and Meridian (OWE), and confirmed the agenda issued as HEL001-G000-P-&MOM-00001-A with QSE's additional items on reporting format, communication protocol and document review periods. Khalid Al-Mansoori confirmed that QSE expects the programme to be held to the dates in the Contract: NTP 15 December 2026 and PAC 31 May 2028."
+    },
+    {
+     "topic": "Project organisation and RACI",
+     "discussion": "HEP presented the organisation chart and responsibility matrix (issued Day 1). I am the single point of contact for QSE; day-to-day contacts: Thomas Becker (commercial), Elena Petrova (engineering and OWE comments), Aziz Karimov (programme), Mehmet Yildiz (procurement) and Sanjay Mehta (construction, from mobilisation). QSE and OWE named Khalid Al-Mansoori, Sophie Laurent and Omar Hassan as counterparts; Bekzod Nazarov will be QSE site representative from mobilisation. No changes to the RACI were requested."
+    },
+    {
+     "topic": "Outline schedule L1-L3 and baseline submission",
+     "discussion": "Aziz Karimov presented the L1 milestones M00-M14 and the L2/L3 development approach. The baseline schedule will be submitted for approval by 10 January 2027 (A040), with a first L2 draft by 21 December for early OWE sight. Key assumptions discussed: site works Monday to Saturday, winter ground conditions at site, and long-lead items (inverter stations, trackers, modules). Sophie Laurent asked for the critical path to be shown explicitly; agreed."
+    },
+    {
+     "topic": "Contract and NTP preconditions",
+     "discussion": "Thomas Becker reviewed the NTP precondition checklist (HEL001-G000-K-&REG-00001-A). Preconditions for NTP on 15 December: approved forms of APG and Performance Security, insurance evidence, advance payment invoice route, and the PEP and baseline process in progress. Omar Hassan confirmed that the 10% advance (target receipt 5 January 2027, M03) is released only against the issued and accepted APG. Both parties agreed the checklist is the controlling document and will be updated daily."
+    },
+    {
+     "topic": "APG and Performance Security: form approval and issuing bank",
+     "discussion": "The draft forms were submitted on Day 1 (HEL001-L-CM-HEP-QSE-0001). Omar Hassan will return QSE comments by 7 December. QSE asked for evidence of the issuing bank's rating and for acceptability of the bank to be confirmed. HEP proposed its relationship bank; QSE will respond by 9 December. HEP signatories to be confirmed by Thomas Becker with the specimen sheet. Target: forms agreed by 11 December so that instruments can be issued before NTP."
+    },
+    {
+     "topic": "Permit and land allocation responsibilities",
+     "discussion": "HEP position: land allocation and cadastral passport (A110) rest with QSE; construction permit (M07, 20 March 2027) is prepared and filed by HEP with QSE's land documents; ESIA approval held by QSE, conditions implemented by HEP (A120). QSE agreed in principle and will confirm the status of the land allocation decree and cadastral passport in writing. It was noted that late land documents are the main risk to M07 and M08 (first piles, 12 April 2027)."
+    },
+    {
+     "topic": "Reporting format",
+     "discussion": "QSE requested a monthly progress report (cut-off last day of month, issued by the 5th) with weekly look-ahead and a one-page dashboard. Agreed structure: summary, progress against baseline (S-curve, planned vs actual), engineering, procurement, construction, HSE, quality, commercial, risks and look-ahead. First report covers December 2026, due 5 January 2027. Weekly progress meeting to be held Thursdays; format to be reflected in the PEP."
+    },
+    {
+     "topic": "Communication protocol",
+     "discussion": "Agreed: formal correspondence by numbered letter under the HEL001-L-DEPT-FROM-TO scheme, with email used for coordination only and confirmed by letter where it affects scope, time or cost. Single points of contact per party, acknowledgement of letters within 2 working days, and a shared document platform managed by Nilufar Yusupova. Notices under the Contract are sent to the addresses in the Agreement and copied to the project managers."
+    },
+    {
+     "topic": "Document review periods",
+     "discussion": "QSE and OWE requested review periods. Agreed: 10 working days for engineering drawings, calculations and specifications; 14 days for plans and procedures (PEP, HSE plan, QMP); 5 working days for RFIs and technical queries; 7 working days for method statements and ITPs. Comments to be consolidated by OWE (Sophie Laurent). Deemed-approval wording to be taken from the Contract and confirmed by Thomas Becker. HEP will submit the first design document register by 15 December."
+    },
+    {
+     "topic": "Early mobilisation, HSE and next steps",
+     "discussion": "Sanjay Mehta outlined mobilisation planning ahead of 1 March 2027 (M05), with site survey and geotechnical investigation (A210, A220) starting from 20 December. Jamshid Tursunov's HSE plan will be issued by 31 January 2027, with a site induction regime from first access. Next weekly progress meeting on 10 December. I closed the meeting at 16:30; ACTIONS-001-011 and ACTIONS-001-012 are closed through the actions below."
+    }
+   ],
+   "actions": [
+    {
+     "action": "Return QSE comments on draft APG and Performance Security forms",
+     "owner_role": "client-commercial-manager",
+     "due_date": "2026-12-07"
+    },
+    {
+     "action": "Confirm acceptability of HEP's proposed issuing bank and rating evidence requirements",
+     "owner_role": "client-commercial-manager",
+     "due_date": "2026-12-09"
+    },
+    {
+     "action": "Submit signatory specimen sheet and power of attorney for APG and Performance Security, and finalise agreed forms",
+     "owner_role": "epc-contracts-manager",
+     "due_date": "2026-12-11"
+    },
+    {
+     "action": "Issue first L2 draft schedule for OWE sight and submit baseline L1-L3 schedule for approval",
+     "owner_role": "epc-planning-manager",
+     "due_date": "2026-12-21"
+    },
+    {
+     "action": "Provide design package timing for the construction permit file and issue first design document register",
+     "owner_role": "epc-engineering-lead",
+     "due_date": "2026-12-08"
+    },
+    {
+     "action": "Confirm in writing the status of land allocation decree and cadastral passport (A110)",
+     "owner_role": "client-project-manager",
+     "due_date": "2026-12-10"
+    },
+    {
+     "action": "Issue Project Execution Plan Rev A including the agreed reporting format, communication protocol and review periods",
+     "owner_role": "epc-project-director",
+     "due_date": "2026-12-15"
+    },
+    {
+     "action": "Provide consolidated OWE contact list and review matrix for document review periods",
+     "owner_role": "client-owners-engineer",
+     "due_date": "2026-12-08"
+    }
+   ]
+  }
+ ],
+ "register_updates": [],
+ "schedule_updates": [
+  {
+   "activity_id": "A020",
+   "pct_complete": 60,
+   "note": "KOM held 3 December in Tashkent; minutes issued; mobilisation activities continue to 10 December."
+  }
+ ],
+ "requests": [
+  {
+   "to_role": "epc-contracts-manager",
+   "what": "Update the NTP precondition checklist daily to 15 December and prepare the signatory specimen sheet and power of attorney for the APG and Performance Security.",
+   "due_day": 9
+  },
+  {
+   "to_role": "epc-engineering-lead",
+   "what": "Give Thomas Becker the design package timing for the construction permit file and issue the first design document register.",
+   "due_day": 6
+  }
+ ]
+}

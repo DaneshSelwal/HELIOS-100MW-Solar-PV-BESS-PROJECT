@@ -1,0 +1,94 @@
+{
+ "summary": "I issued the survey access and land allocation letter to Shavkat Bobojonov at the State Construction Inspectorate for the topographic and geotechnical crews from 20 December. I replied to Aziz with the frozen specification dates, the phased geotechnical report proposal and the permit-file design package timing. I also confirmed to Rajan that the 220/33 kV transformer specification holds for 18 December, naming the author, two units and the inputs needed from GridWorks, UzGridCo and Planning.",
+ "documents": [],
+ "letters": [
+  {
+   "to_role": "local-authority",
+   "dept": "EN",
+   "subject": "Request for Topographic and Geotechnical Survey Access and Land Allocation Confirmation (HEL001, Qizilqum Solar Site)",
+   "body_paragraphs": [
+    "Dear Mr Bobojonov, Helios EPC LLC (HEP) is the EPC Contractor for the HELIOS 100 MW Solar PV + BESS Power Plant (HEL001) at the Qizilqum Solar Site, approximately 45 km north-east of Navoi city, for Qizilqum Solar Energy JSC (QSE). Further to our letter on parallel lodging of the construction permit file (HEL001-L-CO-HEP-GOV-0001), I write on behalf of the engineering team regarding the field investigations that must start before the Basic Design can be finalised.",
+    "We request formal access and any required notification or permission for two survey crews to enter the site from Sunday 20 December 2026 (works are planned Monday to Saturday, so first working mobilisation is Monday 21 December): (a) the topographic survey crew (schedule activity A210, planned 20 December 2026 to 25 January 2027) covering the plant area for PV blocks PV1 to PV4, BESS, plant substation area, the 12 km access track corridor from the A-380 highway and the 9 km 220 kV overhead line route towards the 220 kV substation to the south; and (b) the geotechnical investigation crew (activity A220, planned 20 December 2026 to 20 February 2027) with drilling rig, trial pitting, CPT and resistivity testing, working under the HEP site induction and HSE regime. Crew lists, vehicle registrations and the survey area plan will be provided to your office by 15 December 2026. We ask that you advise whether any inspectorate notification, escort or registration of survey works is required, and name the contact in your office for field access.",
+    "We also respectfully ask your office to confirm the current status of the land allocation for the project site and the cadastral passport (activity A110), including the allocation decree reference, the cadastral numbers and boundary coordinates, and whether any parcel, including the access track and OHTL corridor, remains outstanding. We understand from the Kick-off Meeting that the land documents are held and being confirmed by QSE, and we are copying Mr Khalid Al-Mansoori accordingly. The boundary data are an input to the survey control, the plant layout and the construction permit file, and late confirmation is the main risk to the construction permit (target 20 March 2027) and first piling (12 April 2027).",
+    "We would be grateful for your written reply by Tuesday 15 December 2026 so that mobilisation can be fixed. I am available to meet your office at short notice and can provide the layout plan and survey scope. Yours sincerely, Elena Petrova, Engineering Manager, Helios EPC LLC."
+   ],
+   "cc_roles": [
+    "client-project-manager",
+    "epc-project-director",
+    "epc-contracts-manager",
+    "epc-construction-manager"
+   ],
+   "attachments": [
+    "Survey area outline plan (A210/A220) - to follow by 15 Dec 2026"
+   ],
+   "requires_response_by_day": 14
+  }
+ ],
+ "emails": [
+  {
+   "to_roles": [
+    "epc-planning-manager"
+   ],
+   "subject": "Frozen specification dates P05/P02/P03, phased geotechnical report and permit-file design package timing (reply to REQ-005-epc-plan)",
+   "body": "Aziz,\n\nReply to REQ-005-epc-plan, together with the design package timing action from the Kick-off Meeting (ACT-002-KOM-05) and ACTIONS-000-006 / ACTIONS-003-026.\n\n1. Frozen specification dates. Confirmed: P05 (220/33 kV power transformer) technical specification issued 18 December 2026; P02 and P03 specifications issued 31 December 2026. All three are issued for RFQ with stated assumptions where they depend on the Basic Design or the grid operator. Issue means my sign-off and release to Mehmet and Meridian simultaneously. Please hold these as frozen dates in the baseline.\n\n2. Phased geotechnical report. Yes. A220 runs 20 December 2026 to 20 February 2027, subject to site access being confirmed (letter to the Inspectorate issued today) and winter ground conditions. I propose: Phase 1, factual and interim report with preliminary pile and foundation parameters for PV1 to PV4, by 29 January 2027; Phase 2, the substation, BESS, inverter station and OHTL tower areas, plus the final consolidated report, by 20 February 2027. Phase 1 supports tracker pile design and the Basic Design. This depends on the rig starting by 21 December and on weather; I will confirm after the first week of drilling.\n\n3. Permit-file design package. The package (site layout, single line diagram, civil general arrangement, preliminary drainage and access road layout) will be handed to Thomas for lodging by 12 February 2027, ahead of Basic Design approval M04 (15 March 2027) and permit M07 (20 March 2027). The first design document register will be issued by 15 December 2026, as agreed at the Kick-off Meeting. Sanjay's camp and laydown constraints (REQ-004-epc-cons) will be answered separately.\n\n4. WBS and deliverables. The engineering WBS and the deliverables list, aligned to the Engineering Execution Plan (HEL001-G000-E-&PRC-00001-A), will go to you and Dilnoza through Nilufar on 10 December 2026 with activity links to A210, A220, A240, A310 and A320. Please tell me your preferred WBS coding so that it can be matched.\n\nElena Petrova\nEngineering Manager"
+  },
+  {
+   "to_roles": [
+    "epc-project-director"
+   ],
+   "subject": "220/33 kV transformer specification - confirmation of 18 December issue, author and inputs (reply to REQ-006-epc-proj and D006)",
+   "body": "Rajan,\n\nConfirmed: the 220/33 kV power transformer technical specification (P05) will be issued on Friday 18 December 2026, in a form ready for the RFQ on 4 January 2027. This also closes REQ-006-epc-plan from Aziz.\n\nAuthor: I will write and sign it personally, with review by our electrical design team. It is released to Mehmet and to Meridian (Sophie Laurent) on the same day so that the 10 working day review runs alongside the RFQ preparation.\n\nNumber of units: two 220/33 kV transformers, a working assumption of 2 x 63 MVA ONAN/ONAF for the 100 MWac plant with BESS, one per 33 kV bus section. This is conditional on the grid study and the Basic Design (final MVA rating, impedance and the case for a spare). I will state the assumed value with a range in the specification rather than wait.\n\nInputs needed (please chase on my behalf if not received):\n- Sergey Volkov (GridWorks): 220 kV bay and line interface, bushing and busbar arrangement, site altitude and insulation data, transport route and weight limits to site, by 11 December.\n- UzGridCo (Ulugbek Mirzaev, via Thomas): fault level at the connection point, grid code requirements, tap range and voltage regulation, neutral earthing and protection philosophy, by 14 December. If this is not available I will use stated assumptions and flag them.\n- Aziz: current single line diagram and the L3 long-lead logic, by 11 December.\n\nFor the P02 and P03 specifications on 31 December, both dates can be met by the same team, provided the geotechnical and layout inputs are not delayed. I will tell you immediately if that changes.\n\nElena"
+  }
+ ],
+ "meeting_minutes": [],
+ "register_updates": [
+  {
+   "register": "actions",
+   "op": "append",
+   "row": {
+    "action": "Issue 220/33 kV power transformer technical specification (P05) to Supply Chain and Meridian",
+    "owner": "epc-engineering-lead",
+    "due_date": "2026-12-18",
+    "status": "Open"
+   }
+  },
+  {
+   "register": "actions",
+   "op": "append",
+   "row": {
+    "action": "Issue P02 and P03 technical specifications",
+    "owner": "epc-engineering-lead",
+    "due_date": "2026-12-31",
+    "status": "Open"
+   }
+  },
+  {
+   "register": "actions",
+   "op": "append",
+   "row": {
+    "action": "Issue first design document register, engineering WBS and deliverables list",
+    "owner": "epc-engineering-lead",
+    "due_date": "2026-12-15",
+    "status": "Open"
+   }
+  }
+ ],
+ "schedule_updates": [],
+ "requests": [
+  {
+   "to_role": "sub-substation",
+   "what": "Provide the 220 kV bay and line interface data, bushing and busbar arrangement, altitude and insulation data, and transport route and weight limits for the 220/33 kV transformers, needed for specification P05 issue on 18 December 2026.",
+   "due_day": 10
+  },
+  {
+   "to_role": "epc-contracts-manager",
+   "what": "Obtain from UzGridCo (Ulugbek Mirzaev) the fault level at the connection point, grid code requirements, tap range, neutral earthing and protection philosophy for the 220/33 kV transformer specification; also lodge the permit-file design package on 12 February 2027.",
+   "due_day": 13
+  },
+  {
+   "to_role": "epc-planning-manager",
+   "what": "Provide the current single line diagram and L3 long-lead logic for the 220/33 kV transformer, and your preferred WBS coding for the engineering deliverables list.",
+   "due_day": 10
+  }
+ ]
+}

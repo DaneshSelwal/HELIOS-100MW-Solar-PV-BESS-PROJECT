@@ -1,0 +1,334 @@
+{
+ "type": "object",
+ "properties": {
+  "summary": {
+   "type": "string",
+   "description": "2-3 sentences, first person, what you did today \u2014 goes in the site diary"
+  },
+  "documents": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "title": {
+      "type": "string"
+     },
+     "folder": {
+      "type": "string"
+     },
+     "area": {
+      "type": "string"
+     },
+     "disc": {
+      "type": "string"
+     },
+     "type": {
+      "type": "string"
+     },
+     "rev": {
+      "type": "string"
+     },
+     "status": {
+      "type": "string"
+     },
+     "sections": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "properties": {
+        "heading": {
+         "type": "string"
+        },
+        "paragraphs": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        },
+        "bullets": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        },
+        "table": {
+         "type": "object",
+         "properties": {
+          "columns": {
+           "type": "array",
+           "items": {
+            "type": "string"
+           }
+          },
+          "rows": {
+           "type": "array",
+           "items": {
+            "type": "array",
+            "items": {
+             "type": "string"
+            }
+           }
+          }
+         }
+        }
+       },
+       "required": [
+        "heading"
+       ]
+      }
+     }
+    },
+    "required": [
+     "title",
+     "folder",
+     "area",
+     "disc",
+     "type",
+     "sections"
+    ]
+   }
+  },
+  "letters": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "to_role": {
+      "type": "string"
+     },
+     "dept": {
+      "type": "string"
+     },
+     "subject": {
+      "type": "string"
+     },
+     "body_paragraphs": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "cc_roles": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "reply_to_ref": {
+      "type": "string"
+     },
+     "attachments": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "requires_response_by_day": {
+      "type": "integer"
+     }
+    },
+    "required": [
+     "to_role",
+     "dept",
+     "subject",
+     "body_paragraphs"
+    ]
+   }
+  },
+  "emails": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "to_roles": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "subject": {
+      "type": "string"
+     },
+     "body": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "to_roles",
+     "subject",
+     "body"
+    ]
+   }
+  },
+  "meeting_minutes": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "mom_kind": {
+      "type": "string"
+     },
+     "title": {
+      "type": "string"
+     },
+     "venue": {
+      "type": "string"
+     },
+     "attendee_roles": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "items": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "properties": {
+        "topic": {
+         "type": "string"
+        },
+        "discussion": {
+         "type": "string"
+        }
+       },
+       "required": [
+        "topic",
+        "discussion"
+       ]
+      }
+     },
+     "actions": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "properties": {
+        "action": {
+         "type": "string"
+        },
+        "owner_role": {
+         "type": "string"
+        },
+        "due_date": {
+         "type": "string"
+        }
+       },
+       "required": [
+        "action",
+        "owner_role",
+        "due_date"
+       ]
+      }
+     }
+    },
+    "required": [
+     "mom_kind",
+     "title",
+     "attendee_roles",
+     "items",
+     "actions"
+    ]
+   }
+  },
+  "register_updates": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "register": {
+      "type": "string",
+      "enum": [
+       "rfi",
+       "ncr",
+       "risk",
+       "change",
+       "procurement",
+       "actions",
+       "hse",
+       "payments"
+      ]
+     },
+     "op": {
+      "type": "string",
+      "enum": [
+       "append",
+       "update"
+      ]
+     },
+     "key": {
+      "type": "string"
+     },
+     "value": {
+      "type": "string"
+     },
+     "row": {
+      "type": "object",
+      "additionalProperties": {
+       "type": "string"
+      }
+     }
+    },
+    "required": [
+     "register",
+     "op",
+     "row"
+    ]
+   }
+  },
+  "schedule_updates": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "activity_id": {
+      "type": "string"
+     },
+     "pct_complete": {
+      "type": "number"
+     },
+     "slip_days": {
+      "type": "integer"
+     },
+     "note": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "activity_id",
+     "note"
+    ]
+   }
+  },
+  "requests": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "to_role": {
+      "type": "string"
+     },
+     "what": {
+      "type": "string"
+     },
+     "due_day": {
+      "type": "integer"
+     }
+    },
+    "required": [
+     "to_role",
+     "what"
+    ]
+   }
+  }
+ },
+ "required": [
+  "summary",
+  "documents",
+  "letters",
+  "emails",
+  "meeting_minutes",
+  "register_updates",
+  "schedule_updates",
+  "requests"
+ ]
+}

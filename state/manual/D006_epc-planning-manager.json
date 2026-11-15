@@ -1,0 +1,256 @@
+{
+"summary": "I compiled Project Execution Plan Rev A from the engineering, procurement, construction, HSE and risk inputs received on Days 4-5 and the KOM agreements on reporting, communication and review periods. I built in milestones M00-M14, the L1-L3 baseline approach (A040) and the 220/33 kV transformer long-lead exposure against M10. I sent it to Rajan Iyer for approval and raised A030 progress to 45%.",
+"documents": [
+{
+"title": "Project Execution Plan",
+"folder": "1/03",
+"area": "G000",
+"disc": "P",
+"type": "&PRC",
+"rev": "A",
+"status": "Issued for Approval (Project Director)",
+"sections": [
+{
+"heading": "1. Purpose, Scope and Document Control",
+"paragraphs": [
+"This Project Execution Plan (PEP) Rev A defines how Helios EPC LLC (HEP) will plan, execute, control and hand over the HELIOS 100 MW Solar PV + BESS Power Plant (HEL001) at the Qizilqum Solar Site, Navoi Region, under the EPC Contract (FIDIC Silver Book 2017 based, amended) signed on 2026-12-01 with Qizilqum Solar Energy JSC (QSE). Contract value is USD 95,000,000, time for completion is 18 months from NTP (15 December 2026) and the Provisional Acceptance (PAC) target is 31 May 2028.",
+"The plan consolidates the inputs issued on Days 3-5: Engineering Execution Plan and Deliverables List (HEL001-G000-E-&PRC-00001-A), Procurement Plan and Package List (HEL001-G000-P-&PRC-00001-A), Subcontracting Strategy (HEL001-G000-K-&PRC-00001-A), Construction and Site Organisation Summary (HEL001-SIT-P-&PRC-00001-A), the Project HSE Management Plan (HEL001-G000-H-&HSE-00001-A) and the initial Risk Register (HEL001-G000-P-&REG-00002-A). It also records the arrangements agreed at the Kick-off Meeting (HEL001-MOM-KOM-001) on reporting, communication and document review.",
+"The PEP is a controlled document under the Document Control and Numbering Procedure (HEL-M-PM-HEP-QSE-01-0A). Rev A is issued for internal approval by the Project Director and will then be submitted to QSE and the Owner's Engineer (OWE, Sophie Laurent) for the agreed 14-day plan review. It will be revised on contractual change, at NTP and at each major phase transition."
+],
+"bullets": [
+"Scope of supply: 128 MWp PV in four blocks (PV1-PV4), 206,500 modules of 620 Wp TOPCon bifacial, 28 central inverter stations of 3.6 MVA, single-axis trackers, BESS 50 MW / 100 MWh, 33/220 kV plant substation, 9 km 220 kV OHTL and grid interface works.",
+"Out of HEP scope but critical: land allocation and cadastral passport (QSE, A110) and ESIA approval (QSE; conditions implemented by HEP, A120).",
+"Document owner: Aziz Karimov (Planning Manager); approver: Rajan Iyer (Project Director); custodian: Nilufar Yusupova (Document Controller)."
+]
+},
+{
+"heading": "2. Project Organisation and Responsibilities",
+"paragraphs": [
+"HEP will operate a functional project organisation led by the Project Director, with single points of contact on each side as agreed at the KOM. Formal contact with QSE is routed through Khalid Al-Mansoori (Client Project Manager); technical review is consolidated by Sophie Laurent (OWE); commercial matters go through Omar Hassan; site matters through Bekzod Nazarov. Detailed roles are in the Project Organisation Chart and Responsibility Matrix (HEL-M-PM-HEP-QSE-03-0A)."
+],
+"table": {
+"columns": ["Role", "Name", "Organisation", "Key responsibility in execution"],
+"rows": [
+["Project Director", "Rajan Iyer", "HEP", "Overall delivery, approval of PEP, client interface, change and claims decisions"],
+["Planning Manager", "Aziz Karimov", "HEP", "L1-L4 schedules, progress measurement, S-curves, EVM, delay analysis, EOT notices, reports"],
+["Planning Engineers", "Priya Nair; Dilnoza Rashidova", "HEP", "Schedule updates, look-ahead, procurement and engineering interface tracking"],
+["Engineering Manager", "Elena Petrova", "HEP", "Design basis, deliverables list, design reviews, vendor document control"],
+["Supply Chain Manager / Buyer", "Mehmet Yildiz; Li Wei", "HEP", "Procurement, expediting, logistics, customs, delivery schedules"],
+["Construction Manager", "Sanjay Mehta", "HEP", "Site mobilisation, construction execution, subcontractor coordination, look-aheads"],
+["Contracts and Commercial Manager", "Thomas Becker", "HEP", "Contract administration, notices, variations, IPCs, APG and security"],
+["HSE Manager", "Jamshid Tursunov", "HEP", "HSE plan, induction regime, incident reporting, environmental conditions"],
+["QA/QC Manager", "Arun Pillai", "HEP", "Quality plan, ITPs, NCRs, FAT and inspection coordination"],
+["Document Controller", "Nilufar Yusupova", "HEP", "Document platform, numbering, transmittals, review period tracking"],
+["Client Project Manager", "Khalid Al-Mansoori", "QSE", "Single point of contact, approvals, land and permit support"],
+["Owner's Engineer Lead", "Sophie Laurent", "OWE", "Consolidated technical review and comments"],
+["Client Commercial Manager", "Omar Hassan", "QSE", "APG, advance payment, IPC certification"],
+["Client Site Representative", "Bekzod Nazarov", "QSE", "Site access, inspections, witness points"]
+]
+}
+},
+{
+"heading": "3. Contract Milestones and Key Dates",
+"paragraphs": [
+"The contractual and project milestones M00-M14 form the Level 1 schedule. Dates below are the baseline targets carried in the Level 1 and Level 2 Milestone Schedule (HEL001-G000-P-&SCH-00002-A). Site works are planned Monday to Saturday. Float in the early phase is limited by the dependency of M07 and M08 on late land documents and by long-lead equipment against M10 and M11."
+],
+"table": {
+"columns": ["ID", "Milestone", "Target date", "Principal driver / dependency"],
+"rows": [
+["M00", "Contract Signature", "2026-12-01", "Achieved (Day 0)"],
+["M02", "Kick-off Meeting", "2026-12-03", "Achieved (Day 2)"],
+["M01", "Notice to Proceed", "2026-12-15", "APG and Performance Security forms, insurance evidence, PEP and baseline process"],
+["M03", "Advance Payment received", "2027-01-05", "Issued and accepted APG (10% advance)"],
+["M06", "Module Supply Contract signed", "2027-02-15", "RFQ A610 (2027-01-05 to 2027-02-15), bid evaluation"],
+["M05", "Site Mobilisation", "2027-03-01", "Survey and geotechnical (A210, A220), site access, camp"],
+["M04", "Basic Design approved", "2027-03-15", "Design basis A310, layout A320, OWE review 10 wd"],
+["M07", "Construction Permit obtained", "2027-03-20", "Land documents (QSE), basic design, permit file with local authority"],
+["M08", "First piles driven", "2027-04-12", "M07, geotechnical report, pile design, tracker supply"],
+["M09", "First module delivery on site", "2027-07-20", "Module contract M06, logistics, customs"],
+["M10", "Plant substation energised", "2028-01-20", "220/33 kV transformer delivery, substation civil and electrical works, grid permits"],
+["M11", "Grid back-feed / first power", "2028-02-15", "M10, UzGridCo energisation permit, protection coordination"],
+["M12", "BESS commissioning complete", "2028-04-15", "BESS delivery, PCS and EMS integration"],
+["M13", "Performance test passed", "2028-05-15", "Full plant commissioning, grid code compliance"],
+["M14", "Provisional Acceptance (PAC)", "2028-05-31", "M13, punch list, documentation"]
+]
+}
+},
+{
+"heading": "4. Schedule Development and Control Approach",
+"paragraphs": [
+"The schedule will be built in Primavera P6 with a four-level structure. Level 1 is the milestone schedule (M00-M14). Level 2 is the summary schedule by work package and area (G000, PV1-PV4, BES, PSS, GSS, TL1, SIT). Level 3 is the detailed baseline schedule, logic-linked, resource-loaded and with explicit critical path as requested by Sophie Laurent at the KOM. Level 4 is the three-week look-ahead and weekly site planning produced by the Planning Engineers with Sanjay Mehta.",
+"Baseline activity A040 (Baseline schedule L1-L3 and approval) is forecast to run from 2026-12-03 to 2027-01-10. The first Level 2 draft will be issued to OWE for early sight by 21 December 2026, and the L1-L3 baseline will be submitted for approval by 10 January 2027. No activity will be accepted without predecessor and successor logic, a calendar (Monday-Saturday for site work) and a responsible party. Constraints will be limited to contractual milestones."
+],
+"bullets": [
+"Progress measurement: weighted physical measurement per work package (rules of credit agreed with OWE and issued with the baseline); earned-value reporting (SPI, CPI) from the first full reporting month after baseline approval.",
+"S-curves: planned versus actual cumulative progress for overall project, engineering, procurement, construction and commissioning, issued monthly.",
+"Schedule updates: weekly progress capture (data date Friday), formal monthly update with cut-off on the last day of the month.",
+"Delay management: contemporaneous delay records, notice to Thomas Becker within 2 working days of an identified delay event, time impact analysis (TIA) before any EOT notice is issued.",
+"Recovery: any forecast slip of more than 7 days on a critical or near-critical activity triggers a recovery plan within 5 working days."
+]
+},
+{
+"heading": "5. Engineering and Design Execution",
+"paragraphs": [
+"Engineering is led by Elena Petrova under the Engineering Execution Plan (HEL001-G000-E-&PRC-00001-A). The sequence is design basis report (A310, 2026-12-15 to 2027-01-20), plant layout and energy yield optimisation (A320, 2027-01-05 to 2027-02-10), basic design approval (M04, 2027-03-15), then detailed design released by area ahead of procurement and construction needs. Site survey and geotechnical investigation (A210 from 2026-12-20, A220 to 2027-02-20) and the hydrology and flood study (A240) are inputs to basic design and pile design.",
+"The first design document register will be issued by 15 December 2026 and design package timing for the construction permit file has been requested from Engineering (action due 8 December). Vendor documents from SunPeak, VoltEdge, AxisTrack and CellCore will be tracked in the register with vendor commitment dates and linked to the L3 schedule."
+]
+},
+{
+"heading": "6. Procurement, Logistics and Long-Lead Items",
+"paragraphs": [
+"Procurement is led by Mehmet Yildiz under the Procurement Plan and Package List (HEL001-G000-P-&PRC-00001-A). Major packages are PV modules (206,500 x 620 Wp, DDP site), 28 central inverter stations, single-axis trackers for 128 MWp, BESS 50 MW / 100 MWh, 33/220 kV plant substation equipment including the 220/33 kV power transformer(s), 220 kV OHTL materials and MV/LV cables. The module RFQ (A610) runs from 5 January to 15 February 2027 with contract signature at M06.",
+"Material reaches site by road from the A-380 highway over a 12 km unpaved track; import logistics and customs clearance are coordinated with the local authority (Shavkat Bobojonov). Delivery windows must respect winter access conditions and are to be reflected in the L3 schedule."
+],
+"table": {
+"columns": ["Item", "Supplier / source", "Need-on-site driver", "Planning concern"],
+"rows": [
+["PV modules, 206,500 x 620 Wp", "SunPeak Solar Technology Co.", "M09 first delivery 2027-07-20", "Contract by M06 (2027-02-15); phased delivery to PV1-PV4"],
+["Central inverter stations, 28 x 3.6 MVA", "VoltEdge Power Electronics GmbH", "Installation sequence by block", "Factory slot, FAT, ocean and road freight"],
+["Single-axis trackers, 128 MWp", "AxisTrack Systems S.A.", "M08 first piles 2027-04-12", "Pile design support and early drawings"],
+["BESS 50 MW / 100 MWh", "CellCore Energy Storage Ltd.", "M12 commissioning 2028-04-15", "Container shipping, EMS integration"],
+["220/33 kV power transformer(s) and switchgear", "To be tendered (GridWorks scope interface)", "M10 energisation 2028-01-20", "Long-lead (typically 12-14 months from order); highest float risk"]
+]
+}
+},
+{
+"heading": "7. Construction and Site Organisation",
+"paragraphs": [
+"Construction is led by Sanjay Mehta, with site mobilisation at M05 (2027-03-01) and first piles at M08 (2027-04-12). Subcontractors are Navoi Qurilish LLC (civil), SteelPro Montaj LLC (mounting structures and module installation), UzElectroMontaj JSC (DC and AC electrical) and GridWorks Central Asia LLP (substation, OHTL and grid interface). Site works run Monday to Saturday, with Sunday as rest day and contingency.",
+"The site is a flat desert plateau at 310-335 m elevation, about 45 km north-east of Navoi, with no settlements within 6 km. Winter ground and temperature conditions and the gypsum-cemented layers will be addressed in method statements and in the geotechnical report before piling starts. Method statements and ITPs are submitted with a 7 working day review period. Site photos, diaries and progress records are filed under folders 5/02-5/07."
+],
+"bullets": [
+"Construction sequence: access road and camp, grading and drainage, piling by block, tracker and module installation, DC and AC cabling, inverter stations, substation and OHTL in parallel, BESS installation, energisation, commissioning.",
+"Three-week look-ahead issued every Wednesday by Sanjay Mehta and the Planning Engineers for the Thursday meeting.",
+"Subcontractor progress is reported weekly and measured against the L4 schedule; subcontract milestones will be included in each work order."
+]
+},
+{
+"heading": "8. HSE, Quality and Risk Management",
+"paragraphs": [
+"The Project HSE Management Plan (HEL001-G000-H-&HSE-00001-A) is under internal review and will be issued by 31 January 2027 (A070), with a site induction regime from first access. HSE statistics (manpower, manhours, near misses, first aid, LTI, toolbox talks) are reported weekly and summarised monthly. The Quality Management Plan, led by Arun Pillai, will be submitted for the 14-day plan review in the same cycle as the PEP, with ITPs on the 7 working day cycle.",
+"Risks are managed through the Risk Register (HEL001-G000-P-&REG-00002-A) owned by the Project Director and reviewed monthly, with schedule risks quantified by the Planning team. The most significant schedule exposures at Day 6 are shown below."
+],
+"table": {
+"columns": ["Risk", "Affected milestone", "Mitigation", "Owner"],
+"rows": [
+["220/33 kV transformer long-lead delivery", "M10 (2028-01-20), M11, M14", "Early specification freeze, technical bid by Q2 2027, order before the L3 critical date, manufacturer slot and progress expediting, back-up supplier option", "Mehmet Yildiz / Elena Petrova"],
+["Late land allocation decree and cadastral passport (QSE)", "M07 (2027-03-20), M08 (2027-04-12)", "Written status from QSE by 10 December; weekly tracking; EOT notice if documents not received by date agreed", "Rajan Iyer / Thomas Becker"],
+["Construction permit review time", "M07, M08", "Parallel lodging with basic design review; design package timing from Engineering", "Thomas Becker"],
+["APG and Performance Security form acceptance and bank approval", "M01, M03", "Forms agreed by 11 December; specimen signatures and power of attorney", "Thomas Becker"],
+["Winter ground conditions during survey and geotechnical work", "A210, A220, M04", "Early mobilisation of survey and drilling teams, schedule float review", "Sanjay Mehta"],
+["Module supply and customs clearance", "M09", "Contract by M06, phased delivery plan, early customs filing", "Mehmet Yildiz"]
+]
+}
+},
+{
+"heading": "9. Reporting Calendar and Management Meetings",
+"paragraphs": [
+"Reporting follows the format agreed at the KOM: monthly progress report with cut-off on the last day of the month and issue by the 5th of the following month, a weekly look-ahead, and a one-page dashboard. The report structure is: summary; progress against baseline (S-curve, planned versus actual); engineering; procurement; construction; HSE; quality; commercial; risks and look-ahead. The first report covers December 2026 and is due 5 January 2027."
+],
+"table": {
+"columns": ["Report / output", "Frequency", "Cut-off", "Issue date", "Prepared by", "Recipient"],
+"rows": [
+["Monthly Progress Report", "Monthly", "Last day of month", "By the 5th of next month", "Aziz Karimov", "QSE, OWE"],
+["One-page dashboard", "Monthly", "Last day of month", "With monthly report", "Priya Nair", "QSE, OWE"],
+["Weekly look-ahead (3-week)", "Weekly", "Friday data date", "Wednesday before progress meeting", "Priya Nair / Sanjay Mehta", "QSE, OWE, subcontractors"],
+["Schedule update", "Monthly (formal)", "Last day of month", "With monthly report", "Aziz Karimov", "OWE"],
+["S-curve and EVM", "Monthly", "Last day of month", "With monthly report", "Aziz Karimov", "Internal; QSE summary"],
+["HSE statistics", "Weekly / monthly", "Weekly Friday", "Weekly pack", "Jamshid Tursunov", "QSE, OWE"],
+["Procurement and delivery status", "Monthly", "Last day of month", "With monthly report", "Dilnoza Rashidova", "Internal; QSE summary"],
+["Risk register review", "Monthly", "Month end", "With monthly report", "Rajan Iyer", "Internal"]
+]
+}
+},
+{
+"heading": "10. Meetings Schedule",
+"paragraphs": [
+"The weekly progress meeting is held every Thursday, starting with the first meeting on 10 December 2026. Agenda, previous actions, look-ahead and open items are circulated by Nilufar Yusupova one working day before. Minutes are issued within 2 working days and tracked in the actions register."
+],
+"table": {
+"columns": ["Meeting", "Frequency", "Chair", "Attendees", "Purpose"],
+"rows": [
+["Weekly Progress Meeting", "Thursday weekly", "Khalid Al-Mansoori / Rajan Iyer", "HEP leads, QSE, OWE, site representative", "Progress, look-ahead, actions, interfaces"],
+["Internal Planning Meeting", "Monday weekly", "Aziz Karimov", "Planning, Engineering, SCM, Construction", "Schedule update and recovery actions"],
+["Monthly Management Review", "Monthly after report issue", "Rajan Iyer", "HEP managers, QSE and OWE leads", "Monthly report, risks, commercial status"],
+["Procurement Coordination", "Fortnightly", "Mehmet Yildiz", "Buyer, Engineering, Planning", "Expediting, long-lead tracking, delivery dates"],
+["HSE Committee", "Monthly", "Jamshid Tursunov", "Site managers, subcontractors", "Incidents, audits, actions"],
+["Subcontractor Coordination", "Weekly from mobilisation", "Sanjay Mehta", "Subcontractor managers", "Site planning, interfaces, safety"]
+]
+}
+},
+{
+"heading": "11. Communication Protocol and Document Review Periods",
+"paragraphs": [
+"Formal correspondence is by numbered letter under the HEL001-L-DEPT-FROM-TO scheme. Email is used for coordination only and is confirmed by letter where it affects scope, time or cost. Each party has a single point of contact, letters are acknowledged within 2 working days, and a shared document platform is managed by Nilufar Yusupova. Notices under the Contract are sent to the addresses in the Agreement, with copies to the project managers.",
+"Review periods agreed at the KOM are set out below. Comments will be consolidated by OWE (Sophie Laurent). Deemed-approval wording is to be taken from the Contract and confirmed by Thomas Becker; until confirmed, no deemed approval is assumed in the schedule."
+],
+"table": {
+"columns": ["Document category", "Review period", "Consolidated by"],
+"rows": [
+["Engineering drawings, calculations and specifications", "10 working days", "OWE (Sophie Laurent)"],
+["Plans and procedures (PEP, HSE plan, QMP)", "14 days", "OWE (Sophie Laurent)"],
+["RFIs and technical queries", "5 working days", "OWE (Sophie Laurent)"],
+["Method statements and ITPs", "7 working days", "OWE (Sophie Laurent)"]
+]
+}
+},
+{
+"heading": "12. Approval and Next Steps",
+"paragraphs": [
+"Rev A is submitted to Rajan Iyer for approval. After approval it will be issued to QSE and OWE for the 14-day plan review, in line with the action for the Project Director due 15 December 2026. Pending items include the OWE contact list and review matrix (due 8 December), the contract deemed-approval wording, QSE written status of land documents (due 10 December), the Level 2 draft (21 December) and the baseline L1-L3 submission (10 January 2027)."
+],
+"bullets": [
+"Activity A030 (Project Execution Plan and procedures) progress raised to 45% on completion of the Rev A compilation.",
+"PEP Rev B will incorporate approved forms of APG, NTP confirmation and client comments.",
+"Distribution: Rajan Iyer; Elena Petrova; Mehmet Yildiz; Sanjay Mehta; Thomas Becker; Jamshid Tursunov; Arun Pillai; Nilufar Yusupova; after approval QSE and OWE."
+]
+}
+]
+}
+],
+"letters": [],
+"emails": [
+{
+"to_roles": ["epc-project-director"],
+"subject": "HEL001 Project Execution Plan Rev A - submitted for your approval",
+"body": "Rajan,\n\nPEP Rev A (HEL001-G000-P-&PRC) is filed in 1/03 for your approval. It includes the milestones M00-M14, the organisation and meeting tables, the agreed monthly reporting format (cut-off month end, issue by the 5th), the Thursday progress meeting, the communication protocol and the review periods (10 wd / 14 d / 5 wd / 7 wd).\n\nTwo points need your attention. First, the 220/33 kV transformer is the single largest threat to M10 (20 January 2028); I recommend we freeze the specification and start the tender early in Q2 2027. Second, deemed-approval wording is still to be confirmed by Thomas, so I have assumed none. Please return comments by 9 December so that we can issue to QSE and OWE well before the 15 December action date.\n\nRegards,\nAziz Karimov"
+}
+],
+"meeting_minutes": [],
+"register_updates": [
+{
+"register": "actions",
+"op": "append",
+"row": {
+"action": "Approve PEP Rev A and release to QSE and OWE for 14-day review",
+"owner": "epc-project-director",
+"due_date": "2026-12-09",
+"status": "open"
+}
+}
+],
+"schedule_updates": [
+{
+"activity_id": "A030",
+"pct_complete": 45,
+"note": "PEP Rev A compiled from engineering, procurement, construction, HSE and risk inputs and issued to the Project Director for internal approval; QSE/OWE 14-day review and procedures (QMP, HSE plan) remain."
+}
+],
+"requests": [
+{
+"to_role": "epc-engineering-lead",
+"what": "Confirm the transformer specification freeze date and the number of 220/33 kV units so that the L3 long-lead logic against M10 can be fixed in the baseline.",
+"due_day": 9
+},
+{
+"to_role": "epc-scm-lead",
+"what": "Provide current vendor lead-time quotations for the 220/33 kV transformer(s), inverter stations and trackers for incorporation into the baseline procurement logic.",
+"due_day": 12
+},
+{
+"to_role": "epc-document-controller",
+"what": "Register PEP Rev A on the platform and track the 14-day QSE/OWE review period once the Project Director has approved it.",
+"due_day": 8
+}
+]
+}

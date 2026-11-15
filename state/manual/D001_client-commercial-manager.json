@@ -1,0 +1,33 @@
+{
+  "summary": "I confirmed to Thomas Becker that QSE's executed set of the EPC Contract is complete and initialled, matching Helios EPC's copy, and noted the pre-commencement items in his letter HEL001-L-CO-HEP-QSE-0001. I acknowledged receipt today of the draft Advance Payment Guarantee and Performance Security and said QSE's comments on their form will follow within the review period.",
+  "documents": [],
+  "letters": [
+    {
+      "to_role": "epc-contracts-manager",
+      "dept": "CO",
+      "subject": "Re: Confirmation of Executed Documents and Pre-Commencement Contractual Deliverables",
+      "body_paragraphs": [
+        "Thank you for your letter ref. HEL001-L-CO-HEP-QSE-0001 of 2026-12-01 and for the signing ceremony held the same day. I can confirm that the Employer's executed set of the EPC Contract, comprising the Agreement, Particular Conditions, Employer's Requirements and Schedules, is complete and initialled, in the same way as your copy. Both parties therefore hold identical controlled copies, and I have asked for QSE's set to be filed in the Employer's contract file under the EPC Contract folder.",
+        "We acknowledge the pre-commencement items listed in your letter, including (a) the Kick-off Meeting on 2026-12-03, which QSE will attend, and (b) delivery of the Contractor's insurance evidence before the Notice to Proceed on 2026-12-15. We have noted the remaining items in your letter and will track them against the pre-commencement list. Please see the separate request for the insurance evidence, which we need in good time for review before NTP.",
+        "We acknowledge receipt today, 2026-12-02, of the drafts of the Advance Payment Guarantee and the Performance Security. QSE will review both drafts and will respond in writing on their form within the review period. Please note that the advance payment of 10 per cent of the Contract Price is payable only against an acceptable Advance Payment Guarantee, so the form of that guarantee is a priority for us.",
+        "Nothing in this letter waives or limits any right or remedy of QSE under the EPC Contract, and all of our comments on the securities will be issued formally."
+      ],
+      "cc_roles": [
+        "client-project-manager"
+      ],
+      "reply_to_ref": "HEL001-L-CO-HEP-QSE-0001",
+      "attachments": []
+    }
+  ],
+  "emails": [],
+  "meeting_minutes": [],
+  "register_updates": [],
+  "schedule_updates": [],
+  "requests": [
+    {
+      "to_role": "epc-contracts-manager",
+      "what": "Please send the Contractor's insurance evidence required before the Notice to Proceed, including the insurance certificates and policy schedules, so that QSE can review it before NTP on 2026-12-15.",
+      "due_day": 12
+    }
+  ]
+}

@@ -42,9 +42,10 @@ def apply(role_id: str, out: dict, day: int, log: list[str]) -> dict:
         registers.append("documents", {"doc_no": num, "title": doc["title"], "type": dtype, "area": area, "discipline": disc, "rev": rev,
                                        "status": status, "originator": _org_code(me), "owner_role": role_id, "issued_day": day,
                                        "issued_date": d.isoformat(), "path": str(path.relative_to(ROOT)), "review_code": "", "notes": ""})
-        # notify document controller + OWE for review when it is an EPC deliverable
-        if me["org"] == "HEP" and role_id != "epc-document-controller":
-            registers.send("epc-document-controller", {"day": day, "from": role_id, "kind": "document_issued", "ref": num, "subject": doc["title"], "summary": f"Issued Rev {rev} — log and transmit to client if applicable"})
+        _mirror_doc(num, doc, role_id, day)
+        # Document control (automatic, no model): EPC deliverables for review go to the client under a transmittal
+        if me["org"] == "HEP" and _needs_transmittal(status, dtype):
+            _transmit(num, doc["title"], rev, role_id, day, d, ym, log)
         n["documents"] += 1; log.append(f"DOC {num} {doc['title']} → {path.relative_to(ROOT)}")
 
     for let in out.get("letters", []) or []:
@@ -139,6 +140,45 @@ def apply(role_id: str, out: dict, day: int, log: list[str]) -> dict:
             registers.send(rq["to_role"], {"day": day, "from": role_id, "kind": "request", "ref": f"REQ-{day:03d}-{role_id[:8]}", "subject": rq["what"][:120], "summary": rq["what"], "due_day": rq.get("due_day") or day + 3})
             n["requests"] += 1
     return n
+
+
+def _mirror_doc(num: str, doc: dict, role_id: str, day: int) -> None:
+    """Plain-text copy of every document so roles can re-read what they (and others) wrote."""
+    mm = ROOT / "state" / "docs"; mm.mkdir(parents=True, exist_ok=True)
+    lines = [f"# {num} — {doc['title']} (Rev {doc.get('rev','A')}, by {role_id}, day {day})"]
+    for sct in doc.get("sections") or []:
+        lines.append(f"\n## {sct.get('heading','')}")
+        lines += [p for p in (sct.get("paragraphs") or [])]
+        lines += [f"- {b}" for b in (sct.get("bullets") or [])]
+        tb = sct.get("table")
+        if tb and tb.get("columns"):
+            lines.append(" | ".join(map(str, tb["columns"])))
+            lines += [" | ".join(map(str, r)) for r in (tb.get("rows") or [])]
+    (mm / f"D{day:03d}_{role_id}_{numbering.safe_title(num, 40)}.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
+def _needs_transmittal(status: str, dtype: str) -> bool:
+    st = (status or "").lower()
+    return any(k in st for k in ("review", "approval", "ifa", "ifr", "issued for")) and dtype not in ("&MOM",)
+
+
+def _transmit(num: str, title: str, rev: str, role_id: str, day: int, d, ym: str, log: list[str]) -> None:
+    roles = world.roles(); dc = roles["epc-document-controller"]; to = roles["client-project-manager"]; oe = roles["client-owners-engineer"]
+    ref = numbering.transmittal("HEP", "QSE")
+    path = ROOT / "correspondence" / ym / f"{ref}_Transmittal_{numbering.safe_title(title, 40)}.docx"
+    rdocx.document(path, title=f"Document Transmittal {ref}", docnum=ref, org=_org_name(dc), date=d, rev="-", status="Issued",
+                   sections=[{"heading": "Transmitted documents", "table": {"columns": ["Document No.", "Title", "Rev", "Purpose", "Copies"],
+                                                                            "rows": [[num, title, rev, "For review / approval", "1 electronic"]]}},
+                             {"heading": "Distribution", "bullets": [f"{to['name']}, {to['title']}, {_org_name(to)}", f"{oe['name']}, {oe['title']}, {_org_name(oe)} (copy)"]},
+                             {"heading": "Notes", "paragraphs": [f"Please return review comments with a review code (A/B/C/D) within the contractual review period. Originator: {roles[role_id]['name']} ({roles[role_id]['title']})."]}],
+                   prepared_by=f"{dc['name']} ({dc['title']})")
+    registers.append("correspondence", {"ref": ref, "day": day, "date": d.isoformat(), "from_org": "HEP", "from_role": "epc-document-controller",
+                                        "to_org": "QSE", "to_role": "client-project-manager", "subject": f"Transmittal: {num} {title} Rev {rev}", "kind": "transmittal",
+                                        "reply_to": "", "path": str(path.relative_to(ROOT)), "status": "sent"})
+    for r in ("client-owners-engineer", "client-project-manager"):
+        registers.send(r, {"day": day, "from": "epc-document-controller", "kind": "transmittal", "ref": ref, "subject": f"For review: {num} {title} Rev {rev}",
+                           "summary": f"Transmitted under {ref}. Please review and return a comment sheet with review code within the contractual period. Document text: state/docs (see 'recent documents').", "due_day": day + 10})
+    log.append(f"TRANSMITTAL {ref} for {num}")
 
 
 def _approver(me: dict, roles: dict) -> str:

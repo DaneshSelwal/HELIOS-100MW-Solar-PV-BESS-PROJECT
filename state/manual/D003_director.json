@@ -1,0 +1,103 @@
+{
+  "narrative": "Day 3 is a cold, clear Friday and the first working day after the Kick-off Meeting. All HELIOS work is still office-based in Tashkent; the Qizilqum site has no presence yet. Helios EPC puts its main planning and engineering baselines on paper: the Level 1 and Level 2 Milestone Schedule and the Engineering Execution Plan with its deliverables list. On the commercial side, the team follows up on the KOM actions for the APG, the Performance Security and authorised signatories, which are needed before NTP on 15 December.",
+  "events_interpretation": [],
+  "day_plan": [
+    {
+      "role": "epc-planning-manager",
+      "tasks": [
+        "Prepare the Level 1 and Level 2 Milestone Schedule (Baseline) narrative and milestone table covering M00-M14, aligned with the outline presented at KOM (A040)",
+        "Fold in the KOM decisions on the review route with Meridian and the target approval date of 10 January 2027",
+        "Record which WBS and procurement inputs are still due from Engineering and SCM by 8 December (ACTIONS-000-006/007)",
+        "Update A040 progress in the schedule"
+      ],
+      "must_produce": [
+        {
+          "kind": "document",
+          "title": "Level 1 and Level 2 Milestone Schedule (Baseline)",
+          "folder": "1/04",
+          "area": "G000",
+          "disc": "P",
+          "type": "&SCH",
+          "notes": "Narrative + milestone table; the L3 xlsx is generated automatically"
+        },
+        {
+          "kind": "schedule_update",
+          "title": "A040 Baseline schedule L1-L3 progress update after issue of L1/L2 milestone schedule"
+        }
+      ]
+    },
+    {
+      "role": "epc-engineering-lead",
+      "tasks": [
+        "Prepare the Engineering Execution Plan and Deliverables List (PV, BESS, MV, 220 kV substation/OHTL, civil), including design stages and OWE review periods agreed at KOM",
+        "Identify which design packages the construction permit file needs, with indicative issue dates (ACT-002-KOM-05)",
+        "Provide the deliverables list as the engineering WBS input to the Planning Manager for the baseline (ACTIONS-000-006)"
+      ],
+      "must_produce": [
+        {
+          "kind": "document",
+          "title": "Engineering Execution Plan and Deliverables List",
+          "folder": "3/02",
+          "area": "G000",
+          "disc": "E",
+          "type": "&PRC"
+        },
+        {
+          "kind": "email",
+          "title": "Engineering WBS and deliverables list input for baseline schedule",
+          "to_role": "epc-planning-manager",
+          "notes": "Partially closes ACTIONS-000-006; durations for the permit-file design packages are to follow under ACT-002-KOM-05 by 8 December"
+        }
+      ]
+    },
+    {
+      "role": "client-commercial-manager",
+      "tasks": [
+        "Review the Kick-off minutes and HEP's draft APG and Performance Security forms (ACT-002-KOM-01)",
+        "Reply to Thomas Becker's follow-up email: confirm that QSE comments on the forms will come by 7 December, and say what rating evidence is needed for the proposed issuing bank (ACT-002-KOM-02)",
+        "Close out the overdue internal request REQ-001 by sending Khalid a summary of QSE's position on the APG, advance payment timing and payment certification"
+      ],
+      "must_produce": [
+        {
+          "kind": "email",
+          "title": "Re: APG and Performance Security - QSE review timing and issuing bank rating evidence",
+          "to_role": "epc-contracts-manager",
+          "notes": "Commits to comments by 7 December; asks for issuing bank credit rating (min. A- or equivalent) and the bank's confirmation of the wording"
+        },
+        {
+          "kind": "email",
+          "title": "QSE position on APG, advance payment timing and payment certification procedure",
+          "to_role": "client-project-manager",
+          "notes": "Responds to REQ-001-client-p"
+        }
+      ]
+    },
+    {
+      "role": "epc-project-director",
+      "tasks": [
+        "Answer Thomas Becker's request REQ-002 (due tomorrow): authorise release of the HEP signatory specimen sheet to QSE and name the alternate signatories for notices in his absence",
+        "Formally acknowledge QSE's Notice of Nomination of Client Representative (HEL001-L-PM-QSE-HEP-0002) and confirm that HEP will address correspondence accordingly",
+        "Start structuring PEP Rev A for ACT-002-KOM-07"
+      ],
+      "must_produce": [
+        {
+          "kind": "email",
+          "title": "Re: Signatory specimen sheet and authorised signatories in PD absence",
+          "to_role": "epc-contracts-manager",
+          "notes": "Responds to REQ-002-epc-cont; supports ACT-002-KOM-03"
+        },
+        {
+          "kind": "letter",
+          "title": "Acknowledgement of Nomination of Client Representative (HEL001)",
+          "to_role": "client-project-manager",
+          "notes": "Replies to HEL001-L-PM-QSE-HEP-0002; confirms communication protocol, Sophie Laurent copied and payment/security matters routed through Omar Hassan"
+        }
+      ]
+    }
+  ],
+  "site": {
+    "manpower": 0,
+    "productivity": 1.0
+  },
+  "notes_for_log": "Day 3 (Fri 2026-12-04): office-only day; no events drawn. Scripted deliverables issued: L1/L2 Milestone Schedule (Baseline) by Planning Manager (A040) and Engineering Execution Plan & Deliverables List by Engineering Manager (input to ACTIONS-000-006 / ACT-002-KOM-05). QSE commercial replies on APG/Performance Security timing (ACT-002-KOM-01/02 due 7 and 9 Dec). PD answers REQ-002 on signatories and acknowledges the Client Representative nomination. Site manpower 0."
+}

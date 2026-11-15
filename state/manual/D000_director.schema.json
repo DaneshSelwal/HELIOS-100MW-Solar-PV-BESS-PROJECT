@@ -1,0 +1,156 @@
+{
+ "type": "object",
+ "properties": {
+  "narrative": {
+   "type": "string",
+   "description": "2-4 sentences: what kind of day this is on the project"
+  },
+  "events_interpretation": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "event_id": {
+      "type": "string"
+     },
+     "visible_description": {
+      "type": "string"
+     },
+     "affected_activities": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "properties": {
+        "id": {
+         "type": "string"
+        },
+        "slip_days": {
+         "type": "integer"
+        }
+       },
+       "required": [
+        "id",
+        "slip_days"
+       ]
+      }
+     },
+     "affected_roles": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     }
+    },
+    "required": [
+     "event_id",
+     "visible_description",
+     "affected_activities",
+     "affected_roles"
+    ]
+   }
+  },
+  "day_plan": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "role": {
+      "type": "string"
+     },
+     "tasks": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "must_produce": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "properties": {
+        "kind": {
+         "type": "string",
+         "enum": [
+          "document",
+          "letter",
+          "email",
+          "mom",
+          "register",
+          "schedule_update"
+         ]
+        },
+        "title": {
+         "type": "string"
+        },
+        "to_role": {
+         "type": "string"
+        },
+        "folder": {
+         "type": "string"
+        },
+        "area": {
+         "type": "string"
+        },
+        "disc": {
+         "type": "string"
+        },
+        "type": {
+         "type": "string"
+        },
+        "dept": {
+         "type": "string"
+        },
+        "mom_kind": {
+         "type": "string"
+        },
+        "attendees": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        },
+        "notes": {
+         "type": "string"
+        }
+       },
+       "required": [
+        "kind",
+        "title"
+       ]
+      }
+     }
+    },
+    "required": [
+     "role",
+     "tasks",
+     "must_produce"
+    ]
+   }
+  },
+  "site": {
+   "type": "object",
+   "properties": {
+    "manpower": {
+     "type": "integer"
+    },
+    "productivity": {
+     "type": "number"
+    }
+   },
+   "required": [
+    "manpower",
+    "productivity"
+   ]
+  },
+  "notes_for_log": {
+   "type": "string"
+  }
+ },
+ "required": [
+  "narrative",
+  "events_interpretation",
+  "day_plan",
+  "site",
+  "notes_for_log"
+ ]
+}

@@ -102,6 +102,27 @@ def recent_letters(limit: int = 30) -> str:
     return "\n".join(f"- {r['ref']} day {r['day']} {r['from_role']} → {r['to_role']}: {r['subject']} [{r['status']}]" for r in rows) or "- none yet"
 
 
+def own_recent_docs(role_id: str, n: int = 2, max_chars: int = 7000) -> str:
+    mm = world.ROOT / "state" / "docs"
+    files = sorted(mm.glob(f"*_{role_id}_*.md"))[-n:] if mm.exists() else []
+    txt = "\n\n".join(f.read_text(encoding="utf-8") for f in files)
+    return txt[-max_chars:] if txt else "(you have not issued documents yet)"
+
+
+def docs_for_review(role_id: str, inbox_items: list[dict], max_chars: int = 6000) -> str:
+    """Full text of documents transmitted to this role for review (so reviewers can actually comment)."""
+    mm = world.ROOT / "state" / "docs"
+    if not mm.exists(): return ""
+    out = []
+    for it in inbox_items:
+        if it.get("kind") == "transmittal":
+            num = it.get("subject", "").split(":")[-1].strip().split(" ")[0]
+            for f in mm.glob("*.md"):
+                if num and num.replace("&", "") in f.name.replace("&", ""):
+                    out.append(f.read_text(encoding="utf-8")); break
+    return ("\n\n".join(out))[-max_chars:]
+
+
 def recent_moms(n: int = 2, max_chars: int = 5000) -> str:
     mm = world.ROOT / "state" / "moms"
     files = sorted(mm.glob("*.md"))[-n:] if mm.exists() else []
@@ -143,7 +164,9 @@ RECENT MEETING MINUTES:
 {recent_moms(1, 3000)}
 
 RULES
-- Pick 2 to {today.get('max_roles', 7)} roles to act today (fewer on quiet days; 0-1 on non-working days). Prefer roles with inbox items or scripted deliverables.
+- Pick 2 to {today.get('max_roles', 7)} roles to act today (fewer on quiet days; 0-1 on non-working days).
+- PRIORITY ORDER: (1) roles with scripted deliverables, (2) roles whose inbox has items older than 3 days or more than 5 items (they must clear them: reply, review with a comment sheet, close actions), (3) roles whose activities are active this week. Rotate so every role acts at least once every ~10 days.
+- Reviewers (Owner's Engineer, Client PM) answer transmittals with a review comment sheet DOCUMENT (type &RPT, folder 3/06) plus a short letter giving the review code.
 - Every must_produce item must be realistic for the phase and for that role. Letters need a to_role (a role id). Documents need folder (e.g. "1/04"), area, disc, type codes.
 - Replies: if someone received a letter/request, the recipient should answer within a few days.
 - Interpret surprises (kind=surprise) as something that becomes visible today through a report, inspection, letter or notice; list affected activities with slip_days (0 if unknown yet).
@@ -187,6 +210,12 @@ You MUST produce today: {json.dumps(plan_for_role.get('must_produce', []), ensur
 
 === RECENT MEETING MINUTES (decisions and actions you are expected to know) ===
 {recent_moms()}
+
+=== YOUR OWN MOST RECENT DOCUMENTS (full text — stay consistent with them, revise rather than contradict) ===
+{own_recent_docs(role_id)}
+
+=== DOCUMENTS SENT TO YOU FOR REVIEW (if any) ===
+{docs_for_review(role_id, inbox_items) or '(none)'}
 
 {extra_context}
 
